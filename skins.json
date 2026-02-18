@@ -1,3 +1,35 @@
 [
-   
+	{
+        "id": 60000002,
+        "name": "Zero (Female)",
+        "weaponType": "Universal",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Zero (Female)/Zero_uniform",
+        "image": "nte/NTE/Zero (Female).png",
+        "pmx": "Zero.pmx"
+    },
+	{
+        "id": 60000003,
+        "name": "Mint",
+        "weaponType": "Universal",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 4,
+        "directory": "nte/chars/Mint/Mint_loungewear",
+        "image": "nte/NTE/Mint.png",
+        "pmx": "Mint.pmx"
+    },
+	{
+        "id": 60000009,
+        "name": "Nanally",
+        "weaponType": "Universal",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Nanally/Nanally_uniform",
+        "image": "nte/NTE/Nanally.png",
+        "pmx": "Nanally.pmx"
+    }
 ]

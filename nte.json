@@ -17,7 +17,7 @@
         "element": "Cosmos",
         "gender": "Female",
         "rarity": 5,
-        "directory": "nte/chars/Zero (Female)",
+        "directory": "nte/chars/Zero (Female)/Zero (Female)",
         "image": "nte/NTE/Zero (Female).png",
         "pmx": "Zero.pmx"
     },
@@ -28,7 +28,7 @@
         "element": "Anima",
         "gender": "Female",
         "rarity": 4,
-        "directory": "nte/chars/Mint",
+        "directory": "nte/chars/Mint/Mint",
         "image": "nte/NTE/Mint.png",
         "pmx": "Mint.pmx"
     },
@@ -94,7 +94,7 @@
         "element": "Anima",
         "gender": "Female",
         "rarity": 5,
-        "directory": "nte/chars/Nanally",
+        "directory": "nte/chars/Nanally/Nanally",
         "image": "nte/NTE/Nanally.png",
         "pmx": "Nanally.pmx"
     },
