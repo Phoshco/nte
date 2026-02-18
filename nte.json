@@ -177,17 +177,6 @@
     },
 	{
         "id": 60000017,
-        "name": "Akane Rin",
-        "weaponType": "Universal",
-        "element": "Universal",
-        "gender": "Female",
-        "rarity": 6,
-        "directory": "nte/chars/Akane Rin",
-        "image": "nte/NTE/Akane Rin.png",
-        "pmx": "Akane Rin.pmx"
-    },
-	{
-        "id": 60000018,
         "name": "Chiz",
         "weaponType": "Universal",
         "element": "Cosmos",
@@ -196,5 +185,16 @@
         "directory": "nte/chars/Chiz",
         "image": "nte/NTE/Chiz.png",
         "pmx": "Chiz.pmx"
+    },
+	{
+        "id": 60000018,
+        "name": "Akane Rin",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 6,
+        "directory": "nte/chars/Akane Rin",
+        "image": "nte/NTE/Akane Rin.png",
+        "pmx": "Akane Rin.pmx"
     }
 ]
