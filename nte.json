@@ -1,0 +1,200 @@
+[
+    {
+        "id": 60000001,
+        "name": "Zero (Male)",
+        "weaponType": "Universal",
+        "element": "Cosmos",
+        "gender": "Male",
+        "rarity": 5,
+        "directory": "nte/chars/Zero (Male)",
+        "image": "nte/NTE/Zero (Male).png",
+        "pmx": "Zero.pmx"
+    },
+    {
+        "id": 60000002,
+        "name": "Zero (Female)",
+        "weaponType": "Universal",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Zero (Female)",
+        "image": "nte/NTE/Zero (Female).png",
+        "pmx": "Zero.pmx"
+    },
+    {
+        "id": 60000003,
+        "name": "Mint",
+        "weaponType": "Universal",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 4,
+        "directory": "nte/chars/Mint",
+        "image": "nte/NTE/Mint.png",
+        "pmx": "Mint.pmx"
+    },
+    {
+        "id": 60000004,
+        "name": "Adler",
+        "weaponType": "Universal",
+        "element": "Incantation",
+        "gender": "Male",
+        "rarity": 4,
+        "directory": "nte/chars/Adler",
+        "image": "nte/NTE/Adler.png",
+        "pmx": "Adler.pmx"
+    },
+    {
+        "id": 60000005,
+        "name": "Skia",
+        "weaponType": "Universal",
+        "element": "Lakshana",
+        "gender": "Male",
+        "rarity": 4,
+        "directory": "nte/chars/Skia",
+        "image": "nte/NTE/Skia.png",
+        "pmx": "Skia.pmx"
+    },
+    {
+        "id": 60000006,
+        "name": "Hathor",
+        "weaponType": "Universal",
+        "element": "Lakshana",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Hathor",
+        "image": "nte/NTE/Hathor.png",
+        "pmx": "Hathor.pmx"
+    },
+    {
+        "id": 60000007,
+        "name": "Baicang",
+        "weaponType": "Universal",
+        "element": "Incantation",
+        "gender": "Male",
+        "rarity": 5,
+        "directory": "nte/chars/Baicang",
+        "image": "nte/NTE/Baicang.png",
+        "pmx": "Baicang.pmx"
+    },
+    {
+        "id": 60000008,
+        "name": "Hotori",
+        "weaponType": "Universal",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Hotori",
+        "image": "nte/NTE/Hotori.png",
+        "pmx": "Hotori.pmx"
+    },
+    {
+        "id": 60000009,
+        "name": "Nanally",
+        "weaponType": "Universal",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Nanally",
+        "image": "nte/NTE/Nanally.png",
+        "pmx": "Nanally.pmx"
+    },
+    {
+        "id": 60000010,
+        "name": "Fadia",
+        "weaponType": "Universal",
+        "element": "Psyche",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Fadia",
+        "image": "nte/NTE/Fadia.png",
+        "pmx": "Fadia.pmx"
+    },
+	{
+        "id": 60000011,
+        "name": "Lacrimosa",
+        "weaponType": "Universal",
+        "element": "Chaos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Lacrimosa",
+        "image": "nte/NTE/Lacrimosa.png",
+        "pmx": "Lacrimosa.pmx"
+    },
+	{
+        "id": 60000012,
+        "name": "Sakiri",
+        "weaponType": "Universal",
+        "element": "Incantation",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Sakiri",
+        "image": "nte/NTE/Sakiri.png",
+        "pmx": "Sakiri.pmx"
+    },
+    {
+        "id": 60000013,
+        "name": "Daffodil",
+        "weaponType": "Universal",
+        "element": "Chaos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Daffodil",
+        "image": "nte/NTE/Daffodil.png",
+        "pmx": "Daffodil.pmx"
+    },
+    {
+        "id": 60000014,
+        "name": "Edgar",
+        "weaponType": "Universal",
+        "element": "Cosmos",
+        "gender": "Male",
+        "rarity": 4,
+        "directory": "nte/chars/Edgar",
+        "image": "nte/NTE/Edgar.png",
+        "pmx": "Edgar.pmx"
+    },
+    {
+        "id": 60000015,
+        "name": "Jiuyuan",
+        "weaponType": "Universal",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Jiuyuan",
+        "image": "nte/NTE/Jiuyuan.png",
+        "pmx": "Jiuyuan.pmx"
+    },
+	{
+        "id": 60000016,
+        "name": "Haniel",
+        "weaponType": "Universal",
+        "element": "Psyche",
+        "gender": "Female",
+        "rarity": 4,
+        "directory": "nte/chars/Haniel",
+        "image": "nte/NTE/Haniel.png",
+        "pmx": "Haniel.pmx"
+    },
+	{
+        "id": 60000017,
+        "name": "Akane Rin",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 6,
+        "directory": "nte/chars/Akane Rin",
+        "image": "nte/NTE/Akane Rin.png",
+        "pmx": "Akane Rin.pmx"
+    },
+	{
+        "id": 60000018,
+        "name": "Chiz",
+        "weaponType": "Universal",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Chiz",
+        "image": "nte/NTE/Chiz.png",
+        "pmx": "Chiz.pmx"
+    }
+]
