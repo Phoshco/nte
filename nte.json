@@ -2,7 +2,7 @@
     {
         "id": 60000001,
         "name": "Zero (Male)",
-        "weaponType": "Universal",
+        "weaponType": "Damage",
         "element": "Cosmos",
         "gender": "Male",
         "rarity": 5,
@@ -13,7 +13,7 @@
     {
         "id": 60000002,
         "name": "Zero (Female)",
-        "weaponType": "Universal",
+        "weaponType": "Damage",
         "element": "Cosmos",
         "gender": "Female",
         "rarity": 5,
@@ -24,7 +24,7 @@
     {
         "id": 60000003,
         "name": "Mint",
-        "weaponType": "Universal",
+        "weaponType": "Damage",
         "element": "Anima",
         "gender": "Female",
         "rarity": 4,
@@ -35,7 +35,7 @@
     {
         "id": 60000004,
         "name": "Adler",
-        "weaponType": "Universal",
+        "weaponType": "Survival",
         "element": "Incantation",
         "gender": "Male",
         "rarity": 4,
@@ -46,7 +46,7 @@
     {
         "id": 60000005,
         "name": "Skia",
-        "weaponType": "Universal",
+        "weaponType": "Damage",
         "element": "Lakshana",
         "gender": "Male",
         "rarity": 4,
@@ -57,7 +57,7 @@
     {
         "id": 60000006,
         "name": "Hathor",
-        "weaponType": "Universal",
+        "weaponType": "Buff",
         "element": "Lakshana",
         "gender": "Female",
         "rarity": 5,
@@ -68,7 +68,7 @@
     {
         "id": 60000007,
         "name": "Baicang",
-        "weaponType": "Universal",
+        "weaponType": "Damage",
         "element": "Incantation",
         "gender": "Male",
         "rarity": 5,
@@ -79,7 +79,7 @@
     {
         "id": 60000008,
         "name": "Hotori",
-        "weaponType": "Universal",
+        "weaponType": "Survival",
         "element": "Cosmos",
         "gender": "Female",
         "rarity": 5,
@@ -90,7 +90,7 @@
     {
         "id": 60000009,
         "name": "Nanally",
-        "weaponType": "Universal",
+        "weaponType": "Damage",
         "element": "Anima",
         "gender": "Female",
         "rarity": 5,
@@ -101,7 +101,7 @@
     {
         "id": 60000010,
         "name": "Fadia",
-        "weaponType": "Universal",
+        "weaponType": "Survival",
         "element": "Psyche",
         "gender": "Female",
         "rarity": 5,
@@ -112,7 +112,7 @@
 	{
         "id": 60000011,
         "name": "Lacrimosa",
-        "weaponType": "Universal",
+        "weaponType": "Damage",
         "element": "Chaos",
         "gender": "Female",
         "rarity": 5,
@@ -123,7 +123,7 @@
 	{
         "id": 60000012,
         "name": "Sakiri",
-        "weaponType": "Universal",
+        "weaponType": "Buff",
         "element": "Incantation",
         "gender": "Female",
         "rarity": 5,
@@ -134,7 +134,7 @@
     {
         "id": 60000013,
         "name": "Daffodil",
-        "weaponType": "Universal",
+        "weaponType": "Damage",
         "element": "Chaos",
         "gender": "Female",
         "rarity": 5,
@@ -145,7 +145,7 @@
     {
         "id": 60000014,
         "name": "Edgar",
-        "weaponType": "Universal",
+        "weaponType": "Survival",
         "element": "Cosmos",
         "gender": "Male",
         "rarity": 4,
@@ -156,7 +156,7 @@
     {
         "id": 60000015,
         "name": "Jiuyuan",
-        "weaponType": "Universal",
+        "weaponType": "Damage",
         "element": "Anima",
         "gender": "Female",
         "rarity": 5,
@@ -167,7 +167,7 @@
 	{
         "id": 60000016,
         "name": "Haniel",
-        "weaponType": "Universal",
+        "weaponType": "Buff",
         "element": "Psyche",
         "gender": "Female",
         "rarity": 4,
@@ -178,7 +178,7 @@
 	{
         "id": 60000017,
         "name": "Chiz",
-        "weaponType": "Universal",
+        "weaponType": "Damage",
         "element": "Cosmos",
         "gender": "Female",
         "rarity": 5,
