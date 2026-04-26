@@ -196,5 +196,16 @@
         "directory": "nte/chars/Akane Rin",
         "image": "nte/NTE/Akane Rin.png",
         "pmx": "Akane Rin.pmx"
+    },
+	{
+        "id": 60000019,
+        "name": "Alphard",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 6,
+        "directory": "nte/chars/Alphard",
+        "image": "nte/NTE/Alphard.png",
+        "pmx": "Alphard.pmx"
     }
 ]
