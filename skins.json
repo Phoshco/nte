@@ -2,7 +2,7 @@
 	{
         "id": 60000002,
         "name": "Zero (Female)",
-        "weaponType": "Universal",
+        "weaponType": "Solid",
         "element": "Cosmos",
         "gender": "Female",
         "rarity": 5,
@@ -13,7 +13,7 @@
 	{
         "id": 60000003,
         "name": "Mint",
-        "weaponType": "Universal",
+        "weaponType": "Solid",
         "element": "Anima",
         "gender": "Female",
         "rarity": 4,
@@ -24,7 +24,7 @@
 	{
         "id": 60000009,
         "name": "Nanally",
-        "weaponType": "Universal",
+        "weaponType": "Plasma",
         "element": "Anima",
         "gender": "Female",
         "rarity": 5,
