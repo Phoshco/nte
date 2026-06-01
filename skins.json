@@ -1,12 +1,23 @@
 [
 	{
-        "id": 60000002,
+        "id": 60000902,
         "name": "Zero (Female)",
         "weaponType": "Solid",
         "element": "Cosmos",
         "gender": "Female",
         "rarity": 5,
         "directory": "nte/chars/Zero (Female)/Zero_uniform",
+        "image": "nte/NTE/Zero (Female).png",
+        "pmx": "Zero.pmx"
+    },
+	{
+        "id": 60000002,
+        "name": "Zero (Female)",
+        "weaponType": "Solid",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Zero (Female)/Zero_porsche",
         "image": "nte/NTE/Zero (Female).png",
         "pmx": "Zero.pmx"
     },
