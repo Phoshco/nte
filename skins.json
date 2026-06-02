@@ -42,5 +42,27 @@
         "directory": "nte/chars/Nanally/Nanally_uniform",
         "image": "nte/NTE/Nanally.png",
         "pmx": "Nanally.pmx"
+    },
+	{
+        "id": 60000917,
+        "name": "Chiz",
+        "weaponType": "Gas",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Chiz/Chiz Velvet Spring Day",
+        "image": "nte/NTE/Chiz.png",
+        "pmx": "Chiz.pmx"
+    },
+	{
+        "id": 60000017,
+        "name": "Chiz",
+        "weaponType": "Gas",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Chiz/Chiz Verdant Grace",
+        "image": "nte/NTE/Chiz.png",
+        "pmx": "Chiz.pmx"
     }
 ]

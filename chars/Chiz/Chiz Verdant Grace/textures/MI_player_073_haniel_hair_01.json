@@ -1,0 +1,105 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/Characters/Player/073_rabbit_fashion1/ter/hair/T_player_073_rabbit_hair_01_d.T_player_073_rabbit_hair_01_d",
+    "BaseColor": "/Game/Characters/Player/073_rabbit_fashion1/ter/hair/T_player_073_rabbit_hair_01_d.T_player_073_rabbit_hair_01_d",
+    "CharaterToneLut": "/Game/CoreMaterials/Character/ToonMaterial/Functions/Character_TonemapAtlas.Character_TonemapAtlas",
+    "Character_TonemapAtlas": "/Game/CoreMaterials/Character/ToonMaterial/Functions/Character_TonemapAtlas.Character_TonemapAtlas",
+    "LightMap": "/Game/Characters/Player/073_rabbit_fashion1/ter/hair/T_player_073_rabbit_hair_01_m.T_player_073_rabbit_hair_01_m",
+    "T_player_073_rabbit_hair_01_m": "/Game/Characters/Player/073_rabbit_fashion1/ter/hair/T_player_073_rabbit_hair_01_m.T_player_073_rabbit_hair_01_m",
+    "RampAltas": "/Game/Characters/Player/073_rabbit_fashion1/ter/ramp/T_ramp_073_rabbit.T_ramp_073_rabbit",
+    "T_ramp_073_rabbit": "/Game/Characters/Player/073_rabbit_fashion1/ter/ramp/T_ramp_073_rabbit.T_ramp_073_rabbit"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "SpecColor1": {
+        "R": 0.270833,
+        "G": 0.147958,
+        "B": 0.248681,
+        "A": 1.0,
+        "Hex": "8E6B89"
+      },
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.04,
+        "G": -0.304827,
+        "B": -0.592,
+        "A": 1.0,
+        "Hex": "380000"
+      },
+      "HairColor1": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairColor2": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      }
+    },
+    "Scalars": {
+      "AnisotropicCenterOffset": 0.35,
+      "AnisotropicLengthMul": 0.8,
+      "AnisotropicOffset1": 0.02,
+      "AnisotropicSlideSpeed1": 0.2,
+      "AnisotropicStretchContrast": 0.3,
+      "BlinnPhongPow": 0.5,
+      "SpecMinimum": 0.8,
+      "HairOpacity": 1.0,
+      "OffsetStrength": 0.2,
+      "RampID": 0.0,
+      "RimLight": 0.4,
+      "RimlightBase": 0.5,
+      "ShadowOffsetRange": 0.5,
+      "LightdirZMul": 0.8,
+      "SpecIntensity": 0.0,
+      "SpecPow": 10.0,
+      "BlendCenter": 0.18,
+      "BlendDistance": 0.5,
+      "ShadowID": 0.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "AnisotropicSpecularUseLightMapRChannel": true,
+      "EnableAnisotropicSpecular": true,
+      "UseNightRamp": true,
+      "UseDuskRamp": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'073_hair_1'",
+        "ObjectPath": "/Game/Characters/Player/073_rabbit_fashion1/ter/outline/073_hair_1.0"
+      },
+      "BasePropertyOverrides": {
+        "bOverride_OpacityMaskClipValue": true,
+        "bOverride_BlendMode": true,
+        "bOverride_EmbroideryStencilOp": true,
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.333,
+        "EmbroideryStencilOp": "EMaterialEmbroideryStencilOp::MESO_Test"
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

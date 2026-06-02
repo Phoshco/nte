@@ -1,0 +1,70 @@
+{
+  "Textures": {
+    "FaceLightMask": "/Game/Characters/Player/073_rabbit/ter/face/player_073_rabbit_face_r.player_073_rabbit_face_r",
+    "player_073_rabbit_face_r": "/Game/Characters/Player/073_rabbit/ter/face/player_073_rabbit_face_r.player_073_rabbit_face_r",
+    "PM_Diffuse": "/Game/Characters/Player/073_rabbit/ter/face/player_073_rabbit_eyes_d.player_073_rabbit_eyes_d",
+    "BaseColor": "/Game/Characters/Player/073_rabbit/ter/face/player_073_rabbit_eyes_d.player_073_rabbit_eyes_d",
+    "LightMap": "/Game/CoreMaterials/Character/DefaultTextures/T_Linear_White.T_Linear_White",
+    "T_Linear_White": "/Game/CoreMaterials/Character/DefaultTextures/T_Linear_White.T_Linear_White",
+    "RampAltas": "/Game/Characters/Player/073_rabbit/ter/ramp/T_ramp_073_rabbit.T_ramp_073_rabbit",
+    "T_ramp_073_rabbit": "/Game/Characters/Player/073_rabbit/ter/ramp/T_ramp_073_rabbit.T_ramp_073_rabbit",
+    "PM_SpecularMasks": "/Game/CoreMaterials/Character/DefaultTextures/DefaultNormal1x1_XL.DefaultNormal1x1_XL",
+    "NomralMap": "/Game/CoreMaterials/Character/DefaultTextures/DefaultNormal1x1_XL.DefaultNormal1x1_XL"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.088,
+        "G": -1.108668,
+        "B": -0.699199,
+        "A": 1.0,
+        "Hex": "540000"
+      }
+    },
+    "Scalars": {
+      "clipValue": -0.88,
+      "ClipWidth": 1.797883,
+      "SmoothStepMax": 1.05,
+      "SmoothStepMin": 0.0,
+      "OffsetStrength": 1.0,
+      "RampID": 33.0,
+      "ShadowOffsetRange": 0.564,
+      "SpecIntensity": 0.0,
+      "LightNormalStrength": 1.0,
+      "MatcapNomralStrength": 1.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseFaceTexBaseLight": true,
+      "UseUV1ForFaceLightMapSample": true,
+      "UseNightRamp": true,
+      "UseDuskRamp": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333,
+        "EmbroideryStencilOp": "EMaterialEmbroideryStencilOp::MESO_Set"
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}
