@@ -83,7 +83,7 @@
         "element": "Cosmos",
         "gender": "Female",
         "rarity": 5,
-        "directory": "nte/chars/Hotori",
+        "directory": "nte/chars/Hotori/Hotori",
         "image": "nte/NTE/Hotori.png",
         "pmx": "Hotori.pmx"
     },
@@ -160,7 +160,7 @@
         "element": "Anima",
         "gender": "Female",
         "rarity": 5,
-        "directory": "nte/chars/Jiuyuan",
+        "directory": "nte/chars/Jiuyuan/Jiuyuan",
         "image": "nte/NTE/Jiuyuan.png",
         "pmx": "Jiuyuan.pmx"
     },

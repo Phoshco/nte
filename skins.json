@@ -64,5 +64,27 @@
         "directory": "nte/chars/Chiz/Chiz Verdant Grace",
         "image": "nte/NTE/Chiz.png",
         "pmx": "Chiz.pmx"
+    },
+	{
+        "id": 60000008,
+        "name": "Hotori",
+        "weaponType": "Solid",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Hotori/Hotori_Recreational Courtyard",
+        "image": "nte/NTE/Hotori.png",
+        "pmx": "Hotori.pmx"
+    },
+	{
+        "id": 60000015,
+        "name": "Jiuyuan",
+        "weaponType": "Solid",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Jiuyuan/Jiuyuan_Self-Discipline Time",
+        "image": "nte/NTE/Jiuyuan.png",
+        "pmx": "Jiuyuan.pmx"
     }
 ]
