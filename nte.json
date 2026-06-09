@@ -218,5 +218,16 @@
         "directory": "nte/chars/Alphard",
         "image": "nte/NTE/Alphard.png",
         "pmx": "Alphard.pmx"
+    },
+    {
+        "id": 6000001,
+        "name": "Zankou",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 6,
+        "directory": "nte/chars/Zankou",
+        "image": "nte/NTE/Zankou.png",
+        "pmx": "Zankou.pmx"
     }
 ]
