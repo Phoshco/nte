@@ -199,6 +199,28 @@
     },
 	{
         "id": 60000019,
+        "name": "Chaos",
+        "weaponType": "Condensate",
+        "element": "Lakshana",
+        "gender": "Male",
+        "rarity": 5,
+        "directory": "nte/chars/Chaos",
+        "image": "nte/NTE/Chaos.png",
+        "pmx": "Chaos.pmx"
+    },
+	{
+        "id": 60000020,
+        "name": "Shinku",
+        "weaponType": "Universal",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Shinku",
+        "image": "nte/NTE/Shinku.png",
+        "pmx": "Shinku.pmx"
+    },
+	{
+        "id": 60000022,
         "name": "Akane Rin",
         "weaponType": "Universal",
         "element": "Universal",
@@ -209,7 +231,7 @@
         "pmx": "Akane Rin.pmx"
     },
 	{
-        "id": 60000020,
+        "id": 60000023,
         "name": "Alphard",
         "weaponType": "Universal",
         "element": "Universal",
