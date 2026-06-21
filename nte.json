@@ -116,7 +116,7 @@
         "element": "Chaos",
         "gender": "Female",
         "rarity": 5,
-        "directory": "nte/chars/Lacrimosa",
+        "directory": "nte/chars/Lacrimosa/Lacrimosa",
         "image": "nte/NTE/Lacrimosa.png",
         "pmx": "Lacrimosa.pmx"
     },
@@ -204,7 +204,7 @@
         "element": "Lakshana",
         "gender": "Male",
         "rarity": 5,
-        "directory": "nte/chars/Chaos",
+        "directory": "nte/chars/Chaos/Chaos",
         "image": "nte/NTE/Chaos.png",
         "pmx": "Chaos.pmx"
     },

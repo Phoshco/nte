@@ -86,5 +86,38 @@
         "directory": "nte/chars/Jiuyuan/Jiuyuan_Self-Discipline Time",
         "image": "nte/NTE/Jiuyuan.png",
         "pmx": "Jiuyuan.pmx"
+    },
+	{
+        "id": 60000019,
+        "name": "Chaos",
+        "weaponType": "Condensate",
+        "element": "Lakshana",
+        "gender": "Male",
+        "rarity": 5,
+        "directory": "nte/chars/Chaos/Chaos_放晴日",
+        "image": "nte/NTE/Chaos.png",
+        "pmx": "Chaos.pmx"
+    },
+	{
+        "id": 60000011,
+        "name": "Lacrimosa",
+        "weaponType": "Liquid",
+        "element": "Chaos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Lacrimosa/Lacrimosa_旧忆挽歌",
+        "image": "nte/NTE/Lacrimosa.png",
+        "pmx": "Lacrimosa.pmx"
+    },
+	{
+        "id": 60000911,
+        "name": "Lacrimosa",
+        "weaponType": "Liquid",
+        "element": "Chaos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Lacrimosa/Lacrimosa_鎏金交响诗",
+        "image": "nte/NTE/Lacrimosa.png",
+        "pmx": "Lacrimosa.pmx"
     }
 ]
