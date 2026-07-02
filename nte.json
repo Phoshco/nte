@@ -211,13 +211,24 @@
 	{
         "id": 60000020,
         "name": "Shinku",
-        "weaponType": "Universal",
+        "weaponType": "Condensate",
         "element": "Cosmos",
         "gender": "Female",
         "rarity": 5,
         "directory": "nte/chars/Shinku",
         "image": "nte/NTE/Shinku.png",
         "pmx": "Shinku.pmx"
+    },
+	{
+        "id": 60000021,
+        "name": "Iroi",
+        "weaponType": "Liquid",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Iroi",
+        "image": "nte/NTE/Iroi.png",
+        "pmx": "Iroi.pmx"
     },
 	{
         "id": 60000022,
