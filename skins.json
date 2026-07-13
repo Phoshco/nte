@@ -119,5 +119,16 @@
         "directory": "nte/chars/Lacrimosa/Lacrimosa_鎏金交响诗",
         "image": "nte/NTE/Lacrimosa.png",
         "pmx": "Lacrimosa.pmx"
+    },
+	{
+        "id": 60000020,
+        "name": "Shinku",
+        "weaponType": "Condensate",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Shinku/Shinku_jk",
+        "image": "nte/NTE/Shinku.png",
+        "pmx": "Shinku.pmx"
     }
 ]
