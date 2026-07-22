@@ -1,0 +1,99 @@
+{
+  "input": "H:\\raw_nte_skill\\work\\swimsuit\\intermediate\\03_refined.pmx",
+  "output": "H:\\raw_nte_skill\\output\\Shinku_Swimsuit_MMD_v2\\Shinku_Swimsuit.pmx",
+  "threshold": 0.08,
+  "overlapping_pairs_found": 10,
+  "group_pairs_disabled": [
+    {
+      "dynamic_group": 6,
+      "passive_group": 0,
+      "bodies_embedded": 6,
+      "family_size": 6,
+      "fraction": 1.0,
+      "max_start_depth": 0.5974,
+      "action": "disabled - structural embedding"
+    },
+    {
+      "dynamic_group": 14,
+      "passive_group": 0,
+      "bodies_embedded": 2,
+      "family_size": 2,
+      "fraction": 1.0,
+      "max_start_depth": 0.3472,
+      "action": "disabled - structural embedding"
+    }
+  ],
+  "group_pairs_kept": [],
+  "overlaps": [
+    {
+      "dynamic": "物理_bone_ribbon01",
+      "dynamic_group": 6,
+      "passive": "体_上半身2",
+      "passive_group": 0,
+      "depth": 0.5974
+    },
+    {
+      "dynamic": "物理_bone_ribbon00",
+      "dynamic_group": 6,
+      "passive": "体_上半身2",
+      "passive_group": 0,
+      "depth": 0.5965
+    },
+    {
+      "dynamic": "物理_bone_ribbon02",
+      "dynamic_group": 6,
+      "passive": "体_上半身2",
+      "passive_group": 0,
+      "depth": 0.5591
+    },
+    {
+      "dynamic": "物理_bone_ribbon03",
+      "dynamic_group": 6,
+      "passive": "体_上半身2",
+      "passive_group": 0,
+      "depth": 0.4272
+    },
+    {
+      "dynamic": "物理_Bn_l_xiong_001",
+      "dynamic_group": 14,
+      "passive": "体_上半身2",
+      "passive_group": 0,
+      "depth": 0.3472
+    },
+    {
+      "dynamic": "物理_Bn_r_xiong_001",
+      "dynamic_group": 14,
+      "passive": "体_上半身2",
+      "passive_group": 0,
+      "depth": 0.3209
+    },
+    {
+      "dynamic": "物理_bone_ribbon04",
+      "dynamic_group": 6,
+      "passive": "体_上半身2",
+      "passive_group": 0,
+      "depth": 0.286
+    },
+    {
+      "dynamic": "物理_bone_ribbon05",
+      "dynamic_group": 6,
+      "passive": "体_上半身2",
+      "passive_group": 0,
+      "depth": 0.2272
+    },
+    {
+      "dynamic": "物理_Bn_l_xiong_001",
+      "dynamic_group": 14,
+      "passive": "体_上半身1",
+      "passive_group": 0,
+      "depth": 0.1098
+    },
+    {
+      "dynamic": "物理_Bn_r_xiong_001",
+      "dynamic_group": 14,
+      "passive": "体_上半身1",
+      "passive_group": 0,
+      "depth": 0.0911
+    }
+  ]
+}

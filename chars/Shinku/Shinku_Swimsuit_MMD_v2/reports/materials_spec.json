@@ -1,0 +1,387 @@
+{
+ "_meta": {
+  "model": "Shinku_Swimsuit base.pmx (10 materials, all on leaked Blender defaults 0.8/1.0@11.899/0.4 = none real, P20)",
+  "conventions": "diffuse (1,1,1,a); specular (0,0,0)@5.0; ambient 128/255 head+hair, 192/255 costume, 1.0 eye highlight; edge 0.5 black, reddish on face only; no sphere, no toon (reference-matching)."
+ },
+ "materials": [
+  {
+   "index": 0,
+   "name": "目影",
+   "name_e": "Eye Shadow",
+   "diffuse": [
+    1.0,
+    1.0,
+    1.0,
+    0.5
+   ],
+   "specular": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specular_strength": 5.0,
+   "ambient": [
+    0.501960813999176,
+    0.501960813999176,
+    0.501960813999176
+   ],
+   "flags": 15,
+   "flags_explain": "0x0F = two-sided + shadows, edge bit CLEARED",
+   "edge_color": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "edge_size": 0.5,
+   "texture": "textures/T_player_076_shinku_face_d.png",
+   "sphere": null,
+   "sphere_mode": 0,
+   "toon_shared": 0,
+   "toon_index": -1,
+   "rationale": "P19 fix, re-verified on THIS mesh: eye_bantou.json tints its light blue-grey texture (sampled RGB 0.376/0.459/0.518, alpha 0.380 at the material's own UVs) with BaseColor BLACK under MSM_Unlit/Translucent. The same UVs on T_player_076_shinku_face_d sample a dark opaque swatch (0.169/0.114/0.107) - the look UE actually produces. Rebound to face_d with diffuse alpha 0.5, matching the reference 目影 idiom. Edge off: bOverrideOutlineOverlayMaterial=true with NO OutlineOverlayMaterial. Tri count 76 == reference 目影 76."
+  },
+  {
+   "index": 1,
+   "name": "顔",
+   "name_e": "Face",
+   "diffuse": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "specular": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specular_strength": 5.0,
+   "ambient": [
+    0.501960813999176,
+    0.501960813999176,
+    0.501960813999176
+   ],
+   "flags": 31,
+   "flags_explain": "0x1F = two-sided + ground shadow + self-shadow map + receive self-shadow + edge ON",
+   "edge_color": [
+    0.501960813999176,
+    0.250980406999588,
+    0.250980406999588,
+    1.0
+   ],
+   "edge_size": 0.5,
+   "texture": "textures/T_player_076_shinku_face_d.png",
+   "sphere": null,
+   "sphere_mode": 0,
+   "toon_shared": 0,
+   "toon_index": -1,
+   "rationale": "MI_player_076_shinku_face supplies a DEDICATED face outline material (.../outline/face/MI_player_076_shinku_face) -> edge ON with the reference's reddish face edge (128/255, 64/255, 64/255). Sampled skin tone 0.915/0.731/0.713 at own UVs confirms binding. Tri 5378 == ref."
+  },
+  {
+   "index": 2,
+   "name": "睫毛",
+   "name_e": "Eyelash",
+   "diffuse": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "specular": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specular_strength": 5.0,
+   "ambient": [
+    0.501960813999176,
+    0.501960813999176,
+    0.501960813999176
+   ],
+   "flags": 15,
+   "flags_explain": "0x0F = two-sided + shadows, edge bit CLEARED",
+   "edge_color": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "edge_size": 0.5,
+   "texture": "textures/T_player_076_shinku_face_d.png",
+   "sphere": null,
+   "sphere_mode": 0,
+   "toon_shared": 0,
+   "toon_index": -1,
+   "rationale": "MI_eyelash BaseColor == face_d (sampled dark lash swatch 0.235/0.127/0.119 at own UVs). outline override present but NO outline material -> edge OFF. Tri 1704 == reference 眉睫 1704."
+  },
+  {
+   "index": 3,
+   "name": "瞳",
+   "name_e": "Eye",
+   "diffuse": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "specular": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specular_strength": 5.0,
+   "ambient": [
+    0.501960813999176,
+    0.501960813999176,
+    0.501960813999176
+   ],
+   "flags": 15,
+   "flags_explain": "0x0F = two-sided + shadows, edge bit CLEARED",
+   "edge_color": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "edge_size": 0.5,
+   "texture": "textures/T_player_076_shinku_eyes_d.png",
+   "sphere": null,
+   "sphere_mode": 0,
+   "toon_shared": 0,
+   "toon_index": -1,
+   "rationale": "MI_eye BaseColor = eyes_d (sampled dark iris 0.091/0.023/0.023). outline explicitly none -> edge OFF. Tri 240 == reference 目 240."
+  },
+  {
+   "index": 4,
+   "name": "目ハイライト",
+   "name_e": "Eye Highlight",
+   "diffuse": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "specular": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specular_strength": 5.0,
+   "ambient": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "flags": 15,
+   "flags_explain": "0x0F = two-sided + shadows, edge bit CLEARED",
+   "edge_color": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "edge_size": 0.5,
+   "texture": "textures/T_player_076_shinku_eyes_d.png",
+   "sphere": null,
+   "sphere_mode": 0,
+   "toon_shared": 0,
+   "toon_index": -1,
+   "rationale": "MI_gaogaung BaseColor = eyes_d; sampled pure white 1.0/1.0/1.0 at own UVs. Ambient 1.0 so the highlight never darkens (reference value). Edge OFF. Tri 160 == reference 目hl 160."
+  },
+  {
+   "index": 5,
+   "name": "衣装_01",
+   "name_e": "Costume 01",
+   "diffuse": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "specular": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specular_strength": 5.0,
+   "ambient": [
+    0.7529411911964417,
+    0.7529411911964417,
+    0.7529411911964417
+   ],
+   "flags": 31,
+   "flags_explain": "0x1F = two-sided + ground shadow + self-shadow map + receive self-shadow + edge ON",
+   "edge_color": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "edge_size": 0.5,
+   "texture": "textures/T_player_076_shinku_swimsuit_01_d.png",
+   "sphere": null,
+   "sphere_mode": 0,
+   "toon_shared": 0,
+   "toon_index": -1,
+   "rationale": "Albedo is Textures.BaseColor = swimsuit_01_d; PM_Diffuse points at the _id region mask (P19 trap, not the albedo). Outline material player_076_swimsuit_cloth_01 -> edge ON. Costume ambient 192/255. Matcap1..6 slots present in UE but not wired as sphere maps, matching the reference (no sphere textures anywhere) and Fashion 1's measured rejection of the same matcap family."
+  },
+  {
+   "index": 6,
+   "name": "衣装_02",
+   "name_e": "Costume 02",
+   "diffuse": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "specular": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specular_strength": 5.0,
+   "ambient": [
+    0.7529411911964417,
+    0.7529411911964417,
+    0.7529411911964417
+   ],
+   "flags": 31,
+   "flags_explain": "0x1F = two-sided + ground shadow + self-shadow map + receive self-shadow + edge ON",
+   "edge_color": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "edge_size": 0.5,
+   "texture": "textures/T_player_076_shinku_swimsuit_02_d.png",
+   "sphere": null,
+   "sphere_mode": 0,
+   "toon_shared": 0,
+   "toon_index": -1,
+   "rationale": "BaseColor = swimsuit_02_d (PM_Diffuse is the _id mask). Outline material present -> edge ON. Costume ambient 192/255."
+  },
+  {
+   "index": 7,
+   "name": "髪_01",
+   "name_e": "Hair Front",
+   "diffuse": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "specular": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specular_strength": 5.0,
+   "ambient": [
+    0.501960813999176,
+    0.501960813999176,
+    0.501960813999176
+   ],
+   "flags": 31,
+   "flags_explain": "0x1F = two-sided + ground shadow + self-shadow map + receive self-shadow + edge ON",
+   "edge_color": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "edge_size": 0.5,
+   "texture": "textures/T_player_076_shinku_swimsuit_hair_01_d.png",
+   "sphere": null,
+   "sphere_mode": 0,
+   "toon_shared": 0,
+   "toon_index": -1,
+   "rationale": "BaseColor = swimsuit_hair_01_d. Outline MI_player_076_shinku_hair1 -> edge ON. Hair ambient 128/255 (reference head-part value). Texture has real alpha cutout (15%% of sampled texels < 0.5, min 0.0) - masked strand tips; texture alpha carries it, diffuse alpha stays 1.0."
+  },
+  {
+   "index": 8,
+   "name": "髪_02",
+   "name_e": "Hair Back",
+   "diffuse": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "specular": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specular_strength": 5.0,
+   "ambient": [
+    0.501960813999176,
+    0.501960813999176,
+    0.501960813999176
+   ],
+   "flags": 31,
+   "flags_explain": "0x1F = two-sided + ground shadow + self-shadow map + receive self-shadow + edge ON",
+   "edge_color": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "edge_size": 0.5,
+   "texture": "textures/T_player_076_shinku_swimsuit_hair_02_d.png",
+   "sphere": null,
+   "sphere_mode": 0,
+   "toon_shared": 0,
+   "toon_index": -1,
+   "rationale": "BaseColor = swimsuit_hair_02_d. Outline MI_player_076_shinku_hair2 -> edge ON. Hair ambient 128/255."
+  },
+  {
+   "index": 9,
+   "name": "衣装_03",
+   "name_e": "Costume 03",
+   "diffuse": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "specular": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specular_strength": 5.0,
+   "ambient": [
+    0.7529411911964417,
+    0.7529411911964417,
+    0.7529411911964417
+   ],
+   "flags": 31,
+   "flags_explain": "0x1F = two-sided + ground shadow + self-shadow map + receive self-shadow + edge ON",
+   "edge_color": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "edge_size": 0.5,
+   "texture": "textures/T_player_076_shinku_swimsuit_03_d.png",
+   "sphere": null,
+   "sphere_mode": 0,
+   "toon_shared": 0,
+   "toon_index": -1,
+   "rationale": "BaseColor = swimsuit_03_d (PM_Diffuse is the _id mask). Outline material present -> edge ON. Costume ambient 192/255."
+  }
+ ],
+ "extra_textures_to_copy": [],
+ "findings": [
+  "All 8 texture bindings verified by sampling each texture at the bound material's own UVs; zero mis-assignments.",
+  "eye_bantou inversion present exactly as in Fashion 1; fixed by rebinding to the face atlas dark swatch with diffuse alpha 0.5.",
+  "Head-part triangle counts match the reference exactly (目影76 顔5378 睫毛1704 瞳240 目HL160), so reference head-part floats are ground truth for those materials."
+ ],
+ "risks": [
+  "衣装 draw order is inherited from the model (opaque cutout only, no large translucent areas measured: min alpha >= 0.996 on 衣装_01/02/03, 髪_02); only 髪_01 uses cutout alpha and it draws after 顔 (index 7 > 1)."
+ ]
+}

@@ -1,0 +1,379 @@
+{
+  "status": "WARN",
+  "model": "H:\\raw_nte_skill\\output\\Shinku_Swimsuit_MMD_v2\\Shinku_Swimsuit.pmx",
+  "errors": [],
+  "warnings": [
+    "[settle] 5 bodies rest >15% of model height from bind: ['086_物理_Bn_weiba004', '087_物理_Bn_weiba005', '088_物理_Bn_weiba006', '089_物理_Bn_weiba007', '090_物理_Bn_weiba008']",
+    "[settle] 1 bodies drift 8%-15% of model height",
+    "[motion] 3 bodies rest >15% of model height from bind: ['088_物理_Bn_weiba006', '089_物理_Bn_weiba007', '090_物理_Bn_weiba008']",
+    "[motion] 8 bodies drift 8%-15% of model height"
+  ],
+  "fps": 30,
+  "model_height_blender_units": 1.84574,
+  "counts": {
+    "rigid_bodies": 94,
+    "active": 75,
+    "passive": 19,
+    "joints": 75
+  },
+  "thresholds": {
+    "sag_fail_ratio": 0.15,
+    "sag_warn_ratio": 0.08
+  },
+  "baseline_compared": true,
+  "regressions_vs_baseline": [],
+  "settle": {
+    "frames": 150,
+    "series": [
+      {
+        "frame": 2,
+        "max_disp_ratio": 0.03347
+      },
+      {
+        "frame": 5,
+        "max_disp_ratio": 0.04514
+      },
+      {
+        "frame": 10,
+        "max_disp_ratio": 0.09809
+      },
+      {
+        "frame": 20,
+        "max_disp_ratio": 0.25196
+      },
+      {
+        "frame": 30,
+        "max_disp_ratio": 0.37184
+      },
+      {
+        "frame": 60,
+        "max_disp_ratio": 0.49269
+      },
+      {
+        "frame": 90,
+        "max_disp_ratio": 0.53645
+      },
+      {
+        "frame": 120,
+        "max_disp_ratio": 0.54805
+      },
+      {
+        "frame": 150,
+        "max_disp_ratio": 0.5484
+      }
+    ],
+    "max_final_ratio": 0.5484,
+    "max_peak_ratio": 0.5484,
+    "by_family": {
+      "chest_bow": {
+        "bodies": 12,
+        "max_final_ratio": 0.01197,
+        "worst": "027_物理_Bone_bow11",
+        "max_peak_ratio": 0.0446
+      },
+      "breast": {
+        "bodies": 2,
+        "max_final_ratio": 0.0003,
+        "worst": "029_物理_Bn_r_xiong_001",
+        "max_peak_ratio": 0.0003
+      },
+      "front_hair": {
+        "bodies": 11,
+        "max_final_ratio": 0.00548,
+        "worst": "040_物理_Bn_r_liuhai04",
+        "max_peak_ratio": 0.00788
+      },
+      "head_ornament": {
+        "bodies": 4,
+        "max_final_ratio": 0.00055,
+        "worst": "044_物理_Bn_hair_daimao04",
+        "max_peak_ratio": 0.00056
+      },
+      "back_hair": {
+        "bodies": 32,
+        "max_final_ratio": 0.04233,
+        "worst": "051_物理_Bone_hair009",
+        "max_peak_ratio": 0.07798
+      },
+      "neck_ribbon": {
+        "bodies": 6,
+        "max_final_ratio": 0.00403,
+        "worst": "082_物理_bone_ribbon05",
+        "max_peak_ratio": 0.00556
+      },
+      "tail": {
+        "bodies": 8,
+        "max_final_ratio": 0.5484,
+        "worst": "090_物理_Bn_weiba008",
+        "max_peak_ratio": 0.5484
+      }
+    },
+    "worst_20": [
+      {
+        "body": "090_物理_Bn_weiba008",
+        "final_ratio": 0.5484
+      },
+      {
+        "body": "089_物理_Bn_weiba007",
+        "final_ratio": 0.46464
+      },
+      {
+        "body": "088_物理_Bn_weiba006",
+        "final_ratio": 0.34941
+      },
+      {
+        "body": "087_物理_Bn_weiba005",
+        "final_ratio": 0.24774
+      },
+      {
+        "body": "086_物理_Bn_weiba004",
+        "final_ratio": 0.16132
+      },
+      {
+        "body": "085_物理_Bn_weiba003",
+        "final_ratio": 0.09192
+      },
+      {
+        "body": "051_物理_Bone_hair009",
+        "final_ratio": 0.04233
+      },
+      {
+        "body": "048_物理_Bone_hair006",
+        "final_ratio": 0.04116
+      },
+      {
+        "body": "084_物理_Bn_weiba002",
+        "final_ratio": 0.04113
+      },
+      {
+        "body": "050_物理_Bone_hair008",
+        "final_ratio": 0.0407
+      },
+      {
+        "body": "049_物理_Bone_hair007",
+        "final_ratio": 0.04023
+      },
+      {
+        "body": "054_物理_Bone_hair013",
+        "final_ratio": 0.03348
+      },
+      {
+        "body": "053_物理_Bone_hair012",
+        "final_ratio": 0.03309
+      },
+      {
+        "body": "047_物理_Bone_hair005",
+        "final_ratio": 0.03232
+      },
+      {
+        "body": "052_物理_Bone_hair011",
+        "final_ratio": 0.03107
+      },
+      {
+        "body": "046_物理_Bone_hair004",
+        "final_ratio": 0.01806
+      },
+      {
+        "body": "027_物理_Bone_bow11",
+        "final_ratio": 0.01197
+      },
+      {
+        "body": "026_物理_Bone_bow10",
+        "final_ratio": 0.0117
+      },
+      {
+        "body": "025_物理_Bone_bow09",
+        "final_ratio": 0.01133
+      },
+      {
+        "body": "024_物理_Bone_bow08",
+        "final_ratio": 0.01023
+      }
+    ],
+    "nonfinite": [],
+    "below_ground": [],
+    "failing_bodies": [
+      "086_物理_Bn_weiba004",
+      "087_物理_Bn_weiba005",
+      "088_物理_Bn_weiba006",
+      "089_物理_Bn_weiba007",
+      "090_物理_Bn_weiba008"
+    ]
+  },
+  "motion": {
+    "frames": 180,
+    "series": [
+      {
+        "frame": 2,
+        "max_disp_ratio": 0.03701
+      },
+      {
+        "frame": 5,
+        "max_disp_ratio": 0.19343
+      },
+      {
+        "frame": 10,
+        "max_disp_ratio": 0.16227
+      },
+      {
+        "frame": 20,
+        "max_disp_ratio": 0.25815
+      },
+      {
+        "frame": 30,
+        "max_disp_ratio": 0.26941
+      },
+      {
+        "frame": 60,
+        "max_disp_ratio": 0.27946
+      },
+      {
+        "frame": 90,
+        "max_disp_ratio": 0.31366
+      },
+      {
+        "frame": 120,
+        "max_disp_ratio": 0.32406
+      },
+      {
+        "frame": 180,
+        "max_disp_ratio": 0.24981
+      }
+    ],
+    "max_final_ratio": 0.24981,
+    "max_peak_ratio": 0.42463,
+    "by_family": {
+      "chest_bow": {
+        "bodies": 12,
+        "max_final_ratio": 0.13068,
+        "worst": "027_物理_Bone_bow11",
+        "max_peak_ratio": 0.3862
+      },
+      "breast": {
+        "bodies": 2,
+        "max_final_ratio": 0.00455,
+        "worst": "029_物理_Bn_r_xiong_001",
+        "max_peak_ratio": 0.1293
+      },
+      "front_hair": {
+        "bodies": 11,
+        "max_final_ratio": 0.0241,
+        "worst": "040_物理_Bn_r_liuhai04",
+        "max_peak_ratio": 0.14768
+      },
+      "head_ornament": {
+        "bodies": 4,
+        "max_final_ratio": 0.04718,
+        "worst": "044_物理_Bn_hair_daimao04",
+        "max_peak_ratio": 0.21243
+      },
+      "back_hair": {
+        "bodies": 32,
+        "max_final_ratio": 0.14907,
+        "worst": "051_物理_Bone_hair009",
+        "max_peak_ratio": 0.42463
+      },
+      "neck_ribbon": {
+        "bodies": 6,
+        "max_final_ratio": 0.0578,
+        "worst": "082_物理_bone_ribbon05",
+        "max_peak_ratio": 0.14796
+      },
+      "tail": {
+        "bodies": 8,
+        "max_final_ratio": 0.24981,
+        "worst": "090_物理_Bn_weiba008",
+        "max_peak_ratio": 0.33516
+      }
+    },
+    "worst_20": [
+      {
+        "body": "090_物理_Bn_weiba008",
+        "final_ratio": 0.24981
+      },
+      {
+        "body": "089_物理_Bn_weiba007",
+        "final_ratio": 0.21354
+      },
+      {
+        "body": "088_物理_Bn_weiba006",
+        "final_ratio": 0.16843
+      },
+      {
+        "body": "051_物理_Bone_hair009",
+        "final_ratio": 0.14907
+      },
+      {
+        "body": "087_物理_Bn_weiba005",
+        "final_ratio": 0.13237
+      },
+      {
+        "body": "027_物理_Bone_bow11",
+        "final_ratio": 0.13068
+      },
+      {
+        "body": "050_物理_Bone_hair008",
+        "final_ratio": 0.125
+      },
+      {
+        "body": "026_物理_Bone_bow10",
+        "final_ratio": 0.11577
+      },
+      {
+        "body": "086_物理_Bn_weiba004",
+        "final_ratio": 0.10039
+      },
+      {
+        "body": "025_物理_Bone_bow09",
+        "final_ratio": 0.09468
+      },
+      {
+        "body": "049_物理_Bone_hair007",
+        "final_ratio": 0.09243
+      },
+      {
+        "body": "054_物理_Bone_hair013",
+        "final_ratio": 0.07688
+      },
+      {
+        "body": "024_物理_Bone_bow08",
+        "final_ratio": 0.07389
+      },
+      {
+        "body": "085_物理_Bn_weiba003",
+        "final_ratio": 0.0677
+      },
+      {
+        "body": "048_物理_Bone_hair006",
+        "final_ratio": 0.05904
+      },
+      {
+        "body": "082_物理_bone_ribbon05",
+        "final_ratio": 0.0578
+      },
+      {
+        "body": "053_物理_Bone_hair012",
+        "final_ratio": 0.05543
+      },
+      {
+        "body": "023_物理_Bone_bow07",
+        "final_ratio": 0.0528
+      },
+      {
+        "body": "071_物理_Bone_hair032",
+        "final_ratio": 0.04779
+      },
+      {
+        "body": "044_物理_Bn_hair_daimao04",
+        "final_ratio": 0.04718
+      }
+    ],
+    "nonfinite": [],
+    "below_ground": [],
+    "failing_bodies": [
+      "088_物理_Bn_weiba006",
+      "089_物理_Bn_weiba007",
+      "090_物理_Bn_weiba008"
+    ]
+  }
+}

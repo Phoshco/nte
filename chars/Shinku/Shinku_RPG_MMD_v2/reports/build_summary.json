@@ -1,0 +1,40 @@
+{
+  "model": "H:\\raw_nte_skill\\output\\Shinku_RPG_MMD_v2\\Shinku_RPG.pmx",
+  "textures_kept": [
+    "T_player_076_shinku_eyes_d.png",
+    "T_player_076_shinku_face_d.png",
+    "T_player_076_shinku_hair_01_d.png",
+    "T_player_076_shinku_hair_02_d.png",
+    "T_player_076_shinku_level1_01_d.png",
+    "T_player_076_shinku_level1_02_d.png"
+  ],
+  "weight_signature": {
+    "method": "positions + zero-pruned duplicate-merged (bone_name, weight) pairs; the documented torso rename map is applied to the BASE names so the comparison is rename-aware (renaming a bone is not a skinning change).",
+    "rename_map": {
+      "上半身1": "上半身2",
+      "上半身2": "上半身3"
+    },
+    "base_name_keyed_renamed": "f3dc6f37154a48d1",
+    "final_name_keyed": "f3dc6f37154a48d1",
+    "identical": true
+  },
+  "counts": {
+    "vertices": 53874,
+    "faces": 73878,
+    "materials": 9,
+    "bones": 227,
+    "morphs": 99,
+    "rigid_bodies": 135,
+    "joints": 116,
+    "display_frames": 11
+  },
+  "stages": {
+    "generate": "Blender quit",
+    "retune": "RETUNE={\"actions\": {\"transplant\": 70, \"analogy\": 44, \"explicit\": 2, \"kept\": 0, \"skirt_ring_joints\": 0}, \"by_family\": {\"breast\": {\"explicit\": 2}, \"head_ornament\": {\"transplant_resampled\": 4}, \"side_hair\": {\"transplant_resampled\": 18}, \"front_hair\": {\"transplant_resampled\": 11}, \"ponytail\": {\"analogy<-side_hair\": 42}, \"head_acc\": {\"transplant\": 1}, \"butterfly\": {\"transplant\": 18}, \"tail\": {\"transplant_resampled\": 12}, \"shoulder_hair\": {\"transplant_resampled\": 6, \"analogy<-shoulder_hair\": 2}}}",
+    "tailfit": "TAILFIT={\"resized\": 11, \"skipped\": 1}",
+    "frames": "FRAMES={\"capsules_reframed\": 99, \"skipped\": 33, \"median_correction_deg\": 28.82, \"max_correction_deg\": 182.15}",
+    "refine": "REFINE={\"status\": \"PASS\", \"materials\": 9, \"morphs\": 99, \"actions\": {\"keep\": 70, \"rename\": 16, \"group\": 10, \"baked\": 3}, \"colliders\": {\"updated\": 16, \"added\": 3}, \"skirt\": null, \"rig\": {\"renames\": 2, \"edits\": 7, \"frames\": 11}, \"problems\": []}",
+    "overlaps": "OVERLAPS={\"found\": 20, \"disabled\": [{\"dynamic_group\": 6, \"passive_group\": 0, \"bodies_embedded\": 8, \"family_size\": 8, \"fraction\": 1.0, \"max_start_depth\": 0.2177, \"action\": \"disabled - structural embedding\"}, {\"dynamic_group\": 14, \"passive_group\": 0, \"bodies_embedded\": 2, \"family_size\": 2, \"fraction\": 1.0, \"max_start_depth\": 0.1694, \"action\": \"disabled - structural embedding\"}], \"kept\": [{\"dynamic_group\": 3, \"passive_group\": 0, \"bodies_embedded\": 9, \"family_size\": 94, \"fraction\": 0.096, \"max_start_depth\": 0.0739, \"action\": \"kept - incidental contact, collision is still worth having\"}]}",
+    "validate": "Blender quit"
+  }
+}

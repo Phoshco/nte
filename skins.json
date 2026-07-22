@@ -130,5 +130,49 @@
         "directory": "nte/chars/Shinku/Shinku_jk",
         "image": "nte/NTE/Shinku.png",
         "pmx": "Shinku.pmx"
+    },
+	{
+        "id": 60000920,
+        "name": "Shinku",
+        "weaponType": "Condensate",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Shinku/Shinku_Fashion_2_MMD_v2",
+        "image": "nte/NTE/Shinku.png",
+        "pmx": "Shinku_Fashion_2.pmx"
+    },
+	{
+        "id": 60000820,
+        "name": "Shinku",
+        "weaponType": "Condensate",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Shinku/Shinku_Nighty_MMD_v2",
+        "image": "nte/NTE/Shinku.png",
+        "pmx": "Shinku_Nighty.pmx"
+    },
+	{
+        "id": 60000720,
+        "name": "Shinku",
+        "weaponType": "Condensate",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Shinku/Shinku_RPG_MMD_v2",
+        "image": "nte/NTE/Shinku.png",
+        "pmx": "Shinku_RPG.pmx"
+    },
+	{
+        "id": 60000620,
+        "name": "Shinku",
+        "weaponType": "Condensate",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Shinku/Shinku_Swimsuit_MMD_v2",
+        "image": "nte/NTE/Shinku.png",
+        "pmx": "Shinku_Swimsuit.pmx"
     }
 ]

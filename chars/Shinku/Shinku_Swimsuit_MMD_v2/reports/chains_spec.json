@@ -1,0 +1,46 @@
+{
+ "_meta": "Audit record for the dynamic-chain families. The actual parameters are produced by mmd_physics_retune.py (transplant/analogy) and corrected by fix_rigid_frames.py + fix_initial_overlaps.py; this file documents the family map, exclusions and reference evidence for verification.",
+ "families": {
+  "front_hair": {
+   "bones": "Bn_l/m/r_liuhai01..04/03 (11)",
+   "group": 4,
+   "strategy": "transplant (byte-exact bones in reference, ref group 4, mask 0xFFEF)"
+  },
+  "ahoge": {
+   "bones": "Bn_hair_daimao01..04 (4)",
+   "group": 7,
+   "strategy": "transplant (ref group 7, mask 0xFF7F)"
+  },
+  "tail": {
+   "bones": "Bn_weiba001..008 (8)",
+   "group": 5,
+   "strategy": "transplant, depth-resampled (ref chain has 9 weiba + 4 weipd bodies, span differs; ref ±10deg, ld/ad 1.0, mass 0.1->0.01, mask 0xF800 = collides groups 11-15 only)"
+  },
+  "back_hair": {
+   "bones": "Bone_hair003..037 (32, three chains rooted at Bone_hair003/014/023)",
+   "group": 8,
+   "strategy": "analogy <- reference 后发 back hair (126 bodies, mass 30->0.1 root-heavy taper, ld 0.4->1.0, ad 1.0, all joints locked - the reference stiff-shell idiom)"
+  },
+  "bow": {
+   "bones": "Bone_bow00..11 (12; loops 00-01/02-03, trail 04..11)",
+   "group": 3,
+   "strategy": "analogy <- reference hudiejie butterfly (mass 1.0, ld/ad 1.0, locked joints; ref group 3 mask 0xFFF7)"
+  },
+  "ribbon": {
+   "bones": "bone_ribbon00..05 (6, anchored under 首 via the static 'position' bone)",
+   "group": 6,
+   "strategy": "analogy <- butterfly"
+  },
+  "breast": {
+   "bones": "Bn_l/r_xiong_001 (2)",
+   "group": 14,
+   "strategy": "explicit MMD-standard (mass 0.4, damp 0.85/0.90, ±7/5/7 deg, spring_rot 40; reference has 胸上/胸下 group 14 but on different bones)"
+  }
+ },
+ "excluded_from_physics": {
+  "Bn_L/R_jiao01..04": "reference has the identical bones (byte-exact) with NO rigid bodies - horns are rigid by design",
+  "Bone_hair, Bone_hair01": "hair-crown bases carrying 1970/2538 verts of scalp geometry; kept static so the crown cannot detach from the skull, and so branch tips are not handed mid-curve masses (P11 in branch form)",
+  "position": "static ribbon-knot anchor at the neck (78 verts)"
+ },
+ "root_anchor_check": "every chain root's nearest generator collider is also the collider bound to the root bone's hierarchical ancestor (P23 satisfied without a skirt-style override): hair/bow/liuhai/daimao -> 体_頭, ribbon -> 体_首, weiba -> 体_骨盤 (bone 下半身), xiong -> 体_上胸 (bone 上半身2)."
+}

@@ -1,0 +1,104 @@
+{
+  "model": "H:\\raw_nte_skill\\output\\Shinku_Swimsuit_MMD_v2\\Shinku_Swimsuit.pmx",
+  "n": 76,
+  "median_deg": 0.009,
+  "within_1deg_pct": 90.8,
+  "within_5deg_pct": 90.8,
+  "p90_deg": 0.691,
+  "best_axis_histogram": {
+    "X": 2,
+    "Z": 74
+  },
+  "worst_15": [
+    {
+      "body": "000_体_下半身",
+      "bone": "下半身",
+      "axis": "X",
+      "deg": 37.143
+    },
+    {
+      "body": "093_体_右手首",
+      "bone": "手首.R",
+      "axis": "Z",
+      "deg": 21.254
+    },
+    {
+      "body": "092_体_左手首",
+      "bone": "手首.L",
+      "axis": "Z",
+      "deg": 21.253
+    },
+    {
+      "body": "010_体_左脛",
+      "bone": "ひざ.L",
+      "axis": "Z",
+      "deg": 14.25
+    },
+    {
+      "body": "015_体_右脛",
+      "bone": "ひざ.R",
+      "axis": "Z",
+      "deg": 14.25
+    },
+    {
+      "body": "091_体_胸",
+      "bone": "上半身3",
+      "axis": "X",
+      "deg": 13.28
+    },
+    {
+      "body": "005_体_頭",
+      "bone": "頭",
+      "axis": "Z",
+      "deg": 12.311
+    },
+    {
+      "body": "007_体_左上腕",
+      "bone": "腕.L",
+      "axis": "Z",
+      "deg": 0.691
+    },
+    {
+      "body": "012_体_右上腕",
+      "bone": "腕.R",
+      "axis": "Z",
+      "deg": 0.69
+    },
+    {
+      "body": "009_体_左太腿",
+      "bone": "足.L",
+      "axis": "Z",
+      "deg": 0.457
+    },
+    {
+      "body": "014_体_右太腿",
+      "bone": "足.R",
+      "axis": "Z",
+      "deg": 0.457
+    },
+    {
+      "body": "035_物理_Bn_m_liuhai02",
+      "bone": "Bn_m_liuhai02",
+      "axis": "Z",
+      "deg": 0.024
+    },
+    {
+      "body": "043_物理_Bn_hair_daimao03",
+      "bone": "Bn_hair_daimao03",
+      "axis": "Z",
+      "deg": 0.021
+    },
+    {
+      "body": "084_物理_Bn_weiba002",
+      "bone": "Bn_weiba002",
+      "axis": "Z",
+      "deg": 0.021
+    },
+    {
+      "body": "087_物理_Bn_weiba005",
+      "bone": "Bn_weiba005",
+      "axis": "Z",
+      "deg": 0.021
+    }
+  ]
+}

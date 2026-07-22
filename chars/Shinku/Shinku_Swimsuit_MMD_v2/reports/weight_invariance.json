@@ -1,0 +1,15 @@
+{
+ "check": "vertex positions + sorted (bone, weight) pairs, SHA-256 first 16 hex",
+ "name_based_rename_normalized": {
+  "base_Shinku_Swimsuit_MMD.pmx": "dfdbd605d89d37f7",
+  "final_Shinku_Swimsuit.pmx": "dfdbd605d89d37f7",
+  "identical": true,
+  "note": "bone names normalized through the documented 上半身1->上半身2, 上半身2->上半身3 renames; proves skinning is bit-identical from the base conversion to the deliverable across the physics generator's semantic bone reorder"
+ },
+ "index_based": {
+  "post_generator_00_generated.pmx": "fec92e18c329a914",
+  "final_Shinku_Swimsuit.pmx": "fec92e18c329a914",
+  "identical": true,
+  "note": "no pass after the generator touched vertices, weights or bone indices"
+ }
+}

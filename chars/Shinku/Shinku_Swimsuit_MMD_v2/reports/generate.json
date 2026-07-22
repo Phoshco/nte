@@ -1,0 +1,1833 @@
+{
+  "status": "PASS",
+  "source_pmx": "base.pmx",
+  "output_pmx": "00_generated.pmx",
+  "policy": "existing_weighted_bones_strict_parent_chain",
+  "before": {
+    "vertices": 55980,
+    "triangles": 81304,
+    "materials": 10,
+    "textures": 8,
+    "bones": 193,
+    "morphs": 88,
+    "weight_signature": "1b44478c26894c92d3cfd0178204f13c08875297baa68aef9fdca6080a2feac2"
+  },
+  "after": {
+    "vertices": 55980,
+    "triangles": 81304,
+    "materials": 10,
+    "textures": 8,
+    "bones": 193,
+    "morphs": 88,
+    "weight_signature": "1b44478c26894c92d3cfd0178204f13c08875297baa68aef9fdca6080a2feac2",
+    "rigid_bodies": 91,
+    "joints": 75,
+    "display_frames": 11
+  },
+  "cleanup": {
+    "removed_bones": [],
+    "removed_count": 0
+  },
+  "bone_sort": {
+    "parent_before_child": true,
+    "order": [
+      "全ての親",
+      "センター",
+      "グルーブ",
+      "腰",
+      "下半身",
+      "上半身",
+      "上半身1",
+      "上半身2",
+      "首",
+      "頭",
+      "両目",
+      "左目",
+      "右目",
+      "左肩P",
+      "左肩",
+      "左肩C",
+      "左腕",
+      "左ひじ",
+      "左手捩",
+      "左手捩1",
+      "左手首",
+      "左中指１",
+      "左中指２",
+      "左中指３",
+      "左中指４",
+      "左人指１",
+      "左人指２",
+      "左人指３",
+      "左人指４",
+      "左小指１",
+      "左小指２",
+      "左小指３",
+      "左小指４",
+      "左腕捩",
+      "左腕捩1",
+      "左薬指１",
+      "左薬指２",
+      "左薬指３",
+      "左薬指４",
+      "左親指０",
+      "左親指１",
+      "左親指２",
+      "右肩P",
+      "右肩",
+      "右肩C",
+      "右腕",
+      "右ひじ",
+      "右手捩",
+      "右手捩1",
+      "右手首",
+      "右中指１",
+      "右中指２",
+      "右中指３",
+      "右中指４",
+      "右人指１",
+      "右人指２",
+      "右人指３",
+      "右人指４",
+      "右小指１",
+      "右小指２",
+      "右小指３",
+      "右小指４",
+      "右腕捩",
+      "右腕捩1",
+      "右薬指１",
+      "右薬指２",
+      "右薬指３",
+      "右薬指４",
+      "右親指０",
+      "右親指１",
+      "右親指２",
+      "add_MF_ElbowLow_bon_l",
+      "add_MF_ElbowUp_bon_l",
+      "Bn_l_Elbow",
+      "add_MF_ElbowLow_bon_r",
+      "add_MF_ElbowUp_bon_r",
+      "Bn_r_Elbow",
+      "左足",
+      "左ひざ",
+      "左足首",
+      "左つま先",
+      "右足",
+      "右ひざ",
+      "右足首",
+      "右つま先",
+      "Bn_l_kneedownMF",
+      "Bn_l_kneeupMF",
+      "Bn_lb_KneeMF",
+      "Bn_lf_KneeMF",
+      "Bone-L-Calf-Twist",
+      "Bone-L-Calf-Twist1",
+      "Bone-L-Thigh-Twist",
+      "Bone-L-Thigh-Twist1",
+      "Bn_r_kneedownMF",
+      "Bn_r_kneeupMF",
+      "Bn_rb_KneeMF",
+      "Bn_rf_KneeMF",
+      "Bone-R-Calf-Twist",
+      "Bone-R-Calf-Twist1",
+      "Bone-R-Thigh-Twist",
+      "Bone-R-Thigh-Twist1",
+      "左足IK親",
+      "左足ＩＫ",
+      "左つま先ＩＫ",
+      "右足IK親",
+      "右足ＩＫ",
+      "右つま先ＩＫ",
+      "Bn_l_xiong_001",
+      "Bn_r_xiong_001",
+      "Bn_l_liuhai01",
+      "Bn_l_liuhai02",
+      "Bn_l_liuhai03",
+      "Bn_l_liuhai04",
+      "Bn_m_liuhai01",
+      "Bn_m_liuhai02",
+      "Bn_m_liuhai03",
+      "Bn_r_liuhai01",
+      "Bn_r_liuhai02",
+      "Bn_r_liuhai03",
+      "Bn_r_liuhai04",
+      "Bn_hair_daimao01",
+      "Bn_hair_daimao02",
+      "Bn_hair_daimao03",
+      "Bn_hair_daimao04",
+      "Bn_weiba001",
+      "Bn_weiba002",
+      "Bn_weiba003",
+      "Bn_weiba004",
+      "Bn_weiba005",
+      "Bn_weiba006",
+      "Bn_weiba007",
+      "Bn_weiba008",
+      "Bn_L_jiao01",
+      "Bn_L_jiao02",
+      "Bn_L_jiao03",
+      "Bn_L_jiao04",
+      "Bn_R_jiao01",
+      "Bn_R_jiao02",
+      "Bn_R_jiao03",
+      "Bn_R_jiao04",
+      "Bone_hair",
+      "Bone_hair01",
+      "Bone_bow00",
+      "Bone_bow01",
+      "Bone_bow02",
+      "Bone_bow03",
+      "Bone_bow04",
+      "Bone_bow05",
+      "Bone_bow06",
+      "Bone_bow07",
+      "Bone_bow08",
+      "Bone_bow09",
+      "Bone_bow10",
+      "Bone_bow11",
+      "Bone_hair003",
+      "Bone_hair004",
+      "Bone_hair005",
+      "Bone_hair006",
+      "Bone_hair007",
+      "Bone_hair008",
+      "Bone_hair009",
+      "Bone_hair011",
+      "Bone_hair012",
+      "Bone_hair013",
+      "Bone_hair014",
+      "Bone_hair015",
+      "Bone_hair016",
+      "Bone_hair017",
+      "Bone_hair018",
+      "Bone_hair019",
+      "Bone_hair020",
+      "Bone_hair021",
+      "Bone_hair023",
+      "Bone_hair024",
+      "Bone_hair025",
+      "Bone_hair026",
+      "Bone_hair028",
+      "Bone_hair029",
+      "Bone_hair030",
+      "Bone_hair031",
+      "Bone_hair032",
+      "Bone_hair033",
+      "Bone_hair034",
+      "Bone_hair035",
+      "Bone_hair036",
+      "Bone_hair037",
+      "position",
+      "bone_ribbon00",
+      "bone_ribbon01",
+      "bone_ribbon02",
+      "bone_ribbon03",
+      "bone_ribbon04",
+      "bone_ribbon05"
+    ]
+  },
+  "display_frames": [
+    {
+      "name": "Root",
+      "members": 1
+    },
+    {
+      "name": "表情",
+      "members": 88
+    },
+    {
+      "name": "センター",
+      "members": 7
+    },
+    {
+      "name": "ＩＫ",
+      "members": 6
+    },
+    {
+      "name": "体",
+      "members": 5
+    },
+    {
+      "name": "左腕",
+      "members": 7
+    },
+    {
+      "name": "右腕",
+      "members": 7
+    },
+    {
+      "name": "左指",
+      "members": 19
+    },
+    {
+      "name": "右指",
+      "members": 19
+    },
+    {
+      "name": "足",
+      "members": 8
+    },
+    {
+      "name": "物理操作",
+      "members": 14
+    }
+  ],
+  "physics": {
+    "candidate_counts": {
+      "ahoge": 4,
+      "back_hair": 32,
+      "bow": 12,
+      "breast": 2,
+      "front_hair": 11,
+      "ribbon": 6,
+      "tail": 8
+    },
+    "root_counts": {
+      "ahoge": 1,
+      "back_hair": 3,
+      "bow": 3,
+      "breast": 2,
+      "front_hair": 3,
+      "ribbon": 1,
+      "tail": 1
+    },
+    "candidate_total": 75,
+    "root_total": 14,
+    "passive_colliders": [
+      {
+        "index": 0,
+        "name": "体_骨盤",
+        "bone": "下半身",
+        "shape": 1
+      },
+      {
+        "index": 1,
+        "name": "体_腹",
+        "bone": "上半身",
+        "shape": 2
+      },
+      {
+        "index": 2,
+        "name": "体_胸",
+        "bone": "上半身1",
+        "shape": 2
+      },
+      {
+        "index": 3,
+        "name": "体_上胸",
+        "bone": "上半身2",
+        "shape": 2
+      },
+      {
+        "index": 4,
+        "name": "体_首",
+        "bone": "首",
+        "shape": 2
+      },
+      {
+        "index": 5,
+        "name": "体_頭",
+        "bone": "頭",
+        "shape": 0
+      },
+      {
+        "index": 6,
+        "name": "体_左肩",
+        "bone": "左肩",
+        "shape": 0
+      },
+      {
+        "index": 7,
+        "name": "体_左上腕",
+        "bone": "左腕",
+        "shape": 2
+      },
+      {
+        "index": 8,
+        "name": "体_左前腕",
+        "bone": "左ひじ",
+        "shape": 2
+      },
+      {
+        "index": 9,
+        "name": "体_左太腿",
+        "bone": "左足",
+        "shape": 2
+      },
+      {
+        "index": 10,
+        "name": "体_左脛",
+        "bone": "左ひざ",
+        "shape": 2
+      },
+      {
+        "index": 11,
+        "name": "体_右肩",
+        "bone": "右肩",
+        "shape": 0
+      },
+      {
+        "index": 12,
+        "name": "体_右上腕",
+        "bone": "右腕",
+        "shape": 2
+      },
+      {
+        "index": 13,
+        "name": "体_右前腕",
+        "bone": "右ひじ",
+        "shape": 2
+      },
+      {
+        "index": 14,
+        "name": "体_右太腿",
+        "bone": "右足",
+        "shape": 2
+      },
+      {
+        "index": 15,
+        "name": "体_右脛",
+        "bone": "右ひざ",
+        "shape": 2
+      }
+    ],
+    "dynamic_bodies": [
+      {
+        "bone": "Bone_bow00",
+        "family": "bow",
+        "depth": 0,
+        "segment_length": 0.7687915683244871,
+        "radius": 0.16913414503138718,
+        "mass": 0.14,
+        "linear_damping": 0.66,
+        "angular_damping": 0.82,
+        "rigid_index": 16
+      },
+      {
+        "bone": "Bone_bow01",
+        "family": "bow",
+        "depth": 1,
+        "segment_length": 0.49971431190024346,
+        "radius": 0.10993714861805357,
+        "mass": 0.12600000000000003,
+        "linear_damping": 0.685,
+        "angular_damping": 0.84,
+        "rigid_index": 17
+      },
+      {
+        "bone": "Bone_bow02",
+        "family": "bow",
+        "depth": 0,
+        "segment_length": 0.7687933023059742,
+        "radius": 0.16913452650731434,
+        "mass": 0.14,
+        "linear_damping": 0.66,
+        "angular_damping": 0.82,
+        "rigid_index": 18
+      },
+      {
+        "bone": "Bone_bow03",
+        "family": "bow",
+        "depth": 1,
+        "segment_length": 0.4997160126492324,
+        "radius": 0.10993752278283113,
+        "mass": 0.12600000000000003,
+        "linear_damping": 0.685,
+        "angular_damping": 0.84,
+        "rigid_index": 19
+      },
+      {
+        "bone": "Bone_bow04",
+        "family": "bow",
+        "depth": 0,
+        "segment_length": 0.868015810877839,
+        "radius": 0.19096347839312458,
+        "mass": 0.14,
+        "linear_damping": 0.66,
+        "angular_damping": 0.82,
+        "rigid_index": 20
+      },
+      {
+        "bone": "Bone_bow05",
+        "family": "bow",
+        "depth": 1,
+        "segment_length": 1.1020710630160457,
+        "radius": 0.24245563386353006,
+        "mass": 0.12600000000000003,
+        "linear_damping": 0.685,
+        "angular_damping": 0.84,
+        "rigid_index": 21
+      },
+      {
+        "bone": "Bone_bow06",
+        "family": "bow",
+        "depth": 2,
+        "segment_length": 1.262123536054388,
+        "radius": 0.25,
+        "mass": 0.11200000000000002,
+        "linear_damping": 0.7100000000000001,
+        "angular_damping": 0.86,
+        "rigid_index": 22
+      },
+      {
+        "bone": "Bone_bow07",
+        "family": "bow",
+        "depth": 3,
+        "segment_length": 1.8641464895558482,
+        "radius": 0.25,
+        "mass": 0.098,
+        "linear_damping": 0.7350000000000001,
+        "angular_damping": 0.8799999999999999,
+        "rigid_index": 23
+      },
+      {
+        "bone": "Bone_bow08",
+        "family": "bow",
+        "depth": 4,
+        "segment_length": 1.8470038014082626,
+        "radius": 0.25,
+        "mass": 0.084,
+        "linear_damping": 0.76,
+        "angular_damping": 0.8999999999999999,
+        "rigid_index": 24
+      },
+      {
+        "bone": "Bone_bow09",
+        "family": "bow",
+        "depth": 5,
+        "segment_length": 1.9080125953722926,
+        "radius": 0.25,
+        "mass": 0.07,
+        "linear_damping": 0.785,
+        "angular_damping": 0.9199999999999999,
+        "rigid_index": 25
+      },
+      {
+        "bone": "Bone_bow10",
+        "family": "bow",
+        "depth": 6,
+        "segment_length": 1.959543230205537,
+        "radius": 0.25,
+        "mass": 0.06720000000000001,
+        "linear_damping": 0.81,
+        "angular_damping": 0.94,
+        "rigid_index": 26
+      },
+      {
+        "bone": "Bone_bow11",
+        "family": "bow",
+        "depth": 7,
+        "segment_length": 0.7999995556658762,
+        "radius": 0.17599990224649276,
+        "mass": 0.06720000000000001,
+        "linear_damping": 0.8350000000000001,
+        "angular_damping": 0.95,
+        "rigid_index": 27
+      },
+      {
+        "bone": "Bn_l_xiong_001",
+        "family": "breast",
+        "depth": 0,
+        "segment_length": 0.800000500958256,
+        "radius": 0.2560001603066419,
+        "mass": 0.2,
+        "linear_damping": 0.72,
+        "angular_damping": 0.86,
+        "rigid_index": 28
+      },
+      {
+        "bone": "Bn_r_xiong_001",
+        "family": "breast",
+        "depth": 0,
+        "segment_length": 0.8000007035207636,
+        "radius": 0.25600022512664433,
+        "mass": 0.2,
+        "linear_damping": 0.72,
+        "angular_damping": 0.86,
+        "rigid_index": 29
+      },
+      {
+        "bone": "Bn_l_liuhai01",
+        "family": "front_hair",
+        "depth": 0,
+        "segment_length": 0.39552195848963534,
+        "radius": 0.07910439169792707,
+        "mass": 0.18,
+        "linear_damping": 0.62,
+        "angular_damping": 0.78,
+        "rigid_index": 30
+      },
+      {
+        "bone": "Bn_l_liuhai02",
+        "family": "front_hair",
+        "depth": 1,
+        "segment_length": 0.37955894347894226,
+        "radius": 0.07591178869578846,
+        "mass": 0.162,
+        "linear_damping": 0.645,
+        "angular_damping": 0.8,
+        "rigid_index": 31
+      },
+      {
+        "bone": "Bn_l_liuhai03",
+        "family": "front_hair",
+        "depth": 2,
+        "segment_length": 0.3898338185399683,
+        "radius": 0.07796676370799366,
+        "mass": 0.144,
+        "linear_damping": 0.67,
+        "angular_damping": 0.8200000000000001,
+        "rigid_index": 32
+      },
+      {
+        "bone": "Bn_l_liuhai04",
+        "family": "front_hair",
+        "depth": 3,
+        "segment_length": 0.2533928326539288,
+        "radius": 0.075,
+        "mass": 0.126,
+        "linear_damping": 0.6950000000000001,
+        "angular_damping": 0.8400000000000001,
+        "rigid_index": 33
+      },
+      {
+        "bone": "Bn_m_liuhai01",
+        "family": "front_hair",
+        "depth": 0,
+        "segment_length": 0.3528714309736847,
+        "radius": 0.075,
+        "mass": 0.18,
+        "linear_damping": 0.62,
+        "angular_damping": 0.78,
+        "rigid_index": 34
+      },
+      {
+        "bone": "Bn_m_liuhai02",
+        "family": "front_hair",
+        "depth": 1,
+        "segment_length": 0.3787224445675948,
+        "radius": 0.07574448891351897,
+        "mass": 0.162,
+        "linear_damping": 0.645,
+        "angular_damping": 0.8,
+        "rigid_index": 35
+      },
+      {
+        "bone": "Bn_m_liuhai03",
+        "family": "front_hair",
+        "depth": 2,
+        "segment_length": 0.24617007297000687,
+        "radius": 0.075,
+        "mass": 0.144,
+        "linear_damping": 0.67,
+        "angular_damping": 0.8200000000000001,
+        "rigid_index": 36
+      },
+      {
+        "bone": "Bn_r_liuhai01",
+        "family": "front_hair",
+        "depth": 0,
+        "segment_length": 0.39552563149583975,
+        "radius": 0.07910512629916795,
+        "mass": 0.18,
+        "linear_damping": 0.62,
+        "angular_damping": 0.78,
+        "rigid_index": 37
+      },
+      {
+        "bone": "Bn_r_liuhai02",
+        "family": "front_hair",
+        "depth": 1,
+        "segment_length": 0.3795604843494971,
+        "radius": 0.07591209686989941,
+        "mass": 0.162,
+        "linear_damping": 0.645,
+        "angular_damping": 0.8,
+        "rigid_index": 38
+      },
+      {
+        "bone": "Bn_r_liuhai03",
+        "family": "front_hair",
+        "depth": 2,
+        "segment_length": 0.38983171586604276,
+        "radius": 0.07796634317320855,
+        "mass": 0.144,
+        "linear_damping": 0.67,
+        "angular_damping": 0.8200000000000001,
+        "rigid_index": 39
+      },
+      {
+        "bone": "Bn_r_liuhai04",
+        "family": "front_hair",
+        "depth": 3,
+        "segment_length": 0.25339081346746395,
+        "radius": 0.075,
+        "mass": 0.126,
+        "linear_damping": 0.6950000000000001,
+        "angular_damping": 0.8400000000000001,
+        "rigid_index": 40
+      },
+      {
+        "bone": "Bn_hair_daimao01",
+        "family": "ahoge",
+        "depth": 0,
+        "segment_length": 0.3965543840170018,
+        "radius": 0.07931087680340038,
+        "mass": 0.18,
+        "linear_damping": 0.62,
+        "angular_damping": 0.78,
+        "rigid_index": 41
+      },
+      {
+        "bone": "Bn_hair_daimao02",
+        "family": "ahoge",
+        "depth": 1,
+        "segment_length": 0.5278908717047756,
+        "radius": 0.10557817434095512,
+        "mass": 0.162,
+        "linear_damping": 0.645,
+        "angular_damping": 0.8,
+        "rigid_index": 42
+      },
+      {
+        "bone": "Bn_hair_daimao03",
+        "family": "ahoge",
+        "depth": 2,
+        "segment_length": 0.5674737173816812,
+        "radius": 0.11349474347633624,
+        "mass": 0.144,
+        "linear_damping": 0.67,
+        "angular_damping": 0.8200000000000001,
+        "rigid_index": 43
+      },
+      {
+        "bone": "Bn_hair_daimao04",
+        "family": "ahoge",
+        "depth": 3,
+        "segment_length": 0.3688582072921632,
+        "radius": 0.075,
+        "mass": 0.126,
+        "linear_damping": 0.6950000000000001,
+        "angular_damping": 0.8400000000000001,
+        "rigid_index": 44
+      },
+      {
+        "bone": "Bone_hair003",
+        "family": "back_hair",
+        "depth": 0,
+        "segment_length": 0.9645569284275454,
+        "radius": 0.19291138568550908,
+        "mass": 0.18,
+        "linear_damping": 0.62,
+        "angular_damping": 0.78,
+        "rigid_index": 45
+      },
+      {
+        "bone": "Bone_hair004",
+        "family": "back_hair",
+        "depth": 1,
+        "segment_length": 1.09182517607011,
+        "radius": 0.21836503521402204,
+        "mass": 0.162,
+        "linear_damping": 0.645,
+        "angular_damping": 0.8,
+        "rigid_index": 46
+      },
+      {
+        "bone": "Bone_hair005",
+        "family": "back_hair",
+        "depth": 2,
+        "segment_length": 1.2897717143275553,
+        "radius": 0.25795434286551105,
+        "mass": 0.144,
+        "linear_damping": 0.67,
+        "angular_damping": 0.8200000000000001,
+        "rigid_index": 47
+      },
+      {
+        "bone": "Bone_hair006",
+        "family": "back_hair",
+        "depth": 3,
+        "segment_length": 1.816099665004547,
+        "radius": 0.3,
+        "mass": 0.126,
+        "linear_damping": 0.6950000000000001,
+        "angular_damping": 0.8400000000000001,
+        "rigid_index": 48
+      },
+      {
+        "bone": "Bone_hair007",
+        "family": "back_hair",
+        "depth": 4,
+        "segment_length": 1.6274839522153612,
+        "radius": 0.3,
+        "mass": 0.108,
+        "linear_damping": 0.72,
+        "angular_damping": 0.86,
+        "rigid_index": 49
+      },
+      {
+        "bone": "Bone_hair008",
+        "family": "back_hair",
+        "depth": 5,
+        "segment_length": 1.8283608846825679,
+        "radius": 0.3,
+        "mass": 0.09,
+        "linear_damping": 0.745,
+        "angular_damping": 0.88,
+        "rigid_index": 50
+      },
+      {
+        "bone": "Bone_hair009",
+        "family": "back_hair",
+        "depth": 6,
+        "segment_length": 0.799999618239144,
+        "radius": 0.1599999236478288,
+        "mass": 0.08639999999999999,
+        "linear_damping": 0.77,
+        "angular_damping": 0.9,
+        "rigid_index": 51
+      },
+      {
+        "bone": "Bone_hair011",
+        "family": "back_hair",
+        "depth": 2,
+        "segment_length": 1.2186777937259161,
+        "radius": 0.24373555874518324,
+        "mass": 0.144,
+        "linear_damping": 0.67,
+        "angular_damping": 0.8200000000000001,
+        "rigid_index": 52
+      },
+      {
+        "bone": "Bone_hair012",
+        "family": "back_hair",
+        "depth": 3,
+        "segment_length": 1.3289709692708267,
+        "radius": 0.26579419385416536,
+        "mass": 0.126,
+        "linear_damping": 0.6950000000000001,
+        "angular_damping": 0.8400000000000001,
+        "rigid_index": 53
+      },
+      {
+        "bone": "Bone_hair013",
+        "family": "back_hair",
+        "depth": 4,
+        "segment_length": 0.799999367072928,
+        "radius": 0.1599998734145856,
+        "mass": 0.108,
+        "linear_damping": 0.72,
+        "angular_damping": 0.86,
+        "rigid_index": 54
+      },
+      {
+        "bone": "Bone_hair014",
+        "family": "back_hair",
+        "depth": 0,
+        "segment_length": 0.9645568644602244,
+        "radius": 0.19291137289204488,
+        "mass": 0.18,
+        "linear_damping": 0.62,
+        "angular_damping": 0.78,
+        "rigid_index": 55
+      },
+      {
+        "bone": "Bone_hair015",
+        "family": "back_hair",
+        "depth": 1,
+        "segment_length": 1.0918267084764584,
+        "radius": 0.21836534169529168,
+        "mass": 0.162,
+        "linear_damping": 0.645,
+        "angular_damping": 0.8,
+        "rigid_index": 56
+      },
+      {
+        "bone": "Bone_hair016",
+        "family": "back_hair",
+        "depth": 2,
+        "segment_length": 1.2931440398799785,
+        "radius": 0.2586288079759957,
+        "mass": 0.144,
+        "linear_damping": 0.67,
+        "angular_damping": 0.8200000000000001,
+        "rigid_index": 57
+      },
+      {
+        "bone": "Bone_hair017",
+        "family": "back_hair",
+        "depth": 3,
+        "segment_length": 1.671409800685204,
+        "radius": 0.3,
+        "mass": 0.126,
+        "linear_damping": 0.6950000000000001,
+        "angular_damping": 0.8400000000000001,
+        "rigid_index": 58
+      },
+      {
+        "bone": "Bone_hair018",
+        "family": "back_hair",
+        "depth": 4,
+        "segment_length": 1.8152549745767086,
+        "radius": 0.3,
+        "mass": 0.108,
+        "linear_damping": 0.72,
+        "angular_damping": 0.86,
+        "rigid_index": 59
+      },
+      {
+        "bone": "Bone_hair019",
+        "family": "back_hair",
+        "depth": 5,
+        "segment_length": 1.8910079993724827,
+        "radius": 0.3,
+        "mass": 0.09,
+        "linear_damping": 0.745,
+        "angular_damping": 0.88,
+        "rigid_index": 60
+      },
+      {
+        "bone": "Bone_hair020",
+        "family": "back_hair",
+        "depth": 6,
+        "segment_length": 2.2865313965080607,
+        "radius": 0.3,
+        "mass": 0.08639999999999999,
+        "linear_damping": 0.77,
+        "angular_damping": 0.9,
+        "rigid_index": 61
+      },
+      {
+        "bone": "Bone_hair021",
+        "family": "back_hair",
+        "depth": 7,
+        "segment_length": 0.8000004287807985,
+        "radius": 0.1600000857561597,
+        "mass": 0.08639999999999999,
+        "linear_damping": 0.795,
+        "angular_damping": 0.92,
+        "rigid_index": 62
+      },
+      {
+        "bone": "Bone_hair023",
+        "family": "back_hair",
+        "depth": 0,
+        "segment_length": 1.1146912914277949,
+        "radius": 0.222938258285559,
+        "mass": 0.18,
+        "linear_damping": 0.62,
+        "angular_damping": 0.78,
+        "rigid_index": 63
+      },
+      {
+        "bone": "Bone_hair024",
+        "family": "back_hair",
+        "depth": 1,
+        "segment_length": 1.1871754962096388,
+        "radius": 0.23743509924192777,
+        "mass": 0.162,
+        "linear_damping": 0.645,
+        "angular_damping": 0.8,
+        "rigid_index": 64
+      },
+      {
+        "bone": "Bone_hair025",
+        "family": "back_hair",
+        "depth": 2,
+        "segment_length": 1.126432002481328,
+        "radius": 0.22528640049626558,
+        "mass": 0.144,
+        "linear_damping": 0.67,
+        "angular_damping": 0.8200000000000001,
+        "rigid_index": 65
+      },
+      {
+        "bone": "Bone_hair026",
+        "family": "back_hair",
+        "depth": 3,
+        "segment_length": 1.107567049363829,
+        "radius": 0.2215134098727658,
+        "mass": 0.126,
+        "linear_damping": 0.6950000000000001,
+        "angular_damping": 0.8400000000000001,
+        "rigid_index": 66
+      },
+      {
+        "bone": "Bone_hair028",
+        "family": "back_hair",
+        "depth": 4,
+        "segment_length": 0.9067111108334505,
+        "radius": 0.1813422221666901,
+        "mass": 0.108,
+        "linear_damping": 0.72,
+        "angular_damping": 0.86,
+        "rigid_index": 67
+      },
+      {
+        "bone": "Bone_hair029",
+        "family": "back_hair",
+        "depth": 5,
+        "segment_length": 0.8840974364586613,
+        "radius": 0.17681948729173227,
+        "mass": 0.09,
+        "linear_damping": 0.745,
+        "angular_damping": 0.88,
+        "rigid_index": 68
+      },
+      {
+        "bone": "Bone_hair030",
+        "family": "back_hair",
+        "depth": 6,
+        "segment_length": 0.8732937802630125,
+        "radius": 0.1746587560526025,
+        "mass": 0.08639999999999999,
+        "linear_damping": 0.77,
+        "angular_damping": 0.9,
+        "rigid_index": 69
+      },
+      {
+        "bone": "Bone_hair031",
+        "family": "back_hair",
+        "depth": 7,
+        "segment_length": 0.9598049743404754,
+        "radius": 0.1919609948680951,
+        "mass": 0.08639999999999999,
+        "linear_damping": 0.795,
+        "angular_damping": 0.92,
+        "rigid_index": 70
+      },
+      {
+        "bone": "Bone_hair032",
+        "family": "back_hair",
+        "depth": 8,
+        "segment_length": 0.6238733866400734,
+        "radius": 0.12477467732801469,
+        "mass": 0.08639999999999999,
+        "linear_damping": 0.8200000000000001,
+        "angular_damping": 0.9400000000000001,
+        "rigid_index": 71
+      },
+      {
+        "bone": "Bone_hair033",
+        "family": "back_hair",
+        "depth": 4,
+        "segment_length": 0.9067107213381564,
+        "radius": 0.1813421442676313,
+        "mass": 0.108,
+        "linear_damping": 0.72,
+        "angular_damping": 0.86,
+        "rigid_index": 72
+      },
+      {
+        "bone": "Bone_hair034",
+        "family": "back_hair",
+        "depth": 5,
+        "segment_length": 0.8840959637815672,
+        "radius": 0.17681919275631344,
+        "mass": 0.09,
+        "linear_damping": 0.745,
+        "angular_damping": 0.88,
+        "rigid_index": 73
+      },
+      {
+        "bone": "Bone_hair035",
+        "family": "back_hair",
+        "depth": 6,
+        "segment_length": 0.8732958912946606,
+        "radius": 0.17465917825893212,
+        "mass": 0.08639999999999999,
+        "linear_damping": 0.77,
+        "angular_damping": 0.9,
+        "rigid_index": 74
+      },
+      {
+        "bone": "Bone_hair036",
+        "family": "back_hair",
+        "depth": 7,
+        "segment_length": 0.9598062648715985,
+        "radius": 0.1919612529743197,
+        "mass": 0.08639999999999999,
+        "linear_damping": 0.795,
+        "angular_damping": 0.92,
+        "rigid_index": 75
+      },
+      {
+        "bone": "Bone_hair037",
+        "family": "back_hair",
+        "depth": 8,
+        "segment_length": 0.6238735777193434,
+        "radius": 0.12477471554386868,
+        "mass": 0.08639999999999999,
+        "linear_damping": 0.8200000000000001,
+        "angular_damping": 0.9400000000000001,
+        "rigid_index": 76
+      },
+      {
+        "bone": "bone_ribbon00",
+        "family": "ribbon",
+        "depth": 0,
+        "segment_length": 0.22998977508855234,
+        "radius": 0.08,
+        "mass": 0.14,
+        "linear_damping": 0.66,
+        "angular_damping": 0.82,
+        "rigid_index": 77
+      },
+      {
+        "bone": "bone_ribbon01",
+        "family": "ribbon",
+        "depth": 1,
+        "segment_length": 0.23681599026498873,
+        "radius": 0.08,
+        "mass": 0.12600000000000003,
+        "linear_damping": 0.685,
+        "angular_damping": 0.84,
+        "rigid_index": 78
+      },
+      {
+        "bone": "bone_ribbon02",
+        "family": "ribbon",
+        "depth": 2,
+        "segment_length": 0.33941088765711724,
+        "radius": 0.08,
+        "mass": 0.11200000000000002,
+        "linear_damping": 0.7100000000000001,
+        "angular_damping": 0.86,
+        "rigid_index": 79
+      },
+      {
+        "bone": "bone_ribbon03",
+        "family": "ribbon",
+        "depth": 3,
+        "segment_length": 0.4057285663765129,
+        "radius": 0.08926028460283283,
+        "mass": 0.098,
+        "linear_damping": 0.7350000000000001,
+        "angular_damping": 0.8799999999999999,
+        "rigid_index": 80
+      },
+      {
+        "bone": "bone_ribbon04",
+        "family": "ribbon",
+        "depth": 4,
+        "segment_length": 0.37749150966873257,
+        "radius": 0.08304813212712117,
+        "mass": 0.084,
+        "linear_damping": 0.76,
+        "angular_damping": 0.8999999999999999,
+        "rigid_index": 81
+      },
+      {
+        "bone": "bone_ribbon05",
+        "family": "ribbon",
+        "depth": 5,
+        "segment_length": 0.24537005238206192,
+        "radius": 0.08,
+        "mass": 0.07,
+        "linear_damping": 0.785,
+        "angular_damping": 0.9199999999999999,
+        "rigid_index": 82
+      },
+      {
+        "bone": "Bn_weiba001",
+        "family": "tail",
+        "depth": 0,
+        "segment_length": 2.34139247325298,
+        "radius": 0.47,
+        "mass": 0.28,
+        "linear_damping": 0.56,
+        "angular_damping": 0.72,
+        "rigid_index": 83
+      },
+      {
+        "bone": "Bn_weiba002",
+        "family": "tail",
+        "depth": 1,
+        "segment_length": 2.3413917555235724,
+        "radius": 0.47,
+        "mass": 0.25200000000000006,
+        "linear_damping": 0.5850000000000001,
+        "angular_damping": 0.74,
+        "rigid_index": 84
+      },
+      {
+        "bone": "Bn_weiba003",
+        "family": "tail",
+        "depth": 2,
+        "segment_length": 2.341394099204456,
+        "radius": 0.47,
+        "mass": 0.22400000000000003,
+        "linear_damping": 0.6100000000000001,
+        "angular_damping": 0.76,
+        "rigid_index": 85
+      },
+      {
+        "bone": "Bn_weiba004",
+        "family": "tail",
+        "depth": 3,
+        "segment_length": 2.3413926719740363,
+        "radius": 0.47,
+        "mass": 0.196,
+        "linear_damping": 0.635,
+        "angular_damping": 0.78,
+        "rigid_index": 86
+      },
+      {
+        "bone": "Bn_weiba005",
+        "family": "tail",
+        "depth": 4,
+        "segment_length": 2.3413931778233406,
+        "radius": 0.47,
+        "mass": 0.168,
+        "linear_damping": 0.66,
+        "angular_damping": 0.7999999999999999,
+        "rigid_index": 87
+      },
+      {
+        "bone": "Bn_weiba006",
+        "family": "tail",
+        "depth": 5,
+        "segment_length": 2.3413912463861104,
+        "radius": 0.47,
+        "mass": 0.14,
+        "linear_damping": 0.685,
+        "angular_damping": 0.82,
+        "rigid_index": 88
+      },
+      {
+        "bone": "Bn_weiba007",
+        "family": "tail",
+        "depth": 6,
+        "segment_length": 2.3413969438002455,
+        "radius": 0.47,
+        "mass": 0.13440000000000002,
+        "linear_damping": 0.7100000000000001,
+        "angular_damping": 0.84,
+        "rigid_index": 89
+      },
+      {
+        "bone": "Bn_weiba008",
+        "family": "tail",
+        "depth": 7,
+        "segment_length": 0.8000004329059536,
+        "radius": 0.19200010389742886,
+        "mass": 0.13440000000000002,
+        "linear_damping": 0.7350000000000001,
+        "angular_damping": 0.86,
+        "rigid_index": 90
+      }
+    ],
+    "joints": [
+      {
+        "bone": "Bone_bow00",
+        "family": "bow",
+        "root": true,
+        "source_rigid": "体_頭",
+        "destination_rigid": "物理_Bone_bow00",
+        "joint_index": 0
+      },
+      {
+        "bone": "Bone_bow01",
+        "family": "bow",
+        "root": false,
+        "source_rigid": "物理_Bone_bow00",
+        "destination_rigid": "物理_Bone_bow01",
+        "joint_index": 1
+      },
+      {
+        "bone": "Bone_bow02",
+        "family": "bow",
+        "root": true,
+        "source_rigid": "体_頭",
+        "destination_rigid": "物理_Bone_bow02",
+        "joint_index": 2
+      },
+      {
+        "bone": "Bone_bow03",
+        "family": "bow",
+        "root": false,
+        "source_rigid": "物理_Bone_bow02",
+        "destination_rigid": "物理_Bone_bow03",
+        "joint_index": 3
+      },
+      {
+        "bone": "Bone_bow04",
+        "family": "bow",
+        "root": true,
+        "source_rigid": "体_頭",
+        "destination_rigid": "物理_Bone_bow04",
+        "joint_index": 4
+      },
+      {
+        "bone": "Bone_bow05",
+        "family": "bow",
+        "root": false,
+        "source_rigid": "物理_Bone_bow04",
+        "destination_rigid": "物理_Bone_bow05",
+        "joint_index": 5
+      },
+      {
+        "bone": "Bone_bow06",
+        "family": "bow",
+        "root": false,
+        "source_rigid": "物理_Bone_bow05",
+        "destination_rigid": "物理_Bone_bow06",
+        "joint_index": 6
+      },
+      {
+        "bone": "Bone_bow07",
+        "family": "bow",
+        "root": false,
+        "source_rigid": "物理_Bone_bow06",
+        "destination_rigid": "物理_Bone_bow07",
+        "joint_index": 7
+      },
+      {
+        "bone": "Bone_bow08",
+        "family": "bow",
+        "root": false,
+        "source_rigid": "物理_Bone_bow07",
+        "destination_rigid": "物理_Bone_bow08",
+        "joint_index": 8
+      },
+      {
+        "bone": "Bone_bow09",
+        "family": "bow",
+        "root": false,
+        "source_rigid": "物理_Bone_bow08",
+        "destination_rigid": "物理_Bone_bow09",
+        "joint_index": 9
+      },
+      {
+        "bone": "Bone_bow10",
+        "family": "bow",
+        "root": false,
+        "source_rigid": "物理_Bone_bow09",
+        "destination_rigid": "物理_Bone_bow10",
+        "joint_index": 10
+      },
+      {
+        "bone": "Bone_bow11",
+        "family": "bow",
+        "root": false,
+        "source_rigid": "物理_Bone_bow10",
+        "destination_rigid": "物理_Bone_bow11",
+        "joint_index": 11
+      },
+      {
+        "bone": "Bn_l_xiong_001",
+        "family": "breast",
+        "root": true,
+        "source_rigid": "体_上胸",
+        "destination_rigid": "物理_Bn_l_xiong_001",
+        "joint_index": 12
+      },
+      {
+        "bone": "Bn_r_xiong_001",
+        "family": "breast",
+        "root": true,
+        "source_rigid": "体_上胸",
+        "destination_rigid": "物理_Bn_r_xiong_001",
+        "joint_index": 13
+      },
+      {
+        "bone": "Bn_l_liuhai01",
+        "family": "front_hair",
+        "root": true,
+        "source_rigid": "体_頭",
+        "destination_rigid": "物理_Bn_l_liuhai01",
+        "joint_index": 14
+      },
+      {
+        "bone": "Bn_l_liuhai02",
+        "family": "front_hair",
+        "root": false,
+        "source_rigid": "物理_Bn_l_liuhai01",
+        "destination_rigid": "物理_Bn_l_liuhai02",
+        "joint_index": 15
+      },
+      {
+        "bone": "Bn_l_liuhai03",
+        "family": "front_hair",
+        "root": false,
+        "source_rigid": "物理_Bn_l_liuhai02",
+        "destination_rigid": "物理_Bn_l_liuhai03",
+        "joint_index": 16
+      },
+      {
+        "bone": "Bn_l_liuhai04",
+        "family": "front_hair",
+        "root": false,
+        "source_rigid": "物理_Bn_l_liuhai03",
+        "destination_rigid": "物理_Bn_l_liuhai04",
+        "joint_index": 17
+      },
+      {
+        "bone": "Bn_m_liuhai01",
+        "family": "front_hair",
+        "root": true,
+        "source_rigid": "体_頭",
+        "destination_rigid": "物理_Bn_m_liuhai01",
+        "joint_index": 18
+      },
+      {
+        "bone": "Bn_m_liuhai02",
+        "family": "front_hair",
+        "root": false,
+        "source_rigid": "物理_Bn_m_liuhai01",
+        "destination_rigid": "物理_Bn_m_liuhai02",
+        "joint_index": 19
+      },
+      {
+        "bone": "Bn_m_liuhai03",
+        "family": "front_hair",
+        "root": false,
+        "source_rigid": "物理_Bn_m_liuhai02",
+        "destination_rigid": "物理_Bn_m_liuhai03",
+        "joint_index": 20
+      },
+      {
+        "bone": "Bn_r_liuhai01",
+        "family": "front_hair",
+        "root": true,
+        "source_rigid": "体_頭",
+        "destination_rigid": "物理_Bn_r_liuhai01",
+        "joint_index": 21
+      },
+      {
+        "bone": "Bn_r_liuhai02",
+        "family": "front_hair",
+        "root": false,
+        "source_rigid": "物理_Bn_r_liuhai01",
+        "destination_rigid": "物理_Bn_r_liuhai02",
+        "joint_index": 22
+      },
+      {
+        "bone": "Bn_r_liuhai03",
+        "family": "front_hair",
+        "root": false,
+        "source_rigid": "物理_Bn_r_liuhai02",
+        "destination_rigid": "物理_Bn_r_liuhai03",
+        "joint_index": 23
+      },
+      {
+        "bone": "Bn_r_liuhai04",
+        "family": "front_hair",
+        "root": false,
+        "source_rigid": "物理_Bn_r_liuhai03",
+        "destination_rigid": "物理_Bn_r_liuhai04",
+        "joint_index": 24
+      },
+      {
+        "bone": "Bn_hair_daimao01",
+        "family": "ahoge",
+        "root": true,
+        "source_rigid": "体_頭",
+        "destination_rigid": "物理_Bn_hair_daimao01",
+        "joint_index": 25
+      },
+      {
+        "bone": "Bn_hair_daimao02",
+        "family": "ahoge",
+        "root": false,
+        "source_rigid": "物理_Bn_hair_daimao01",
+        "destination_rigid": "物理_Bn_hair_daimao02",
+        "joint_index": 26
+      },
+      {
+        "bone": "Bn_hair_daimao03",
+        "family": "ahoge",
+        "root": false,
+        "source_rigid": "物理_Bn_hair_daimao02",
+        "destination_rigid": "物理_Bn_hair_daimao03",
+        "joint_index": 27
+      },
+      {
+        "bone": "Bn_hair_daimao04",
+        "family": "ahoge",
+        "root": false,
+        "source_rigid": "物理_Bn_hair_daimao03",
+        "destination_rigid": "物理_Bn_hair_daimao04",
+        "joint_index": 28
+      },
+      {
+        "bone": "Bone_hair003",
+        "family": "back_hair",
+        "root": true,
+        "source_rigid": "体_頭",
+        "destination_rigid": "物理_Bone_hair003",
+        "joint_index": 29
+      },
+      {
+        "bone": "Bone_hair004",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair003",
+        "destination_rigid": "物理_Bone_hair004",
+        "joint_index": 30
+      },
+      {
+        "bone": "Bone_hair005",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair004",
+        "destination_rigid": "物理_Bone_hair005",
+        "joint_index": 31
+      },
+      {
+        "bone": "Bone_hair006",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair005",
+        "destination_rigid": "物理_Bone_hair006",
+        "joint_index": 32
+      },
+      {
+        "bone": "Bone_hair007",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair006",
+        "destination_rigid": "物理_Bone_hair007",
+        "joint_index": 33
+      },
+      {
+        "bone": "Bone_hair008",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair007",
+        "destination_rigid": "物理_Bone_hair008",
+        "joint_index": 34
+      },
+      {
+        "bone": "Bone_hair009",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair008",
+        "destination_rigid": "物理_Bone_hair009",
+        "joint_index": 35
+      },
+      {
+        "bone": "Bone_hair011",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair004",
+        "destination_rigid": "物理_Bone_hair011",
+        "joint_index": 36
+      },
+      {
+        "bone": "Bone_hair012",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair011",
+        "destination_rigid": "物理_Bone_hair012",
+        "joint_index": 37
+      },
+      {
+        "bone": "Bone_hair013",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair012",
+        "destination_rigid": "物理_Bone_hair013",
+        "joint_index": 38
+      },
+      {
+        "bone": "Bone_hair014",
+        "family": "back_hair",
+        "root": true,
+        "source_rigid": "体_頭",
+        "destination_rigid": "物理_Bone_hair014",
+        "joint_index": 39
+      },
+      {
+        "bone": "Bone_hair015",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair014",
+        "destination_rigid": "物理_Bone_hair015",
+        "joint_index": 40
+      },
+      {
+        "bone": "Bone_hair016",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair015",
+        "destination_rigid": "物理_Bone_hair016",
+        "joint_index": 41
+      },
+      {
+        "bone": "Bone_hair017",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair016",
+        "destination_rigid": "物理_Bone_hair017",
+        "joint_index": 42
+      },
+      {
+        "bone": "Bone_hair018",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair017",
+        "destination_rigid": "物理_Bone_hair018",
+        "joint_index": 43
+      },
+      {
+        "bone": "Bone_hair019",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair018",
+        "destination_rigid": "物理_Bone_hair019",
+        "joint_index": 44
+      },
+      {
+        "bone": "Bone_hair020",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair019",
+        "destination_rigid": "物理_Bone_hair020",
+        "joint_index": 45
+      },
+      {
+        "bone": "Bone_hair021",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair020",
+        "destination_rigid": "物理_Bone_hair021",
+        "joint_index": 46
+      },
+      {
+        "bone": "Bone_hair023",
+        "family": "back_hair",
+        "root": true,
+        "source_rigid": "体_頭",
+        "destination_rigid": "物理_Bone_hair023",
+        "joint_index": 47
+      },
+      {
+        "bone": "Bone_hair024",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair023",
+        "destination_rigid": "物理_Bone_hair024",
+        "joint_index": 48
+      },
+      {
+        "bone": "Bone_hair025",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair024",
+        "destination_rigid": "物理_Bone_hair025",
+        "joint_index": 49
+      },
+      {
+        "bone": "Bone_hair026",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair025",
+        "destination_rigid": "物理_Bone_hair026",
+        "joint_index": 50
+      },
+      {
+        "bone": "Bone_hair028",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair026",
+        "destination_rigid": "物理_Bone_hair028",
+        "joint_index": 51
+      },
+      {
+        "bone": "Bone_hair029",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair028",
+        "destination_rigid": "物理_Bone_hair029",
+        "joint_index": 52
+      },
+      {
+        "bone": "Bone_hair030",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair029",
+        "destination_rigid": "物理_Bone_hair030",
+        "joint_index": 53
+      },
+      {
+        "bone": "Bone_hair031",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair030",
+        "destination_rigid": "物理_Bone_hair031",
+        "joint_index": 54
+      },
+      {
+        "bone": "Bone_hair032",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair031",
+        "destination_rigid": "物理_Bone_hair032",
+        "joint_index": 55
+      },
+      {
+        "bone": "Bone_hair033",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair026",
+        "destination_rigid": "物理_Bone_hair033",
+        "joint_index": 56
+      },
+      {
+        "bone": "Bone_hair034",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair033",
+        "destination_rigid": "物理_Bone_hair034",
+        "joint_index": 57
+      },
+      {
+        "bone": "Bone_hair035",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair034",
+        "destination_rigid": "物理_Bone_hair035",
+        "joint_index": 58
+      },
+      {
+        "bone": "Bone_hair036",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair035",
+        "destination_rigid": "物理_Bone_hair036",
+        "joint_index": 59
+      },
+      {
+        "bone": "Bone_hair037",
+        "family": "back_hair",
+        "root": false,
+        "source_rigid": "物理_Bone_hair036",
+        "destination_rigid": "物理_Bone_hair037",
+        "joint_index": 60
+      },
+      {
+        "bone": "bone_ribbon00",
+        "family": "ribbon",
+        "root": true,
+        "source_rigid": "体_首",
+        "destination_rigid": "物理_bone_ribbon00",
+        "joint_index": 61
+      },
+      {
+        "bone": "bone_ribbon01",
+        "family": "ribbon",
+        "root": false,
+        "source_rigid": "物理_bone_ribbon00",
+        "destination_rigid": "物理_bone_ribbon01",
+        "joint_index": 62
+      },
+      {
+        "bone": "bone_ribbon02",
+        "family": "ribbon",
+        "root": false,
+        "source_rigid": "物理_bone_ribbon01",
+        "destination_rigid": "物理_bone_ribbon02",
+        "joint_index": 63
+      },
+      {
+        "bone": "bone_ribbon03",
+        "family": "ribbon",
+        "root": false,
+        "source_rigid": "物理_bone_ribbon02",
+        "destination_rigid": "物理_bone_ribbon03",
+        "joint_index": 64
+      },
+      {
+        "bone": "bone_ribbon04",
+        "family": "ribbon",
+        "root": false,
+        "source_rigid": "物理_bone_ribbon03",
+        "destination_rigid": "物理_bone_ribbon04",
+        "joint_index": 65
+      },
+      {
+        "bone": "bone_ribbon05",
+        "family": "ribbon",
+        "root": false,
+        "source_rigid": "物理_bone_ribbon04",
+        "destination_rigid": "物理_bone_ribbon05",
+        "joint_index": 66
+      },
+      {
+        "bone": "Bn_weiba001",
+        "family": "tail",
+        "root": true,
+        "source_rigid": "体_骨盤",
+        "destination_rigid": "物理_Bn_weiba001",
+        "joint_index": 67
+      },
+      {
+        "bone": "Bn_weiba002",
+        "family": "tail",
+        "root": false,
+        "source_rigid": "物理_Bn_weiba001",
+        "destination_rigid": "物理_Bn_weiba002",
+        "joint_index": 68
+      },
+      {
+        "bone": "Bn_weiba003",
+        "family": "tail",
+        "root": false,
+        "source_rigid": "物理_Bn_weiba002",
+        "destination_rigid": "物理_Bn_weiba003",
+        "joint_index": 69
+      },
+      {
+        "bone": "Bn_weiba004",
+        "family": "tail",
+        "root": false,
+        "source_rigid": "物理_Bn_weiba003",
+        "destination_rigid": "物理_Bn_weiba004",
+        "joint_index": 70
+      },
+      {
+        "bone": "Bn_weiba005",
+        "family": "tail",
+        "root": false,
+        "source_rigid": "物理_Bn_weiba004",
+        "destination_rigid": "物理_Bn_weiba005",
+        "joint_index": 71
+      },
+      {
+        "bone": "Bn_weiba006",
+        "family": "tail",
+        "root": false,
+        "source_rigid": "物理_Bn_weiba005",
+        "destination_rigid": "物理_Bn_weiba006",
+        "joint_index": 72
+      },
+      {
+        "bone": "Bn_weiba007",
+        "family": "tail",
+        "root": false,
+        "source_rigid": "物理_Bn_weiba006",
+        "destination_rigid": "物理_Bn_weiba007",
+        "joint_index": 73
+      },
+      {
+        "bone": "Bn_weiba008",
+        "family": "tail",
+        "root": false,
+        "source_rigid": "物理_Bn_weiba007",
+        "destination_rigid": "物理_Bn_weiba008",
+        "joint_index": 74
+      }
+    ],
+    "collision_groups": {
+      "front_hair": 4,
+      "ahoge": 7,
+      "back_hair": 8,
+      "bow": 3,
+      "ribbon": 6,
+      "tail": 5,
+      "breast": 14
+    }
+  }
+}

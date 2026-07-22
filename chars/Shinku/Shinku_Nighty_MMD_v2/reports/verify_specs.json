@@ -1,0 +1,1221 @@
+{
+ "checks": [
+  {
+   "id": "mat0_identity",
+   "spec": "materials",
+   "claim": "index 0 = 髪_02 (MI_player_076_shinku_hair_02)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "base_name": "髪_02",
+    "tris": 7636
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat0_ambient",
+   "spec": "materials",
+   "claim": "ambient 128/255",
+   "verdict": "CONFIRMED",
+   "measured": 0.5019608,
+   "notes": ""
+  },
+  {
+   "id": "mat0_spec",
+   "spec": "materials",
+   "claim": "specular (0,0,0)@5.0",
+   "verdict": "CONFIRMED",
+   "measured": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    5.0
+   ],
+   "notes": ""
+  },
+  {
+   "id": "mat1_identity",
+   "spec": "materials",
+   "claim": "index 1 = 目影 (eye_bantou)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "base_name": "目影",
+    "tris": 76
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat1_ambient",
+   "spec": "materials",
+   "claim": "ambient 128/255",
+   "verdict": "CONFIRMED",
+   "measured": 0.5019608,
+   "notes": ""
+  },
+  {
+   "id": "mat1_spec",
+   "spec": "materials",
+   "claim": "specular (0,0,0)@5.0",
+   "verdict": "CONFIRMED",
+   "measured": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    5.0
+   ],
+   "notes": ""
+  },
+  {
+   "id": "mat2_identity",
+   "spec": "materials",
+   "claim": "index 2 = 顔 (MI_player_076_shinku_face)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "base_name": "顔",
+    "tris": 5378
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat2_ambient",
+   "spec": "materials",
+   "claim": "ambient 128/255",
+   "verdict": "CONFIRMED",
+   "measured": 0.5019608,
+   "notes": ""
+  },
+  {
+   "id": "mat2_spec",
+   "spec": "materials",
+   "claim": "specular (0,0,0)@5.0",
+   "verdict": "CONFIRMED",
+   "measured": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    5.0
+   ],
+   "notes": ""
+  },
+  {
+   "id": "mat3_identity",
+   "spec": "materials",
+   "claim": "index 3 = 睫毛 (MI_player_076_shinku_eyelash)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "base_name": "睫毛",
+    "tris": 1704
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat3_ambient",
+   "spec": "materials",
+   "claim": "ambient 128/255",
+   "verdict": "CONFIRMED",
+   "measured": 0.5019608,
+   "notes": ""
+  },
+  {
+   "id": "mat3_spec",
+   "spec": "materials",
+   "claim": "specular (0,0,0)@5.0",
+   "verdict": "CONFIRMED",
+   "measured": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    5.0
+   ],
+   "notes": ""
+  },
+  {
+   "id": "mat4_identity",
+   "spec": "materials",
+   "claim": "index 4 = 瞳 (MI_player_076_shinku_eye)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "base_name": "瞳",
+    "tris": 240
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat4_ambient",
+   "spec": "materials",
+   "claim": "ambient 128/255",
+   "verdict": "CONFIRMED",
+   "measured": 0.5019608,
+   "notes": ""
+  },
+  {
+   "id": "mat4_spec",
+   "spec": "materials",
+   "claim": "specular (0,0,0)@5.0",
+   "verdict": "CONFIRMED",
+   "measured": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    5.0
+   ],
+   "notes": ""
+  },
+  {
+   "id": "mat5_identity",
+   "spec": "materials",
+   "claim": "index 5 = 目ハイライト (MI_player_076_shinku_gaogaung)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "base_name": "目HL",
+    "tris": 160
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat5_ambient",
+   "spec": "materials",
+   "claim": "ambient 1.0 (unlit catchlight)",
+   "verdict": "CONFIRMED",
+   "measured": 1.0,
+   "notes": ""
+  },
+  {
+   "id": "mat5_spec",
+   "spec": "materials",
+   "claim": "specular (0,0,0)@5.0",
+   "verdict": "CONFIRMED",
+   "measured": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    5.0
+   ],
+   "notes": ""
+  },
+  {
+   "id": "mat6_identity",
+   "spec": "materials",
+   "claim": "index 6 = 衣装_02 (MI_player_076_shinku_nighty_02)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "base_name": "衣装_player_076_shinku_nighty_02",
+    "tris": 38857
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat6_ambient",
+   "spec": "materials",
+   "claim": "ambient 192/255",
+   "verdict": "CONFIRMED",
+   "measured": 0.7529412,
+   "notes": ""
+  },
+  {
+   "id": "mat6_spec",
+   "spec": "materials",
+   "claim": "specular (0,0,0)@5.0",
+   "verdict": "CONFIRMED",
+   "measured": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    5.0
+   ],
+   "notes": ""
+  },
+  {
+   "id": "mat7_identity",
+   "spec": "materials",
+   "claim": "index 7 = 衣装_01 (MI_player_076_shinku_nighty_01)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "base_name": "衣装_player_076_shinku_nighty_01",
+    "tris": 27986
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat7_ambient",
+   "spec": "materials",
+   "claim": "ambient 192/255",
+   "verdict": "CONFIRMED",
+   "measured": 0.7529412,
+   "notes": ""
+  },
+  {
+   "id": "mat7_spec",
+   "spec": "materials",
+   "claim": "specular (0,0,0)@5.0",
+   "verdict": "CONFIRMED",
+   "measured": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    5.0
+   ],
+   "notes": ""
+  },
+  {
+   "id": "mat8_identity",
+   "spec": "materials",
+   "claim": "index 8 = 髪_01 (MI_player_076_shinku_hair_01)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "base_name": "髪_01",
+    "tris": 11568
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat8_ambient",
+   "spec": "materials",
+   "claim": "ambient 128/255",
+   "verdict": "CONFIRMED",
+   "measured": 0.5019608,
+   "notes": ""
+  },
+  {
+   "id": "mat8_spec",
+   "spec": "materials",
+   "claim": "specular (0,0,0)@5.0",
+   "verdict": "CONFIRMED",
+   "measured": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    5.0
+   ],
+   "notes": ""
+  },
+  {
+   "id": "mat1_rebind_dark",
+   "spec": "materials",
+   "claim": "目影 UVs land on dark face_d swatch (~0.17/0.11/0.11)",
+   "verdict": "CONFIRMED",
+   "measured": [
+    0.169,
+    0.114,
+    0.106
+   ],
+   "notes": ""
+  },
+  {
+   "id": "mat1_alpha",
+   "spec": "materials",
+   "claim": "目影 diffuse alpha 0.5",
+   "verdict": "CONFIRMED",
+   "measured": [
+    1.0,
+    1.0,
+    1.0,
+    0.5
+   ],
+   "notes": ""
+  },
+  {
+   "id": "bantou_uniform",
+   "spec": "materials",
+   "claim": "eye_bantou_d single uniform RGBA (96,117,132,97)",
+   "verdict": "CONFIRMED",
+   "measured": [
+    [
+     96,
+     117,
+     132,
+     97
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "id": "mat8_cutout",
+   "spec": "materials",
+   "claim": "髪_01 alpha min 0.0, >15% below 0.9",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "min": 0.0,
+    "frac<0.9": 0.212
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat6_opaque",
+   "spec": "materials",
+   "claim": "T_player_076_shinku_nighty_02_d.png opaque at own UVs",
+   "verdict": "CONFIRMED",
+   "measured": 0.9961,
+   "notes": ""
+  },
+  {
+   "id": "mat7_opaque",
+   "spec": "materials",
+   "claim": "T_player_076_shinku_nighty_01_d.png opaque at own UVs",
+   "verdict": "CONFIRMED",
+   "measured": 0.9961,
+   "notes": ""
+  },
+  {
+   "id": "mat0_edge",
+   "spec": "materials",
+   "claim": "edge bit ON per UE OutlineOverlayMaterial",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "flags": 31
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat1_edge",
+   "spec": "materials",
+   "claim": "edge bit OFF per UE OutlineOverlayMaterial",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "flags": 15
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat2_edge",
+   "spec": "materials",
+   "claim": "edge bit ON per UE OutlineOverlayMaterial",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "flags": 31
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat3_edge",
+   "spec": "materials",
+   "claim": "edge bit OFF per UE OutlineOverlayMaterial",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "flags": 15
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat4_edge",
+   "spec": "materials",
+   "claim": "edge bit OFF per UE OutlineOverlayMaterial",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "flags": 15
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat5_edge",
+   "spec": "materials",
+   "claim": "edge bit OFF per UE OutlineOverlayMaterial",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "flags": 15
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat6_edge",
+   "spec": "materials",
+   "claim": "edge bit ON per UE OutlineOverlayMaterial",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "flags": 31
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat7_edge",
+   "spec": "materials",
+   "claim": "edge bit ON per UE OutlineOverlayMaterial",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "flags": 31
+   },
+   "notes": ""
+  },
+  {
+   "id": "mat8_edge",
+   "spec": "materials",
+   "claim": "edge bit ON per UE OutlineOverlayMaterial",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "flags": 31
+   },
+   "notes": ""
+  },
+  {
+   "id": "morph_resolution",
+   "spec": "morphs",
+   "claim": "all keep/rename name_e resolve; members precede groups",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "final": 99
+   },
+   "notes": ""
+  },
+  {
+   "id": "morph_efo_subset",
+   "spec": "morphs",
+   "claim": "expression_frame_order subset of final names",
+   "verdict": "CONFIRMED",
+   "measured": [],
+   "notes": ""
+  },
+  {
+   "id": "morph_efo_order",
+   "spec": "morphs",
+   "claim": "表情 order eyebrow->eye->mouth (panels monotonic)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "first16": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     2
+    ],
+    "transitions": [
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      3
+     ]
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "morph_wink_sides",
+   "spec": "morphs",
+   "claim": "EL_Happy_l_CLO on char RIGHT (-X), r_CLO on LEFT, biyan_L on LEFT, biyan_R on RIGHT",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "EL_Happy_l_CLO": 0.0,
+    "EL_Happy_r_CLO": 1.0,
+    "biyan_L": 1.0,
+    "biyan_R": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "morph_biyan_dup",
+   "spec": "morphs",
+   "claim": "biyan == biyan1 bit-identical",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "maxdiff": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "morph_unavailable",
+   "spec": "morphs",
+   "claim": "decal morphs unavailable: only 9 materials, no TD_* decal flexes beyond TD_EyesClo",
+   "verdict": "CONFIRMED",
+   "measured": [
+    "TD_EyesClo"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "col_体_上半身",
+   "spec": "colliders",
+   "claim": "height=|上半身->上半身1|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 0.646,
+    "h_calc": 0.646,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_上半身1",
+   "spec": "colliders",
+   "claim": "height=|上半身1->上半身2|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 0.8468,
+    "h_calc": 0.8468,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_上半身2",
+   "spec": "colliders",
+   "claim": "height=|上半身2->首|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 2.6219,
+    "h_calc": 2.6219,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_首",
+   "spec": "colliders",
+   "claim": "height=|首->頭|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 0.9791,
+    "h_calc": 0.9791,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_左肩",
+   "spec": "colliders",
+   "claim": "height=|左肩->左腕|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 1.0412,
+    "h_calc": 1.0412,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_左上腕",
+   "spec": "colliders",
+   "claim": "height=|左腕->左ひじ|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 2.4496,
+    "h_calc": 2.4496,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_左前腕",
+   "spec": "colliders",
+   "claim": "height=|左ひじ->左手首|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 2.7009,
+    "h_calc": 2.7009,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_左手首",
+   "spec": "colliders",
+   "claim": "height=|左手首->左中指２|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 0.9454,
+    "h_calc": 0.9454,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_左太腿",
+   "spec": "colliders",
+   "claim": "height=|左足->左ひざ|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 5.2436,
+    "h_calc": 5.2436,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_左脛",
+   "spec": "colliders",
+   "claim": "height=|左ひざ->左足首|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 5.2315,
+    "h_calc": 5.2315,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_右肩",
+   "spec": "colliders",
+   "claim": "height=|右肩->右腕|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 1.0412,
+    "h_calc": 1.0412,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_右上腕",
+   "spec": "colliders",
+   "claim": "height=|右腕->右ひじ|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 2.4496,
+    "h_calc": 2.4496,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_右前腕",
+   "spec": "colliders",
+   "claim": "height=|右ひじ->右手首|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 2.701,
+    "h_calc": 2.701,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_右手首",
+   "spec": "colliders",
+   "claim": "height=|右手首->右中指２|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 0.9454,
+    "h_calc": 0.9454,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_右太腿",
+   "spec": "colliders",
+   "claim": "height=|右足->右ひざ|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 5.2436,
+    "h_calc": 5.2436,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "col_体_右脛",
+   "spec": "colliders",
+   "claim": "height=|右ひざ->右足首|, pos=midpoint, +Y along bone <0.1deg",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "h_spec": 5.2315,
+    "h_calc": 5.2315,
+    "pos_err": 0.0,
+    "angle_deg": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_下半身",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_上半身",
+   "spec": "colliders",
+   "claim": "mask=0xFFEE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xffee",
+    "cleared_bits": [
+     0,
+     4
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_上半身1",
+   "spec": "colliders",
+   "claim": "mask=0xFFEE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xffee",
+    "cleared_bits": [
+     0,
+     4
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_上半身2",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_胸",
+   "spec": "colliders",
+   "claim": "mask=0xBFEE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xbfee",
+    "cleared_bits": [
+     0,
+     4,
+     14
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_首",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_頭",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_左肩",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_左上腕",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_左前腕",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_左手首",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_左太腿",
+   "spec": "colliders",
+   "claim": "mask=0xFFEE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xffee",
+    "cleared_bits": [
+     0,
+     4
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_左脛",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_右肩",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_右上腕",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_右前腕",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_右手首",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_右太腿",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "colmask_体_右脛",
+   "spec": "colliders",
+   "claim": "mask=0xFFFE",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask": "0xfffe",
+    "cleared_bits": [
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "skirt_panel_names",
+   "spec": "skirt",
+   "claim": "30 panels exist as dynamic bodies in final",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "missing": []
+   },
+   "notes": ""
+  },
+  {
+   "id": "skirt_row_params",
+   "spec": "skirt",
+   "claim": "row params exact + mask 0xBB86 (collides 1,2,7,8,9,11,12,13,15; NOT 0/3/10)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "mask_bits": [
+     1,
+     2,
+     7,
+     8,
+     9,
+     11,
+     12,
+     13,
+     15
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "skirt_vjoints",
+   "spec": "skirt",
+   "claim": "30 verticals (10 anchored to 体_骨盤), radian limits match degree schedule, springs 45/26/16, no inverted axis",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "bad": []
+   },
+   "notes": ""
+  },
+  {
+   "id": "skirt_rings",
+   "spec": "skirt",
+   "claim": "30 ring joints, closed loop per row (each panel touched exactly twice)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "rows": {
+     "1": 10,
+     "2": 10,
+     "3": 10
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "skirt_heights",
+   "spec": "skirt",
+   "claim": "row1/2 half-height = seg/2; row3 bottom within 0.15 of measured hem",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "bad": []
+   },
+   "notes": ""
+  },
+  {
+   "id": "skirt_guards",
+   "spec": "skirt",
+   "claim": "5 guards, group 11, mask 0x0400, mode 0",
+   "verdict": "CONFIRMED",
+   "measured": [
+    "スカート避け_左太腿",
+    "スカート避け_左脛",
+    "スカート避け_右太腿",
+    "スカート避け_右脛",
+    "スカート避け_腰"
+   ],
+   "notes": ""
+  },
+  {
+   "id": "rig_renames",
+   "spec": "rig",
+   "claim": "all rename sources exist; no target collides with a surviving name; no dup targets",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "n": 34,
+    "collisions": []
+   },
+   "notes": ""
+  },
+  {
+   "id": "rig_finger_offbyone",
+   "spec": "rig",
+   "claim": "base 指k == Fashion 1 指(k-1) at byte precision for all 32 bones (off-by-one proven against the same-export sibling; the JK reference's hands are ~10% longer and unusable as positional ground truth here)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "bad": [],
+    "n_compared": 32
+   },
+   "notes": ""
+  },
+  {
+   "id": "rig_ryome_pos",
+   "spec": "rig",
+   "claim": "両目 edit position == reference 両目 position",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "ref": [
+     0.0028,
+     22.2007,
+     -0.8503
+    ],
+    "spec": [
+     0.0028,
+     22.2007,
+     -0.8503
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "rig_flag_bits",
+   "spec": "rig",
+   "claim": "282=0x11A rot|vis|op|inh-rot, 274=0x112, 26=0x1A (no translate bit 0x04)",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "282": "0b100011010",
+    "274": "0b100010010",
+    "26": "0b11010"
+   },
+   "notes": ""
+  },
+  {
+   "id": "rig_frames",
+   "spec": "rig",
+   "claim": "frame bones exist post-rename; no duplicates",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "missing": [],
+    "dups": []
+   },
+   "notes": ""
+  },
+  {
+   "id": "rig_phys_roots",
+   "spec": "rig",
+   "claim": "物理操作 = exactly the dynamic chain roots",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "only_in_model": [],
+    "only_in_spec": []
+   },
+   "notes": ""
+  },
+  {
+   "id": "final_counts",
+   "spec": "final",
+   "claim": "19 body colliders + 5 guards + 190 dynamic",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "p0": 19,
+    "g11": 5,
+    "dyn": 190
+   },
+   "notes": ""
+  },
+  {
+   "id": "final_sanity",
+   "spec": "final",
+   "claim": "all joint refs valid; all rigid transforms finite",
+   "verdict": "CONFIRMED",
+   "measured": {
+    "bad_joints": [],
+    "nonfinite": []
+   },
+   "notes": ""
+  },
+  {
+   "id": "final_skirt_joints",
+   "spec": "final",
+   "claim": "60 joints touch skirt panels (30 vertical + 30 ring)",
+   "verdict": "CONFIRMED",
+   "measured": 60,
+   "notes": ""
+  },
+  {
+   "id": "final_no_inverted",
+   "spec": "final",
+   "claim": "no joint in the FINAL model has rot_lower > rot_upper (free axis)",
+   "verdict": "CONFIRMED",
+   "measured": [],
+   "notes": ""
+  }
+ ],
+ "refuted_count": 0,
+ "summary": "99 checks, 0 refuted"
+}

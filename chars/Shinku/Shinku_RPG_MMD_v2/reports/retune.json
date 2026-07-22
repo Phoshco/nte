@@ -1,0 +1,3075 @@
+{
+  "input": "H:\\raw_nte_skill\\work\\rpg\\build\\00_generated.pmx",
+  "reference": "H:\\raw_nte_skill\\shared\\reference\\Shinku_School_MMD_SoA\\真红jk\\Shinku_JK.pmx",
+  "output": "H:\\raw_nte_skill\\work\\rpg\\build\\01_retuned.pmx",
+  "actions": {
+    "transplant": 70,
+    "analogy": 44,
+    "explicit": 2,
+    "kept": 0,
+    "skirt_ring_joints": 0
+  },
+  "shapes_transplanted": [
+    "Bn_L_hudiejieA02",
+    "BN_weipd01",
+    "BN_weipd02"
+  ],
+  "by_family": {
+    "breast": {
+      "explicit": 2
+    },
+    "head_ornament": {
+      "transplant_resampled": 4
+    },
+    "side_hair": {
+      "transplant_resampled": 18
+    },
+    "front_hair": {
+      "transplant_resampled": 11
+    },
+    "ponytail": {
+      "analogy<-side_hair": 42
+    },
+    "head_acc": {
+      "transplant": 1
+    },
+    "butterfly": {
+      "transplant": 18
+    },
+    "tail": {
+      "transplant_resampled": 12
+    },
+    "shoulder_hair": {
+      "transplant_resampled": 6,
+      "analogy<-shoulder_hair": 2
+    }
+  },
+  "reference_families_available": [
+    "butterfly",
+    "front_hair",
+    "head_acc",
+    "head_ornament",
+    "other",
+    "shoulder_hair",
+    "side_hair",
+    "tail"
+  ],
+  "changes": [
+    {
+      "body": "物理_Bn_l_xiong_001",
+      "bone": "Bn_l_xiong_001",
+      "family": "breast",
+      "strategy": "explicit",
+      "before": {
+        "mass": 0.20000000298023224,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          10.0,
+          8.0,
+          10.0
+        ]
+      },
+      "after": {
+        "mass": 0.4,
+        "ld": 0.85,
+        "ad": 0.9,
+        "rot_upper_deg": [
+          7.0,
+          5.0,
+          7.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_xiong_001",
+      "bone": "Bn_r_xiong_001",
+      "family": "breast",
+      "strategy": "explicit",
+      "before": {
+        "mass": 0.20000000298023224,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          10.0,
+          8.0,
+          10.0
+        ]
+      },
+      "after": {
+        "mass": 0.4,
+        "ld": 0.85,
+        "ad": 0.9,
+        "rot_upper_deg": [
+          7.0,
+          5.0,
+          7.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_hair_daimao01",
+      "bone": "Bn_hair_daimao01",
+      "family": "head_ornament",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.18000000715255737,
+        "ld": 0.6200000047683716,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 19.1103,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_hair_daimao02",
+      "bone": "Bn_hair_daimao02",
+      "family": "head_ornament",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 3.3174,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_hair_daimao03",
+      "bone": "Bn_hair_daimao03",
+      "family": "head_ornament",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.5762,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_hair_daimao04",
+      "bone": "Bn_hair_daimao04",
+      "family": "head_ornament",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.1,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_binfa01",
+      "bone": "Bn_l_binfa01",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.18000000715255737,
+        "ld": 0.6200000047683716,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 11.25,
+        "ld": 0.375,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_binfa02",
+      "bone": "Bn_l_binfa02",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.65,
+        "ld": 0.999,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_changbinfa01",
+      "bone": "Bn_l_changbinfa01",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.18000000715255737,
+        "ld": 0.6200000047683716,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 11.25,
+        "ld": 0.375,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_changbinfa02",
+      "bone": "Bn_l_changbinfa02",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 7.5628,
+        "ld": 0.438,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_changbinfa03",
+      "bone": "Bn_l_changbinfa03",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 6.6502,
+        "ld": 0.583,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_changbinfa04",
+      "bone": "Bn_l_changbinfa04",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 3.356,
+        "ld": 0.7,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_changbinfa05",
+      "bone": "Bn_l_changbinfa05",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.1080000028014183,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.6838,
+        "ld": 0.817,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_changbinfa06",
+      "bone": "Bn_l_changbinfa06",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.09000000357627869,
+        "ld": 0.7450000047683716,
+        "ad": 0.8799999952316284,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.9106,
+        "ld": 0.914,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_changbinfa07",
+      "bone": "Bn_l_changbinfa07",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.08640000224113464,
+        "ld": 0.7699999809265137,
+        "ad": 0.8999999761581421,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.65,
+        "ld": 0.999,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_liuhai01",
+      "bone": "Bn_l_liuhai01",
+      "family": "front_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.18000000715255737,
+        "ld": 0.6200000047683716,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.45,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          0.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_liuhai02",
+      "bone": "Bn_l_liuhai02",
+      "family": "front_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.3,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          0.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_liuhai03",
+      "bone": "Bn_l_liuhai03",
+      "family": "front_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.2,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          0.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_liuhai04",
+      "bone": "Bn_l_liuhai04",
+      "family": "front_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.2,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          0.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_mawei01",
+      "bone": "Bn_L_mawei01",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.18000000715255737,
+        "ld": 0.6200000047683716,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 11.25,
+        "ld": 0.375,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_mawei02",
+      "bone": "Bn_L_mawei02",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 7.5628,
+        "ld": 0.438,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_mawei03",
+      "bone": "Bn_L_mawei03",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 6.6502,
+        "ld": 0.583,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_mawei04",
+      "bone": "Bn_L_mawei04",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 3.356,
+        "ld": 0.7,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_mawei05",
+      "bone": "Bn_L_mawei05",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.1080000028014183,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.6838,
+        "ld": 0.817,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_mawei06",
+      "bone": "Bn_L_mawei06",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.09000000357627869,
+        "ld": 0.7450000047683716,
+        "ad": 0.8799999952316284,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.9106,
+        "ld": 0.914,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_mawei07",
+      "bone": "Bn_L_mawei07",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.08640000224113464,
+        "ld": 0.7699999809265137,
+        "ad": 0.8999999761581421,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.65,
+        "ld": 0.999,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Lf_mawei01",
+      "bone": "Bn_Lf_mawei01",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 6.6502,
+        "ld": 0.583,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Lf_mawei02",
+      "bone": "Bn_Lf_mawei02",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 3.356,
+        "ld": 0.7,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Lf_mawei03",
+      "bone": "Bn_Lf_mawei03",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.1080000028014183,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.6838,
+        "ld": 0.817,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Lf_mawei04",
+      "bone": "Bn_Lf_mawei04",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.09000000357627869,
+        "ld": 0.7450000047683716,
+        "ad": 0.8799999952316284,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.9106,
+        "ld": 0.914,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Lf_mawei05",
+      "bone": "Bn_Lf_mawei05",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.08640000224113464,
+        "ld": 0.7699999809265137,
+        "ad": 0.8999999761581421,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.65,
+        "ld": 0.999,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Ll_mawei01",
+      "bone": "Bn_Ll_mawei01",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 6.6502,
+        "ld": 0.583,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Ll_mawei02",
+      "bone": "Bn_Ll_mawei02",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 3.356,
+        "ld": 0.7,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Ll_mawei03",
+      "bone": "Bn_Ll_mawei03",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.1080000028014183,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.6838,
+        "ld": 0.817,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Ll_mawei04",
+      "bone": "Bn_Ll_mawei04",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.09000000357627869,
+        "ld": 0.7450000047683716,
+        "ad": 0.8799999952316284,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.9106,
+        "ld": 0.914,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Ll_mawei05",
+      "bone": "Bn_Ll_mawei05",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.08640000224113464,
+        "ld": 0.7699999809265137,
+        "ad": 0.8999999761581421,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.65,
+        "ld": 0.999,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Lr_mawei01",
+      "bone": "Bn_Lr_mawei01",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 6.6502,
+        "ld": 0.583,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Lr_mawei02",
+      "bone": "Bn_Lr_mawei02",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 3.356,
+        "ld": 0.7,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Lr_mawei03",
+      "bone": "Bn_Lr_mawei03",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.1080000028014183,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.6838,
+        "ld": 0.817,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Lr_mawei04",
+      "bone": "Bn_Lr_mawei04",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.09000000357627869,
+        "ld": 0.7450000047683716,
+        "ad": 0.8799999952316284,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.9106,
+        "ld": 0.914,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_m_liuhai01",
+      "bone": "Bn_m_liuhai01",
+      "family": "front_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.18000000715255737,
+        "ld": 0.6200000047683716,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.375,
+        "ld": 0.993,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          0.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_m_liuhai02",
+      "bone": "Bn_m_liuhai02",
+      "family": "front_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.15,
+        "ld": 0.996,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          0.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_m_liuhai03",
+      "bone": "Bn_m_liuhai03",
+      "family": "front_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.1,
+        "ld": 0.999,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          0.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_binfa01",
+      "bone": "Bn_r_binfa01",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.18000000715255737,
+        "ld": 0.6200000047683716,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 11.25,
+        "ld": 0.375,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_binfa02",
+      "bone": "Bn_r_binfa02",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.65,
+        "ld": 0.999,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_changbinfa01",
+      "bone": "Bn_r_changbinfa01",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.18000000715255737,
+        "ld": 0.6200000047683716,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 11.25,
+        "ld": 0.375,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_changbinfa02",
+      "bone": "Bn_r_changbinfa02",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 7.5628,
+        "ld": 0.438,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_changbinfa03",
+      "bone": "Bn_r_changbinfa03",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 6.6502,
+        "ld": 0.583,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_changbinfa04",
+      "bone": "Bn_r_changbinfa04",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 3.356,
+        "ld": 0.7,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_changbinfa05",
+      "bone": "Bn_r_changbinfa05",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.1080000028014183,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.6838,
+        "ld": 0.817,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_changbinfa06",
+      "bone": "Bn_r_changbinfa06",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.09000000357627869,
+        "ld": 0.7450000047683716,
+        "ad": 0.8799999952316284,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.9106,
+        "ld": 0.914,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_changbinfa07",
+      "bone": "Bn_r_changbinfa07",
+      "family": "side_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.08640000224113464,
+        "ld": 0.7699999809265137,
+        "ad": 0.8999999761581421,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.65,
+        "ld": 0.999,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_liuhai01",
+      "bone": "Bn_r_liuhai01",
+      "family": "front_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.18000000715255737,
+        "ld": 0.6200000047683716,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.45,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          0.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_liuhai02",
+      "bone": "Bn_r_liuhai02",
+      "family": "front_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.3,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          0.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_liuhai03",
+      "bone": "Bn_r_liuhai03",
+      "family": "front_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.2,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          0.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_liuhai04",
+      "bone": "Bn_r_liuhai04",
+      "family": "front_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.2,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          0.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_mawei01",
+      "bone": "Bn_R_mawei01",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.18000000715255737,
+        "ld": 0.6200000047683716,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 11.25,
+        "ld": 0.375,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_mawei02",
+      "bone": "Bn_R_mawei02",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 7.5628,
+        "ld": 0.438,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_mawei03",
+      "bone": "Bn_R_mawei03",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 6.6502,
+        "ld": 0.583,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_mawei04",
+      "bone": "Bn_R_mawei04",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 3.356,
+        "ld": 0.7,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_mawei05",
+      "bone": "Bn_R_mawei05",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.1080000028014183,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.6838,
+        "ld": 0.817,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_mawei06",
+      "bone": "Bn_R_mawei06",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.09000000357627869,
+        "ld": 0.7450000047683716,
+        "ad": 0.8799999952316284,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.9106,
+        "ld": 0.914,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_mawei07",
+      "bone": "Bn_R_mawei07",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.08640000224113464,
+        "ld": 0.7699999809265137,
+        "ad": 0.8999999761581421,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.65,
+        "ld": 0.999,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rf_mawei01",
+      "bone": "Bn_Rf_mawei01",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 6.6502,
+        "ld": 0.583,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rf_mawei02",
+      "bone": "Bn_Rf_mawei02",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 3.356,
+        "ld": 0.7,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rf_mawei03",
+      "bone": "Bn_Rf_mawei03",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.1080000028014183,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.6838,
+        "ld": 0.817,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rf_mawei04",
+      "bone": "Bn_Rf_mawei04",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.09000000357627869,
+        "ld": 0.7450000047683716,
+        "ad": 0.8799999952316284,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.9106,
+        "ld": 0.914,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rf_mawei05",
+      "bone": "Bn_Rf_mawei05",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.08640000224113464,
+        "ld": 0.7699999809265137,
+        "ad": 0.8999999761581421,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.65,
+        "ld": 0.999,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rl_mawei01",
+      "bone": "Bn_Rl_mawei01",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 6.6502,
+        "ld": 0.583,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rl_mawei02",
+      "bone": "Bn_Rl_mawei02",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 3.356,
+        "ld": 0.7,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rl_mawei03",
+      "bone": "Bn_Rl_mawei03",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.1080000028014183,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.6838,
+        "ld": 0.817,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rl_mawei04",
+      "bone": "Bn_Rl_mawei04",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.09000000357627869,
+        "ld": 0.7450000047683716,
+        "ad": 0.8799999952316284,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.9106,
+        "ld": 0.914,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rr_mawei01",
+      "bone": "Bn_Rr_mawei01",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 6.6502,
+        "ld": 0.583,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rr_mawei02",
+      "bone": "Bn_Rr_mawei02",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 3.356,
+        "ld": 0.7,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rr_mawei03",
+      "bone": "Bn_Rr_mawei03",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.1080000028014183,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.6838,
+        "ld": 0.817,
+        "ad": 2.0,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rr_mawei04",
+      "bone": "Bn_Rr_mawei04",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.09000000357627869,
+        "ld": 0.7450000047683716,
+        "ad": 0.8799999952316284,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.9106,
+        "ld": 0.914,
+        "ad": 1.54,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_Rr_mawei05",
+      "bone": "Bn_Rr_mawei05",
+      "family": "ponytail",
+      "strategy": "analogy<-side_hair",
+      "before": {
+        "mass": 0.08640000224113464,
+        "ld": 0.7699999809265137,
+        "ad": 0.8999999761581421,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.65,
+        "ld": 0.999,
+        "ad": 1.75,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_toushi",
+      "bone": "Bn_toushi",
+      "family": "head_acc",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.18000000715255737,
+        "ld": 0.6200000047683716,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 10.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_hudiejieA01",
+      "bone": "Bn_L_hudiejieA01",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_hudiejieA02",
+      "bone": "Bn_L_hudiejieA02",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_hudiejieB01",
+      "bone": "Bn_L_hudiejieB01",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_hudiejieB02",
+      "bone": "Bn_L_hudiejieB02",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_hudiejieB03",
+      "bone": "Bn_L_hudiejieB03",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_hudiejieC01",
+      "bone": "Bn_L_hudiejieC01",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_hudiejieC02",
+      "bone": "Bn_L_hudiejieC02",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_hudiejieC03",
+      "bone": "Bn_L_hudiejieC03",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_L_hudiejieC04",
+      "bone": "Bn_L_hudiejieC04",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.1080000028014183,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.1,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_hudiejieA01",
+      "bone": "Bn_R_hudiejieA01",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_hudiejieA02",
+      "bone": "Bn_R_hudiejieA02",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_hudiejieB01",
+      "bone": "Bn_R_hudiejieB01",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_hudiejieB02",
+      "bone": "Bn_R_hudiejieB02",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_hudiejieB03",
+      "bone": "Bn_R_hudiejieB03",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_hudiejieC01",
+      "bone": "Bn_R_hudiejieC01",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.16200000047683716,
+        "ld": 0.6449999809265137,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_hudiejieC02",
+      "bone": "Bn_R_hudiejieC02",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_hudiejieC03",
+      "bone": "Bn_R_hudiejieC03",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.12600000202655792,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 1.0,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_R_hudiejieC04",
+      "bone": "Bn_R_hudiejieC04",
+      "family": "butterfly",
+      "strategy": "transplant",
+      "before": {
+        "mass": 0.1080000028014183,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          20.0,
+          12.0,
+          25.0
+        ]
+      },
+      "after": {
+        "mass": 0.1,
+        "ld": 0.999,
+        "ad": 0.999,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_weiba001",
+      "bone": "Bn_weiba001",
+      "family": "tail",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.2800000011920929,
+        "ld": 0.5600000023841858,
+        "ad": 0.7200000286102295,
+        "rot_upper_deg": [
+          30.0,
+          25.0,
+          35.0
+        ]
+      },
+      "after": {
+        "mass": 0.1,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_weiba002",
+      "bone": "Bn_weiba002",
+      "family": "tail",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.25200000405311584,
+        "ld": 0.5849999785423279,
+        "ad": 0.7400000095367432,
+        "rot_upper_deg": [
+          30.0,
+          25.0,
+          35.0
+        ]
+      },
+      "after": {
+        "mass": 0.0886,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_weiba003",
+      "bone": "Bn_weiba003",
+      "family": "tail",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.2240000069141388,
+        "ld": 0.6100000143051147,
+        "ad": 0.7599999904632568,
+        "rot_upper_deg": [
+          30.0,
+          25.0,
+          35.0
+        ]
+      },
+      "after": {
+        "mass": 0.0714,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_weiba004",
+      "bone": "Bn_weiba004",
+      "family": "tail",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.19599999487400055,
+        "ld": 0.6349999904632568,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          30.0,
+          25.0,
+          35.0
+        ]
+      },
+      "after": {
+        "mass": 0.0457,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_weiba005",
+      "bone": "Bn_weiba005",
+      "family": "tail",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.1679999977350235,
+        "ld": 0.6600000262260437,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          30.0,
+          25.0,
+          35.0
+        ]
+      },
+      "after": {
+        "mass": 0.0371,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_weiba006",
+      "bone": "Bn_weiba006",
+      "family": "tail",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.14000000059604645,
+        "ld": 0.6850000023841858,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          30.0,
+          25.0,
+          35.0
+        ]
+      },
+      "after": {
+        "mass": 0.0279,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_weiba007",
+      "bone": "Bn_weiba007",
+      "family": "tail",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.13439999520778656,
+        "ld": 0.7099999785423279,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          30.0,
+          25.0,
+          35.0
+        ]
+      },
+      "after": {
+        "mass": 0.0121,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_weiba008",
+      "bone": "Bn_weiba008",
+      "family": "tail",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.13439999520778656,
+        "ld": 0.7350000143051147,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          30.0,
+          25.0,
+          35.0
+        ]
+      },
+      "after": {
+        "mass": 0.01,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_BN_weipd01",
+      "bone": "BN_weipd01",
+      "family": "tail",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.19599999487400055,
+        "ld": 0.6349999904632568,
+        "ad": 0.7799999713897705,
+        "rot_upper_deg": [
+          30.0,
+          25.0,
+          35.0
+        ]
+      },
+      "after": {
+        "mass": 0.0457,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_BN_weipd02",
+      "bone": "BN_weipd02",
+      "family": "tail",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.1679999977350235,
+        "ld": 0.6600000262260437,
+        "ad": 0.800000011920929,
+        "rot_upper_deg": [
+          30.0,
+          25.0,
+          35.0
+        ]
+      },
+      "after": {
+        "mass": 0.0371,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_BN_weipd03",
+      "bone": "BN_weipd03",
+      "family": "tail",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.14000000059604645,
+        "ld": 0.6850000023841858,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          30.0,
+          25.0,
+          35.0
+        ]
+      },
+      "after": {
+        "mass": 0.0279,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_BN_weipd04",
+      "bone": "BN_weipd04",
+      "family": "tail",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.13439999520778656,
+        "ld": 0.7099999785423279,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          30.0,
+          25.0,
+          35.0
+        ]
+      },
+      "after": {
+        "mass": 0.0121,
+        "ld": 1.0,
+        "ad": 1.0,
+        "rot_upper_deg": [
+          10.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_jianfaA01",
+      "bone": "Bn_l_jianfaA01",
+      "family": "shoulder_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.1599999964237213,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          15.0,
+          12.0,
+          20.0
+        ]
+      },
+      "after": {
+        "mass": 1.078,
+        "ld": 0.782,
+        "ad": 1.5,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_jianfaA02",
+      "bone": "Bn_l_jianfaA02",
+      "family": "shoulder_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          15.0,
+          12.0,
+          20.0
+        ]
+      },
+      "after": {
+        "mass": 0.5482,
+        "ld": 0.907,
+        "ad": 1.5,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_jianfaA03",
+      "bone": "Bn_l_jianfaA03",
+      "family": "shoulder_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.12800000607967377,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          15.0,
+          12.0,
+          20.0
+        ]
+      },
+      "after": {
+        "mass": 0.1,
+        "ld": 1.0,
+        "ad": 1.5,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_jianfaB01",
+      "bone": "Bn_l_jianfaB01",
+      "family": "shoulder_hair",
+      "strategy": "analogy<-shoulder_hair",
+      "before": {
+        "mass": 0.1599999964237213,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          15.0,
+          12.0,
+          20.0
+        ]
+      },
+      "after": {
+        "mass": 1.078,
+        "ld": 0.782,
+        "ad": 1.5,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_l_jianfaB02",
+      "bone": "Bn_l_jianfaB02",
+      "family": "shoulder_hair",
+      "strategy": "analogy<-shoulder_hair",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          15.0,
+          12.0,
+          20.0
+        ]
+      },
+      "after": {
+        "mass": 0.1,
+        "ld": 1.0,
+        "ad": 1.5,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_jianfaA01",
+      "bone": "Bn_r_jianfaA01",
+      "family": "shoulder_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.1599999964237213,
+        "ld": 0.6700000166893005,
+        "ad": 0.8199999928474426,
+        "rot_upper_deg": [
+          15.0,
+          12.0,
+          20.0
+        ]
+      },
+      "after": {
+        "mass": 1.078,
+        "ld": 0.782,
+        "ad": 1.5,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_jianfaA02",
+      "bone": "Bn_r_jianfaA02",
+      "family": "shoulder_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.14399999380111694,
+        "ld": 0.6949999928474426,
+        "ad": 0.8399999737739563,
+        "rot_upper_deg": [
+          15.0,
+          12.0,
+          20.0
+        ]
+      },
+      "after": {
+        "mass": 0.5482,
+        "ld": 0.907,
+        "ad": 1.5,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "body": "物理_Bn_r_jianfaA03",
+      "bone": "Bn_r_jianfaA03",
+      "family": "shoulder_hair",
+      "strategy": "transplant_resampled",
+      "before": {
+        "mass": 0.12800000607967377,
+        "ld": 0.7200000286102295,
+        "ad": 0.8600000143051147,
+        "rot_upper_deg": [
+          15.0,
+          12.0,
+          20.0
+        ]
+      },
+      "after": {
+        "mass": 0.1,
+        "ld": 1.0,
+        "ad": 1.5,
+        "rot_upper_deg": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}

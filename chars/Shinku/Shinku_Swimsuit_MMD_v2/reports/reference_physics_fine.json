@@ -1,0 +1,446 @@
+{
+  "status": "FAIL",
+  "model": "H:\\raw_nte_skill\\shared\\reference\\Shinku_School_MMD_SoA\\真红jk\\Shinku_JK.pmx",
+  "errors": [
+    "[settle] 6 bodies rest >15% of model height from bind: ['044_Bn_weiba004', '045_Bn_weiba005', '046_Bn_weiba006', '047_Bn_weiba007', '048_Bn_weiba008', '049_Bn_weiba009']",
+    "[settle] 1 bodies fell below the floor: ['049_Bn_weiba009']",
+    "[motion] 41 bodies rest >15% of model height from bind: ['023_Bn_L_hudiejieB03', '035_Bn_R_hudiejieC03', '036_Bn_R_hudiejieC04', '041_BN_weipd02', '042_BN_weipd03', '043_BN_weipd04', '044_Bn_weiba004', '045_Bn_weiba005']"
+  ],
+  "warnings": [
+    "[settle] 5 bodies drift 8%-15% of model height",
+    "[motion] 113 bodies drift 8%-15% of model height"
+  ],
+  "fps": 30,
+  "model_height_blender_units": 1.84569,
+  "counts": {
+    "rigid_bodies": 492,
+    "active": 471,
+    "passive": 21,
+    "joints": 754
+  },
+  "thresholds": {
+    "sag_fail_ratio": 0.15,
+    "sag_warn_ratio": 0.08
+  },
+  "baseline_compared": false,
+  "regressions_vs_baseline": [],
+  "settle": {
+    "frames": 150,
+    "series": [
+      {
+        "frame": 2,
+        "max_disp_ratio": 0.02665
+      },
+      {
+        "frame": 5,
+        "max_disp_ratio": 0.05728
+      },
+      {
+        "frame": 10,
+        "max_disp_ratio": 0.09407
+      },
+      {
+        "frame": 20,
+        "max_disp_ratio": 0.23588
+      },
+      {
+        "frame": 30,
+        "max_disp_ratio": 0.38233
+      },
+      {
+        "frame": 60,
+        "max_disp_ratio": 0.64166
+      },
+      {
+        "frame": 90,
+        "max_disp_ratio": 0.68214
+      },
+      {
+        "frame": 120,
+        "max_disp_ratio": 0.70548
+      },
+      {
+        "frame": 150,
+        "max_disp_ratio": 0.7107
+      }
+    ],
+    "max_final_ratio": 0.7107,
+    "max_peak_ratio": 0.7107,
+    "by_family": {
+      "chest_bow": {
+        "bodies": 19,
+        "max_final_ratio": 0.0046,
+        "worst": "032_Bn_R_hudiejieB03",
+        "max_peak_ratio": 0.00598
+      },
+      "tail": {
+        "bodies": 13,
+        "max_final_ratio": 0.7107,
+        "worst": "049_Bn_weiba009",
+        "max_peak_ratio": 0.7107
+      },
+      "other": {
+        "bodies": 192,
+        "max_final_ratio": 0.05463,
+        "worst": "240_スカート_5_30",
+        "max_peak_ratio": 0.06236
+      },
+      "front_hair": {
+        "bodies": 22,
+        "max_final_ratio": 0.00615,
+        "worst": "264_Bn_l_liuhai03錘",
+        "max_peak_ratio": 0.01529
+      },
+      "side_hair": {
+        "bodies": 74,
+        "max_final_ratio": 0.01628,
+        "worst": "345_Bn_l_binfa012",
+        "max_peak_ratio": 0.01633
+      },
+      "shoulder_hair": {
+        "bodies": 12,
+        "max_final_ratio": 0.01044,
+        "worst": "350_Bn_l_jianfaA05",
+        "max_peak_ratio": 0.02414
+      },
+      "head_ornament": {
+        "bodies": 7,
+        "max_final_ratio": 0.00214,
+        "worst": "358_Bn_hair_daimao07",
+        "max_peak_ratio": 0.00214
+      },
+      "back_hair": {
+        "bodies": 126,
+        "max_final_ratio": 0.04472,
+        "worst": "421_左后发3_15",
+        "max_peak_ratio": 0.04472
+      },
+      "breast": {
+        "bodies": 6,
+        "max_final_ratio": 0.00272,
+        "worst": "487_左胸上2",
+        "max_peak_ratio": 0.00285
+      }
+    },
+    "worst_20": [
+      {
+        "body": "049_Bn_weiba009",
+        "final_ratio": 0.7107
+      },
+      {
+        "body": "048_Bn_weiba008",
+        "final_ratio": 0.62652
+      },
+      {
+        "body": "047_Bn_weiba007",
+        "final_ratio": 0.45926
+      },
+      {
+        "body": "046_Bn_weiba006",
+        "final_ratio": 0.36831
+      },
+      {
+        "body": "045_Bn_weiba005",
+        "final_ratio": 0.25544
+      },
+      {
+        "body": "044_Bn_weiba004",
+        "final_ratio": 0.16011
+      },
+      {
+        "body": "043_BN_weipd04",
+        "final_ratio": 0.14743
+      },
+      {
+        "body": "042_BN_weipd03",
+        "final_ratio": 0.14728
+      },
+      {
+        "body": "041_BN_weipd02",
+        "final_ratio": 0.14089
+      },
+      {
+        "body": "040_BN_weipd01",
+        "final_ratio": 0.12657
+      },
+      {
+        "body": "039_Bn_weiba003",
+        "final_ratio": 0.08658
+      },
+      {
+        "body": "240_スカート_5_30",
+        "final_ratio": 0.05463
+      },
+      {
+        "body": "421_左后发3_15",
+        "final_ratio": 0.04472
+      },
+      {
+        "body": "208_スカート_4_30",
+        "final_ratio": 0.04421
+      },
+      {
+        "body": "484_右后发3_15",
+        "final_ratio": 0.04408
+      },
+      {
+        "body": "420_左后发3_14",
+        "final_ratio": 0.04338
+      },
+      {
+        "body": "483_右后发3_14",
+        "final_ratio": 0.04276
+      },
+      {
+        "body": "419_左后发3_13",
+        "final_ratio": 0.04217
+      },
+      {
+        "body": "379_左后发0_21",
+        "final_ratio": 0.0421
+      },
+      {
+        "body": "482_右后发3_13",
+        "final_ratio": 0.04156
+      }
+    ],
+    "nonfinite": [],
+    "below_ground": [
+      "049_Bn_weiba009"
+    ],
+    "failing_bodies": [
+      "044_Bn_weiba004",
+      "045_Bn_weiba005",
+      "046_Bn_weiba006",
+      "047_Bn_weiba007",
+      "048_Bn_weiba008",
+      "049_Bn_weiba009"
+    ]
+  },
+  "motion": {
+    "frames": 180,
+    "series": [
+      {
+        "frame": 2,
+        "max_disp_ratio": 0.09935
+      },
+      {
+        "frame": 5,
+        "max_disp_ratio": 0.27443
+      },
+      {
+        "frame": 10,
+        "max_disp_ratio": 0.23064
+      },
+      {
+        "frame": 20,
+        "max_disp_ratio": 0.24172
+      },
+      {
+        "frame": 30,
+        "max_disp_ratio": 0.25761
+      },
+      {
+        "frame": 60,
+        "max_disp_ratio": 0.23179
+      },
+      {
+        "frame": 90,
+        "max_disp_ratio": 0.25777
+      },
+      {
+        "frame": 120,
+        "max_disp_ratio": 0.29532
+      },
+      {
+        "frame": 180,
+        "max_disp_ratio": 0.24727
+      }
+    ],
+    "max_final_ratio": 0.24727,
+    "max_peak_ratio": 0.32325,
+    "by_family": {
+      "chest_bow": {
+        "bodies": 19,
+        "max_final_ratio": 0.19566,
+        "worst": "036_Bn_R_hudiejieC04",
+        "max_peak_ratio": 0.29767
+      },
+      "tail": {
+        "bodies": 13,
+        "max_final_ratio": 0.22428,
+        "worst": "043_BN_weipd04",
+        "max_peak_ratio": 0.26691
+      },
+      "other": {
+        "bodies": 192,
+        "max_final_ratio": 0.12244,
+        "worst": "235_スカート_5_25",
+        "max_peak_ratio": 0.25847
+      },
+      "front_hair": {
+        "bodies": 22,
+        "max_final_ratio": 0.0936,
+        "worst": "264_Bn_l_liuhai03錘",
+        "max_peak_ratio": 0.18392
+      },
+      "side_hair": {
+        "bodies": 74,
+        "max_final_ratio": 0.1076,
+        "worst": "288_Bn_r_changbinfa023",
+        "max_peak_ratio": 0.32325
+      },
+      "shoulder_hair": {
+        "bodies": 12,
+        "max_final_ratio": 0.04584,
+        "worst": "346_Bn_l_jianfaA01",
+        "max_peak_ratio": 0.1487
+      },
+      "head_ornament": {
+        "bodies": 7,
+        "max_final_ratio": 0.03603,
+        "worst": "358_Bn_hair_daimao07",
+        "max_peak_ratio": 0.17673
+      },
+      "back_hair": {
+        "bodies": 126,
+        "max_final_ratio": 0.24727,
+        "worst": "421_左后发3_15",
+        "max_peak_ratio": 0.31362
+      },
+      "breast": {
+        "bodies": 6,
+        "max_final_ratio": 0.0089,
+        "worst": "490_右胸上2",
+        "max_peak_ratio": 0.14402
+      }
+    },
+    "worst_20": [
+      {
+        "body": "421_左后发3_15",
+        "final_ratio": 0.24727
+      },
+      {
+        "body": "420_左后发3_14",
+        "final_ratio": 0.2364
+      },
+      {
+        "body": "442_右后发0_21",
+        "final_ratio": 0.22595
+      },
+      {
+        "body": "419_左后发3_13",
+        "final_ratio": 0.22539
+      },
+      {
+        "body": "043_BN_weipd04",
+        "final_ratio": 0.22428
+      },
+      {
+        "body": "484_右后发3_15",
+        "final_ratio": 0.21667
+      },
+      {
+        "body": "457_右后发1_15",
+        "final_ratio": 0.21328
+      },
+      {
+        "body": "394_左后发1_15",
+        "final_ratio": 0.21273
+      },
+      {
+        "body": "046_Bn_weiba006",
+        "final_ratio": 0.20897
+      },
+      {
+        "body": "418_左后发3_12",
+        "final_ratio": 0.20882
+      },
+      {
+        "body": "441_右后发0_20",
+        "final_ratio": 0.20679
+      },
+      {
+        "body": "393_左后发1_14",
+        "final_ratio": 0.20552
+      },
+      {
+        "body": "045_Bn_weiba005",
+        "final_ratio": 0.20447
+      },
+      {
+        "body": "379_左后发0_21",
+        "final_ratio": 0.20379
+      },
+      {
+        "body": "456_右后发1_14",
+        "final_ratio": 0.20064
+      },
+      {
+        "body": "483_右后发3_14",
+        "final_ratio": 0.19984
+      },
+      {
+        "body": "392_左后发1_13",
+        "final_ratio": 0.19875
+      },
+      {
+        "body": "036_Bn_R_hudiejieC04",
+        "final_ratio": 0.19566
+      },
+      {
+        "body": "042_BN_weipd03",
+        "final_ratio": 0.19545
+      },
+      {
+        "body": "047_Bn_weiba007",
+        "final_ratio": 0.19531
+      }
+    ],
+    "nonfinite": [],
+    "below_ground": [],
+    "failing_bodies": [
+      "023_Bn_L_hudiejieB03",
+      "035_Bn_R_hudiejieC03",
+      "036_Bn_R_hudiejieC04",
+      "041_BN_weipd02",
+      "042_BN_weipd03",
+      "043_BN_weipd04",
+      "044_Bn_weiba004",
+      "045_Bn_weiba005",
+      "046_Bn_weiba006",
+      "047_Bn_weiba007",
+      "375_左后发0_17",
+      "376_左后发0_18",
+      "377_左后发0_19",
+      "378_左后发0_20",
+      "379_左后发0_21",
+      "389_左后发1_10",
+      "390_左后发1_11",
+      "391_左后发1_12",
+      "392_左后发1_13",
+      "393_左后发1_14",
+      "394_左后发1_15",
+      "416_左后发3_10",
+      "417_左后发3_11",
+      "418_左后发3_12",
+      "419_左后发3_13",
+      "420_左后发3_14",
+      "421_左后发3_15",
+      "439_右后发0_18",
+      "440_右后发0_19",
+      "441_右后发0_20",
+      "442_右后发0_21",
+      "453_右后发1_11",
+      "454_右后发1_12",
+      "455_右后发1_13",
+      "456_右后发1_14",
+      "457_右后发1_15",
+      "469_右后发2_12",
+      "481_右后发3_12",
+      "482_右后发3_13",
+      "483_右后发3_14",
+      "484_右后发3_15"
+    ]
+  }
+}

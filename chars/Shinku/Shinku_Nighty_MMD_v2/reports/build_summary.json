@@ -1,0 +1,34 @@
+{
+  "model": "Shinku_Nighty.pmx",
+  "outfit": "Nighty (nightgown + chest/back-waist/thigh bow accessories + head bow)",
+  "pipeline": "gen_nighty -> mmd_physics_retune (vs Shinku_JK) -> fix_rigid_frames -> mmd_refine (5 specs) -> fix_initial_overlaps",
+  "counts": {
+    "vertices": 63395,
+    "faces": 93605,
+    "materials": 9,
+    "bones": 301,
+    "morphs": 99,
+    "rigid_bodies": 214,
+    "joints": 220,
+    "display_frames": 11,
+    "textures": 6
+  },
+  "weight_invariance": {
+    "name_based_signature_base_vs_final": "aac0f12b8a322518 == aac0f12b8a322518 (renames mapped)",
+    "index_based_signature_generated_vs_final": "0c87a52799348cec == 0c87a52799348cec"
+  },
+  "alignment_probe": {
+    "median_deg": 0.0,
+    "p90_deg": 0.022,
+    "within_1deg_pct": 96.2,
+    "note": "all >1deg entries are deliberate X-axis/vertical shapes (hip, bust, hip-guard, head, palm axes)"
+  },
+  "textures_kept": [
+    "T_player_076_shinku_eyes_d.png",
+    "T_player_076_shinku_face_d.png",
+    "T_player_076_shinku_hair_01_d.png",
+    "T_player_076_shinku_hair_02_d.png",
+    "T_player_076_shinku_nighty_01_d.png",
+    "T_player_076_shinku_nighty_02_d.png"
+  ]
+}

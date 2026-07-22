@@ -1,0 +1,56 @@
+{
+  "model": "H:\\raw_nte_skill\\output\\Shinku_Swimsuit_MMD_v2\\Shinku_Swimsuit.pmx",
+  "baseline": "H:\\raw_nte_skill\\work\\swimsuit\\specs\\reference_physics_fine.json",
+  "textures_kept": [
+    "T_player_076_shinku_eyes_d.png",
+    "T_player_076_shinku_face_d.png",
+    "T_player_076_shinku_swimsuit_01_d.png",
+    "T_player_076_shinku_swimsuit_02_d.png",
+    "T_player_076_shinku_swimsuit_03_d.png",
+    "T_player_076_shinku_swimsuit_hair_01_d.png",
+    "T_player_076_shinku_swimsuit_hair_02_d.png"
+  ],
+  "textures_removed": [
+    "1127_2.png",
+    "134235eps455glnzsyqjen.png",
+    "223748y0gzz6qqs0upd52p.png",
+    "eye_bantou_d.png",
+    "MatCap065.png",
+    "MatCap065_2.png",
+    "MatCap066.png",
+    "Matcap10.png",
+    "T_Linear_Gray.png",
+    "T_Linear_White.png",
+    "T_Noise_004_XL.png",
+    "T_player_076_shinku_face_m.png",
+    "T_player_076_shinku_face_r.png",
+    "T_player_076_shinku_swimsuit_01_id.png",
+    "T_player_076_shinku_swimsuit_01_m.png",
+    "T_player_076_shinku_swimsuit_01_mask.png",
+    "T_player_076_shinku_swimsuit_01_n.png",
+    "T_player_076_shinku_swimsuit_02_id.png",
+    "T_player_076_shinku_swimsuit_02_m.png",
+    "T_player_076_shinku_swimsuit_02_n.png",
+    "T_player_076_shinku_swimsuit_03_id.png",
+    "T_player_076_shinku_swimsuit_03_m.png",
+    "T_player_076_shinku_swimsuit_03_n.png",
+    "T_player_076_shinku_swimsuit_hair_01_m.png",
+    "T_player_076_shinku_swimsuit_hair_02_m.png"
+  ],
+  "counts": {
+    "vertices": 55980,
+    "faces": 81304,
+    "materials": 10,
+    "bones": 193,
+    "morphs": 99,
+    "rigid_bodies": 94,
+    "joints": 75,
+    "display_frames": 11
+  },
+  "stages": {
+    "retune": "RETUNE={\"actions\": {\"transplant\": 23, \"analogy\": 50, \"explicit\": 2, \"kept\": 0, \"skirt_ring_joints\": 0}, \"by_family\": {\"chest_bow\": {\"analogy<-back_hair\": 12}, \"breast\": {\"explicit\": 2}, \"front_hair\": {\"transplant_resampled\": 11}, \"head_ornament\": {\"transplant_resampled\": 4}, \"back_hair\": {\"analogy<-back_hair\": 32}, \"neck_ribbon\": {\"analogy<-butterfly\": 6}, \"tail\": {\"transplant_resampled\": 8}}}",
+    "frames": "FRAMES={\"capsules_reframed\": 71, \"skipped\": 20, \"median_correction_deg\": 18.48, \"max_correction_deg\": 181.19}",
+    "refine": "REFINE={\"status\": \"PASS\", \"materials\": 10, \"morphs\": 99, \"actions\": {\"keep\": 70, \"rename\": 16, \"group\": 10, \"baked\": 3}, \"colliders\": {\"updated\": 16, \"added\": 3}, \"skirt\": {\"panels_updated\": 0, \"guards_added\": 0, \"vertical\": 0, \"ring\": 0, \"removed_joints\": 0}, \"rig\": {\"renames\": 2, \"edits\": 7, \"frames\": 11}, \"problems\": []}",
+    "overlaps": "OVERLAPS={\"found\": 10, \"disabled\": [{\"dynamic_group\": 6, \"passive_group\": 0, \"bodies_embedded\": 6, \"family_size\": 6, \"fraction\": 1.0, \"max_start_depth\": 0.5974, \"action\": \"disabled - structural embedding\"}, {\"dynamic_group\": 14, \"passive_group\": 0, \"bodies_embedded\": 2, \"family_size\": 2, \"fraction\": 1.0, \"max_start_depth\": 0.3472, \"action\": \"disabled - structural embedding\"}], \"kept\": []}"
+  }
+}

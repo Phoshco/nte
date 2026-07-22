@@ -1,0 +1,179 @@
+{
+  "input": "H:\\raw_nte_skill\\work\\rpg\\build\\01_retuned.pmx",
+  "output": "H:\\raw_nte_skill\\work\\rpg\\build\\01b_tailfit.pmx",
+  "resized": 11,
+  "skipped": 1,
+  "changes": [
+    {
+      "body": "物理_Bn_weiba001",
+      "bone": "Bn_weiba001",
+      "before": [
+        0.3,
+        1.7414
+      ],
+      "after": [
+        1.0105,
+        0.3204
+      ],
+      "span_preserved": 2.3414,
+      "mesh_r50": 1.0105,
+      "verts": 288
+    },
+    {
+      "body": "物理_Bn_weiba002",
+      "bone": "Bn_weiba002",
+      "before": [
+        0.3,
+        1.7414
+      ],
+      "after": [
+        1.024,
+        0.2934
+      ],
+      "span_preserved": 2.3414,
+      "mesh_r50": 1.024,
+      "verts": 191
+    },
+    {
+      "body": "物理_Bn_weiba003",
+      "bone": "Bn_weiba003",
+      "before": [
+        0.3,
+        1.7414
+      ],
+      "after": [
+        1.1482,
+        0.05
+      ],
+      "span_preserved": 2.3414,
+      "mesh_r50": 1.1482,
+      "verts": 508
+    },
+    {
+      "body": "物理_Bn_weiba004",
+      "bone": "Bn_weiba004",
+      "before": [
+        0.3,
+        1.7414
+      ],
+      "after": [
+        0.9646,
+        0.4123
+      ],
+      "span_preserved": 2.3414,
+      "mesh_r50": 0.9646,
+      "verts": 233
+    },
+    {
+      "body": "物理_Bn_weiba005",
+      "bone": "Bn_weiba005",
+      "before": [
+        0.3,
+        1.7414
+      ],
+      "after": [
+        0.8179,
+        0.7056
+      ],
+      "span_preserved": 2.3414,
+      "mesh_r50": 0.8179,
+      "verts": 68
+    },
+    {
+      "body": "物理_Bn_weiba006",
+      "bone": "Bn_weiba006",
+      "before": [
+        0.3,
+        1.7414
+      ],
+      "after": [
+        0.6938,
+        0.9538
+      ],
+      "span_preserved": 2.3414,
+      "mesh_r50": 0.6938,
+      "verts": 81
+    },
+    {
+      "body": "物理_Bn_weiba007",
+      "bone": "Bn_weiba007",
+      "before": [
+        0.3,
+        1.7414
+      ],
+      "after": [
+        0.4809,
+        1.3797
+      ],
+      "span_preserved": 2.3414,
+      "mesh_r50": 0.4809,
+      "verts": 126
+    },
+    {
+      "body": "物理_Bn_weiba008",
+      "bone": "Bn_weiba008",
+      "before": [
+        0.192,
+        0.416
+      ],
+      "after": [
+        0.301,
+        0.1981
+      ],
+      "span_preserved": 0.8,
+      "mesh_r50": 0.301,
+      "verts": 43
+    },
+    {
+      "body": "物理_BN_weipd01",
+      "bone": "BN_weipd01",
+      "before": [
+        0.3408,
+        1.7039
+      ],
+      "after": [
+        0.2851,
+        1.8153
+      ],
+      "span_preserved": 2.3854,
+      "mesh_r50": 0.2851,
+      "verts": 30
+    },
+    {
+      "body": "物理_BN_weipd02",
+      "bone": "BN_weipd02",
+      "before": [
+        0.3408,
+        1.7039
+      ],
+      "after": [
+        0.2845,
+        1.8165
+      ],
+      "span_preserved": 2.3854,
+      "mesh_r50": 0.2845,
+      "verts": 30
+    },
+    {
+      "body": "物理_BN_weipd04",
+      "bone": "BN_weipd04",
+      "before": [
+        0.192,
+        0.416
+      ],
+      "after": [
+        0.1,
+        0.5999
+      ],
+      "span_preserved": 0.8,
+      "mesh_r50": 0.1,
+      "verts": 373
+    }
+  ],
+  "skipped_detail": [
+    {
+      "body": "物理_BN_weipd03",
+      "why": "already within 0.02 of mesh fit"
+    }
+  ]
+}

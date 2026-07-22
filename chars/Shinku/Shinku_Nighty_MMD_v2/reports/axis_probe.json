@@ -1,0 +1,104 @@
+{
+  "model": "H:\\raw_nte_skill\\work\\nighty\\build\\05_final.pmx",
+  "n": 157,
+  "median_deg": 0.0,
+  "within_1deg_pct": 96.2,
+  "within_5deg_pct": 96.2,
+  "p90_deg": 0.022,
+  "best_axis_histogram": {
+    "X": 3,
+    "Z": 154
+  },
+  "worst_15": [
+    {
+      "body": "000_体_下半身",
+      "bone": "下半身",
+      "axis": "X",
+      "deg": 37.143
+    },
+    {
+      "body": "210_スカート避け_腰",
+      "bone": "下半身",
+      "axis": "X",
+      "deg": 37.143
+    },
+    {
+      "body": "211_体_胸",
+      "bone": "上半身3",
+      "axis": "X",
+      "deg": 13.28
+    },
+    {
+      "body": "005_体_頭",
+      "bone": "頭",
+      "axis": "Z",
+      "deg": 12.311
+    },
+    {
+      "body": "212_体_左手首",
+      "bone": "手首.L",
+      "axis": "Z",
+      "deg": 7.129
+    },
+    {
+      "body": "213_体_右手首",
+      "bone": "手首.R",
+      "axis": "Z",
+      "deg": 7.129
+    },
+    {
+      "body": "105_物理_Bn_r_changbinfa01",
+      "bone": "Bn_r_changbinfa01",
+      "axis": "Z",
+      "deg": 0.029
+    },
+    {
+      "body": "183_物理_Bn_r_qunbai01",
+      "bone": "Bn_r_qunbai01",
+      "axis": "Z",
+      "deg": 0.027
+    },
+    {
+      "body": "052_物理_Bone_BowT03",
+      "bone": "Bone_BowT03",
+      "axis": "Z",
+      "deg": 0.024
+    },
+    {
+      "body": "091_物理_Bn_Ll_mawei01",
+      "bone": "Bn_Ll_mawei01",
+      "axis": "Z",
+      "deg": 0.024
+    },
+    {
+      "body": "046_物理_Bone_BowR08",
+      "bone": "Bone_BowR08",
+      "axis": "Z",
+      "deg": 0.023
+    },
+    {
+      "body": "177_物理_Bn_frb_qunbai01",
+      "bone": "Bn_frb_qunbai01",
+      "axis": "Z",
+      "deg": 0.023
+    },
+    {
+      "body": "181_物理_Bn_l_qunbai02",
+      "bone": "Bn_l_qunbai02",
+      "axis": "Z",
+      "deg": 0.023
+    },
+    {
+      "body": "050_物理_Bone_BowT01",
+      "bone": "Bone_BowT01",
+      "axis": "Z",
+      "deg": 0.022
+    },
+    {
+      "body": "058_物理_Bone_BowT09",
+      "bone": "Bone_BowT09",
+      "axis": "Z",
+      "deg": 0.022
+    }
+  ]
+}

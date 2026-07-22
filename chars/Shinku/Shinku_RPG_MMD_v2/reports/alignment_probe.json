@@ -1,0 +1,104 @@
+{
+  "model": "H:\\raw_nte_skill\\output\\Shinku_RPG_MMD_v2\\Shinku_RPG.pmx",
+  "n": 104,
+  "median_deg": 0.007,
+  "within_1deg_pct": 97.1,
+  "within_5deg_pct": 97.1,
+  "p90_deg": 0.022,
+  "best_axis_histogram": {
+    "X": 2,
+    "Z": 102
+  },
+  "worst_15": [
+    {
+      "body": "000_体_下半身",
+      "bone": "下半身",
+      "axis": "X",
+      "deg": 37.143
+    },
+    {
+      "body": "132_体_胸",
+      "bone": "上半身3",
+      "axis": "X",
+      "deg": 13.28
+    },
+    {
+      "body": "005_体_頭",
+      "bone": "頭",
+      "axis": "Z",
+      "deg": 12.311
+    },
+    {
+      "body": "079_物理_Bn_Rf_mawei01",
+      "bone": "Bn_Rf_mawei01",
+      "axis": "Z",
+      "deg": 0.026
+    },
+    {
+      "body": "077_物理_Bn_R_mawei06",
+      "bone": "Bn_R_mawei06",
+      "axis": "Z",
+      "deg": 0.025
+    },
+    {
+      "body": "020_物理_Bn_hair_daimao03",
+      "bone": "Bn_hair_daimao03",
+      "axis": "Z",
+      "deg": 0.024
+    },
+    {
+      "body": "057_物理_Bn_m_liuhai02",
+      "bone": "Bn_m_liuhai02",
+      "axis": "Z",
+      "deg": 0.023
+    },
+    {
+      "body": "061_物理_Bn_r_changbinfa01",
+      "bone": "Bn_r_changbinfa01",
+      "axis": "Z",
+      "deg": 0.023
+    },
+    {
+      "body": "033_物理_Bn_l_liuhai03",
+      "bone": "Bn_l_liuhai03",
+      "axis": "Z",
+      "deg": 0.022
+    },
+    {
+      "body": "048_物理_Bn_Ll_mawei02",
+      "bone": "Bn_Ll_mawei02",
+      "axis": "Z",
+      "deg": 0.022
+    },
+    {
+      "body": "054_物理_Bn_Lr_mawei03",
+      "bone": "Bn_Lr_mawei03",
+      "axis": "Z",
+      "deg": 0.022
+    },
+    {
+      "body": "080_物理_Bn_Rf_mawei02",
+      "bone": "Bn_Rf_mawei02",
+      "axis": "Z",
+      "deg": 0.022
+    },
+    {
+      "body": "049_物理_Bn_Ll_mawei03",
+      "bone": "Bn_Ll_mawei03",
+      "axis": "Z",
+      "deg": 0.021
+    },
+    {
+      "body": "113_物理_Bn_weiba002",
+      "bone": "Bn_weiba002",
+      "axis": "Z",
+      "deg": 0.021
+    },
+    {
+      "body": "114_物理_Bn_weiba003",
+      "bone": "Bn_weiba003",
+      "axis": "Z",
+      "deg": 0.021
+    }
+  ]
+}

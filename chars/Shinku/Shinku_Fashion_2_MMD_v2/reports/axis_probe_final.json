@@ -1,0 +1,104 @@
+{
+  "model": "H:\\raw_nte_skill\\output\\Shinku_Fashion_2_MMD_v2\\Shinku_Fashion_2.pmx",
+  "n": 136,
+  "median_deg": 0.0,
+  "within_1deg_pct": 94.1,
+  "within_5deg_pct": 94.1,
+  "p90_deg": 0.023,
+  "best_axis_histogram": {
+    "X": 3,
+    "Z": 133
+  },
+  "worst_15": [
+    {
+      "body": "000_体_下半身",
+      "bone": "下半身",
+      "axis": "X",
+      "deg": 37.143
+    },
+    {
+      "body": "164_スカート避け_腰",
+      "bone": "下半身",
+      "axis": "X",
+      "deg": 37.143
+    },
+    {
+      "body": "169_体_胸",
+      "bone": "上半身3",
+      "axis": "X",
+      "deg": 13.28
+    },
+    {
+      "body": "005_体_頭",
+      "bone": "頭",
+      "axis": "Z",
+      "deg": 12.311
+    },
+    {
+      "body": "167_スカート避け_左脛",
+      "bone": "ひざ.L",
+      "axis": "Z",
+      "deg": 7.173
+    },
+    {
+      "body": "168_スカート避け_右脛",
+      "bone": "ひざ.R",
+      "axis": "Z",
+      "deg": 7.173
+    },
+    {
+      "body": "170_体_左手首",
+      "bone": "手首.L",
+      "axis": "Z",
+      "deg": 7.129
+    },
+    {
+      "body": "171_体_右手首",
+      "bone": "手首.R",
+      "axis": "Z",
+      "deg": 7.129
+    },
+    {
+      "body": "165_スカート避け_左太腿",
+      "bone": "足.L",
+      "axis": "Z",
+      "deg": 0.853
+    },
+    {
+      "body": "166_スカート避け_右太腿",
+      "bone": "足.R",
+      "axis": "Z",
+      "deg": 0.853
+    },
+    {
+      "body": "129_物理_Bn_frb_qunbai01",
+      "bone": "Bn_frb_qunbai01",
+      "axis": "Z",
+      "deg": 0.025
+    },
+    {
+      "body": "137_物理_Bn_l_qunbai02",
+      "bone": "Bn_l_qunbai02",
+      "axis": "Z",
+      "deg": 0.024
+    },
+    {
+      "body": "015_体_右脛",
+      "bone": "ひざ.R",
+      "axis": "Z",
+      "deg": 0.023
+    },
+    {
+      "body": "148_物理_Bn_r_qunbai06",
+      "bone": "Bn_r_qunbai06",
+      "axis": "Z",
+      "deg": 0.023
+    },
+    {
+      "body": "033_物理_Bn_l_liuhai03",
+      "bone": "Bn_l_liuhai03",
+      "axis": "Z",
+      "deg": 0.022
+    }
+  ]
+}

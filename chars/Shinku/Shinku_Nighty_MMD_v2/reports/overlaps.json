@@ -1,0 +1,188 @@
+{
+  "input": "build\\04_refined.pmx",
+  "output": "build\\05_final.pmx",
+  "threshold": 0.02,
+  "overlapping_pairs_found": 20,
+  "group_pairs_disabled": [
+    {
+      "dynamic_group": 6,
+      "passive_group": 0,
+      "bodies_embedded": 7,
+      "family_size": 8,
+      "fraction": 0.875,
+      "max_start_depth": 0.1677,
+      "action": "disabled - structural embedding"
+    },
+    {
+      "dynamic_group": 14,
+      "passive_group": 0,
+      "bodies_embedded": 2,
+      "family_size": 2,
+      "fraction": 1.0,
+      "max_start_depth": 0.1694,
+      "action": "disabled - structural embedding"
+    }
+  ],
+  "group_pairs_kept": [
+    {
+      "dynamic_group": 3,
+      "passive_group": 0,
+      "bodies_embedded": 9,
+      "family_size": 94,
+      "fraction": 0.096,
+      "max_start_depth": 0.1391,
+      "action": "kept - incidental contact, collision is still worth having"
+    },
+    {
+      "dynamic_group": 4,
+      "passive_group": 0,
+      "bodies_embedded": 1,
+      "family_size": 44,
+      "fraction": 0.023,
+      "max_start_depth": 0.0301,
+      "action": "kept - incidental contact, collision is still worth having"
+    }
+  ],
+  "overlaps": [
+    {
+      "dynamic": "物理_Bn_l_xiong_001",
+      "dynamic_group": 14,
+      "passive": "体_上半身2",
+      "passive_group": 0,
+      "depth": 0.1694
+    },
+    {
+      "dynamic": "物理_Bn_l_jianfaA02",
+      "dynamic_group": 6,
+      "passive": "体_左肩",
+      "passive_group": 0,
+      "depth": 0.1677
+    },
+    {
+      "dynamic": "物理_Bn_l_jianfaB02",
+      "dynamic_group": 6,
+      "passive": "体_左肩",
+      "passive_group": 0,
+      "depth": 0.1629
+    },
+    {
+      "dynamic": "物理_Bn_r_xiong_001",
+      "dynamic_group": 14,
+      "passive": "体_上半身2",
+      "passive_group": 0,
+      "depth": 0.1409
+    },
+    {
+      "dynamic": "物理_Bn_l_changbinfa05",
+      "dynamic_group": 3,
+      "passive": "体_胸",
+      "passive_group": 0,
+      "depth": 0.1391
+    },
+    {
+      "dynamic": "物理_Bn_r_changbinfa05",
+      "dynamic_group": 3,
+      "passive": "体_胸",
+      "passive_group": 0,
+      "depth": 0.1391
+    },
+    {
+      "dynamic": "物理_Bn_l_jianfaB02",
+      "dynamic_group": 6,
+      "passive": "体_左上腕",
+      "passive_group": 0,
+      "depth": 0.1088
+    },
+    {
+      "dynamic": "物理_Bn_r_jianfaA02",
+      "dynamic_group": 6,
+      "passive": "体_右肩",
+      "passive_group": 0,
+      "depth": 0.1061
+    },
+    {
+      "dynamic": "物理_Bn_r_jianfaA01",
+      "dynamic_group": 6,
+      "passive": "体_右肩",
+      "passive_group": 0,
+      "depth": 0.086
+    },
+    {
+      "dynamic": "物理_Bn_r_jianfaA03",
+      "dynamic_group": 6,
+      "passive": "体_右肩",
+      "passive_group": 0,
+      "depth": 0.0622
+    },
+    {
+      "dynamic": "物理_Bn_m_liuhai03",
+      "dynamic_group": 3,
+      "passive": "体_頭",
+      "passive_group": 0,
+      "depth": 0.0599
+    },
+    {
+      "dynamic": "物理_Bn_l_jianfaA01",
+      "dynamic_group": 6,
+      "passive": "体_左肩",
+      "passive_group": 0,
+      "depth": 0.0533
+    },
+    {
+      "dynamic": "物理_Bn_l_liuhai03",
+      "dynamic_group": 3,
+      "passive": "体_頭",
+      "passive_group": 0,
+      "depth": 0.0532
+    },
+    {
+      "dynamic": "物理_Bn_m_liuhai02",
+      "dynamic_group": 3,
+      "passive": "体_頭",
+      "passive_group": 0,
+      "depth": 0.0484
+    },
+    {
+      "dynamic": "物理_Bn_r_liuhai03",
+      "dynamic_group": 3,
+      "passive": "体_頭",
+      "passive_group": 0,
+      "depth": 0.0482
+    },
+    {
+      "dynamic": "物理_Bn_l_jianfaB01",
+      "dynamic_group": 6,
+      "passive": "体_左肩",
+      "passive_group": 0,
+      "depth": 0.0467
+    },
+    {
+      "dynamic": "物理_Bn_l_liuhai02",
+      "dynamic_group": 3,
+      "passive": "体_頭",
+      "passive_group": 0,
+      "depth": 0.0352
+    },
+    {
+      "dynamic": "物理_Bn_r_liuhai02",
+      "dynamic_group": 3,
+      "passive": "体_頭",
+      "passive_group": 0,
+      "depth": 0.0302
+    },
+    {
+      "dynamic": "物理_Bone_Bow",
+      "dynamic_group": 4,
+      "passive": "体_上半身2",
+      "passive_group": 0,
+      "depth": 0.0301
+    },
+    {
+      "dynamic": "物理_Bn_m_liuhai01",
+      "dynamic_group": 3,
+      "passive": "体_頭",
+      "passive_group": 0,
+      "depth": 0.0212
+    }
+  ]
+}

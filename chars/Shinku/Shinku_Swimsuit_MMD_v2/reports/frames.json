@@ -1,0 +1,1157 @@
+{
+  "input": "H:\\raw_nte_skill\\work\\swimsuit\\intermediate\\01_retuned.pmx",
+  "output": "H:\\raw_nte_skill\\work\\swimsuit\\intermediate\\02_framed.pmx",
+  "capsules_reframed": 71,
+  "skipped": 20,
+  "median_correction_deg": 18.48,
+  "max_correction_deg": 181.19,
+  "changes": [
+    {
+      "body": "体_腹",
+      "before_deg": [
+        0.09,
+        0.0,
+        -0.03
+      ],
+      "after_deg": [
+        0.09,
+        -0.0,
+        -0.03
+      ],
+      "max_delta_deg": 0.0,
+      "joint_updated": false
+    },
+    {
+      "body": "体_胸",
+      "before_deg": [
+        0.16,
+        -0.0,
+        -0.03
+      ],
+      "after_deg": [
+        0.16,
+        -0.0,
+        -0.03
+      ],
+      "max_delta_deg": 0.0,
+      "joint_updated": false
+    },
+    {
+      "body": "体_上胸",
+      "before_deg": [
+        13.28,
+        0.0,
+        -0.03
+      ],
+      "after_deg": [
+        13.28,
+        -0.01,
+        -0.03
+      ],
+      "max_delta_deg": 0.01,
+      "joint_updated": false
+    },
+    {
+      "body": "体_首",
+      "before_deg": [
+        -2.45,
+        -0.0,
+        -0.03
+      ],
+      "after_deg": [
+        -2.45,
+        0.0,
+        -0.03
+      ],
+      "max_delta_deg": 0.0,
+      "joint_updated": false
+    },
+    {
+      "body": "体_左上腕",
+      "before_deg": [
+        -0.41,
+        0.0,
+        -132.3
+      ],
+      "after_deg": [
+        0.28,
+        0.31,
+        -132.3
+      ],
+      "max_delta_deg": 0.69,
+      "joint_updated": false
+    },
+    {
+      "body": "体_左前腕",
+      "before_deg": [
+        -5.52,
+        0.0,
+        -132.34
+      ],
+      "after_deg": [
+        20.09,
+        21.45,
+        48.84
+      ],
+      "max_delta_deg": 181.19,
+      "joint_updated": false
+    },
+    {
+      "body": "体_左太腿",
+      "before_deg": [
+        -0.23,
+        0.0,
+        -179.18
+      ],
+      "after_deg": [
+        0.23,
+        0.0,
+        -179.18
+      ],
+      "max_delta_deg": 0.46,
+      "joint_updated": false
+    },
+    {
+      "body": "体_左脛",
+      "before_deg": [
+        7.13,
+        -0.0,
+        -179.17
+      ],
+      "after_deg": [
+        -7.12,
+        -0.1,
+        -179.16
+      ],
+      "max_delta_deg": 14.25,
+      "joint_updated": false
+    },
+    {
+      "body": "体_右上腕",
+      "before_deg": [
+        -0.41,
+        -0.0,
+        132.3
+      ],
+      "after_deg": [
+        0.28,
+        -0.31,
+        132.3
+      ],
+      "max_delta_deg": 0.69,
+      "joint_updated": false
+    },
+    {
+      "body": "体_右前腕",
+      "before_deg": [
+        -5.52,
+        0.0,
+        132.34
+      ],
+      "after_deg": [
+        -25.84,
+        20.06,
+        140.04
+      ],
+      "max_delta_deg": 20.32,
+      "joint_updated": false
+    },
+    {
+      "body": "体_右太腿",
+      "before_deg": [
+        -0.23,
+        -0.0,
+        179.18
+      ],
+      "after_deg": [
+        0.23,
+        -0.0,
+        179.18
+      ],
+      "max_delta_deg": 0.46,
+      "joint_updated": false
+    },
+    {
+      "body": "体_右脛",
+      "before_deg": [
+        7.13,
+        -0.0,
+        179.17
+      ],
+      "after_deg": [
+        -7.12,
+        0.1,
+        179.16
+      ],
+      "max_delta_deg": 14.25,
+      "joint_updated": false
+    },
+    {
+      "body": "物理_Bone_bow00",
+      "before_deg": [
+        -3.74,
+        0.0,
+        -116.1
+      ],
+      "after_deg": [
+        1.65,
+        3.36,
+        -116.05
+      ],
+      "max_delta_deg": 5.39,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_bow02",
+      "before_deg": [
+        8.95,
+        0.0,
+        111.17
+      ],
+      "after_deg": [
+        -3.22,
+        8.36,
+        110.93
+      ],
+      "max_delta_deg": 12.17,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_bow04",
+      "before_deg": [
+        12.63,
+        0.0,
+        -153.87
+      ],
+      "after_deg": [
+        -11.32,
+        -5.64,
+        -153.31
+      ],
+      "max_delta_deg": 23.96,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_bow05",
+      "before_deg": [
+        12.65,
+        0.0,
+        -155.69
+      ],
+      "after_deg": [
+        -11.52,
+        -5.28,
+        -155.15
+      ],
+      "max_delta_deg": 24.17,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_bow06",
+      "before_deg": [
+        13.46,
+        -0.0,
+        -153.49
+      ],
+      "after_deg": [
+        -12.02,
+        -6.1,
+        -152.85
+      ],
+      "max_delta_deg": 25.49,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_bow07",
+      "before_deg": [
+        13.1,
+        0.0,
+        -155.24
+      ],
+      "after_deg": [
+        -11.88,
+        -5.57,
+        -154.66
+      ],
+      "max_delta_deg": 24.98,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_bow08",
+      "before_deg": [
+        15.12,
+        -0.0,
+        -159.65
+      ],
+      "after_deg": [
+        -14.15,
+        -5.37,
+        -158.98
+      ],
+      "max_delta_deg": 29.27,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_bow09",
+      "before_deg": [
+        21.92,
+        0.0,
+        -165.42
+      ],
+      "after_deg": [
+        -21.18,
+        -5.78,
+        -164.34
+      ],
+      "max_delta_deg": 43.1,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_bow10",
+      "before_deg": [
+        26.38,
+        -0.0,
+        -171.31
+      ],
+      "after_deg": [
+        -26.05,
+        -4.29,
+        -170.32
+      ],
+      "max_delta_deg": 52.43,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_l_liuhai01",
+      "before_deg": [
+        -1.61,
+        -0.0,
+        174.63
+      ],
+      "after_deg": [
+        1.6,
+        -0.15,
+        174.62
+      ],
+      "max_delta_deg": 3.21,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_l_liuhai02",
+      "before_deg": [
+        -1.61,
+        0.0,
+        174.63
+      ],
+      "after_deg": [
+        1.6,
+        -0.15,
+        174.63
+      ],
+      "max_delta_deg": 3.21,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_l_liuhai03",
+      "before_deg": [
+        -1.61,
+        0.0,
+        174.63
+      ],
+      "after_deg": [
+        1.6,
+        -0.15,
+        174.62
+      ],
+      "max_delta_deg": 3.21,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_m_liuhai01",
+      "before_deg": [
+        -2.88,
+        0.0,
+        -180.0
+      ],
+      "after_deg": [
+        2.88,
+        0.0,
+        -180.0
+      ],
+      "max_delta_deg": 5.77,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_m_liuhai02",
+      "before_deg": [
+        2.84,
+        0.0,
+        -180.0
+      ],
+      "after_deg": [
+        -2.84,
+        -0.0,
+        -180.0
+      ],
+      "max_delta_deg": 5.69,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_r_liuhai01",
+      "before_deg": [
+        -1.61,
+        0.0,
+        -174.63
+      ],
+      "after_deg": [
+        1.6,
+        0.15,
+        -174.63
+      ],
+      "max_delta_deg": 3.21,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_r_liuhai02",
+      "before_deg": [
+        -1.61,
+        0.0,
+        -174.63
+      ],
+      "after_deg": [
+        1.6,
+        0.15,
+        -174.63
+      ],
+      "max_delta_deg": 3.21,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_r_liuhai03",
+      "before_deg": [
+        -1.61,
+        0.0,
+        -174.63
+      ],
+      "after_deg": [
+        1.6,
+        0.15,
+        -174.62
+      ],
+      "max_delta_deg": 3.21,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_hair_daimao01",
+      "before_deg": [
+        -21.5,
+        0.0,
+        -45.49
+      ],
+      "after_deg": [
+        -14.89,
+        15.69,
+        -47.55
+      ],
+      "max_delta_deg": 15.69,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_hair_daimao02",
+      "before_deg": [
+        -45.16,
+        0.0,
+        -145.29
+      ],
+      "after_deg": [
+        35.65,
+        29.8,
+        -135.51
+      ],
+      "max_delta_deg": 80.81,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_hair_daimao03",
+      "before_deg": [
+        -32.79,
+        -0.0,
+        -170.83
+      ],
+      "after_deg": [
+        32.32,
+        5.86,
+        -169.13
+      ],
+      "max_delta_deg": 65.11,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair003",
+      "before_deg": [
+        9.38,
+        -0.0,
+        -165.83
+      ],
+      "after_deg": [
+        -9.1,
+        -2.32,
+        -165.65
+      ],
+      "max_delta_deg": 18.48,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair004",
+      "before_deg": [
+        9.27,
+        0.0,
+        -164.08
+      ],
+      "after_deg": [
+        -8.91,
+        -2.56,
+        -163.88
+      ],
+      "max_delta_deg": 18.18,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair005",
+      "before_deg": [
+        8.55,
+        -0.0,
+        -162.67
+      ],
+      "after_deg": [
+        -8.16,
+        -2.56,
+        -162.49
+      ],
+      "max_delta_deg": 16.7,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair006",
+      "before_deg": [
+        7.89,
+        -0.0,
+        -163.65
+      ],
+      "after_deg": [
+        -7.57,
+        -2.23,
+        -163.5
+      ],
+      "max_delta_deg": 15.46,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair007",
+      "before_deg": [
+        13.18,
+        -0.0,
+        -168.92
+      ],
+      "after_deg": [
+        -12.93,
+        -2.58,
+        -168.62
+      ],
+      "max_delta_deg": 26.11,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair008",
+      "before_deg": [
+        19.62,
+        0.0,
+        -173.72
+      ],
+      "after_deg": [
+        -19.5,
+        -2.23,
+        -173.34
+      ],
+      "max_delta_deg": 39.12,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair011",
+      "before_deg": [
+        -0.0,
+        0.0,
+        -157.41
+      ],
+      "after_deg": [
+        0.0,
+        0.0,
+        -157.41
+      ],
+      "max_delta_deg": 0.0,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair012",
+      "before_deg": [
+        -8.27,
+        0.0,
+        -141.82
+      ],
+      "after_deg": [
+        6.49,
+        5.14,
+        -141.53
+      ],
+      "max_delta_deg": 14.76,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair014",
+      "before_deg": [
+        3.63,
+        0.0,
+        174.68
+      ],
+      "after_deg": [
+        -3.62,
+        0.34,
+        174.67
+      ],
+      "max_delta_deg": 7.25,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair015",
+      "before_deg": [
+        3.81,
+        0.0,
+        173.58
+      ],
+      "after_deg": [
+        -3.79,
+        0.43,
+        173.57
+      ],
+      "max_delta_deg": 7.6,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair016",
+      "before_deg": [
+        7.04,
+        0.0,
+        164.3
+      ],
+      "after_deg": [
+        -6.78,
+        1.92,
+        164.18
+      ],
+      "max_delta_deg": 13.82,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair017",
+      "before_deg": [
+        9.46,
+        -0.0,
+        157.22
+      ],
+      "after_deg": [
+        -8.72,
+        3.69,
+        156.94
+      ],
+      "max_delta_deg": 18.18,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair018",
+      "before_deg": [
+        13.9,
+        -0.0,
+        153.82
+      ],
+      "after_deg": [
+        -12.45,
+        6.23,
+        153.14
+      ],
+      "max_delta_deg": 26.34,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair019",
+      "before_deg": [
+        21.12,
+        -0.0,
+        157.58
+      ],
+      "after_deg": [
+        -19.46,
+        8.38,
+        156.14
+      ],
+      "max_delta_deg": 40.58,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair020",
+      "before_deg": [
+        27.64,
+        -0.0,
+        160.67
+      ],
+      "after_deg": [
+        -25.96,
+        9.84,
+        158.39
+      ],
+      "max_delta_deg": 53.61,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair023",
+      "before_deg": [
+        11.82,
+        0.0,
+        164.64
+      ],
+      "after_deg": [
+        -11.4,
+        3.17,
+        164.33
+      ],
+      "max_delta_deg": 23.22,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair024",
+      "before_deg": [
+        10.45,
+        0.0,
+        147.08
+      ],
+      "after_deg": [
+        -8.76,
+        5.73,
+        146.64
+      ],
+      "max_delta_deg": 19.22,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair025",
+      "before_deg": [
+        9.29,
+        -0.0,
+        137.55
+      ],
+      "after_deg": [
+        -6.84,
+        6.3,
+        137.18
+      ],
+      "max_delta_deg": 16.14,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair026",
+      "before_deg": [
+        11.48,
+        0.0,
+        112.65
+      ],
+      "after_deg": [
+        -4.39,
+        10.61,
+        112.24
+      ],
+      "max_delta_deg": 15.87,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair028",
+      "before_deg": [
+        -0.05,
+        -0.0,
+        148.81
+      ],
+      "after_deg": [
+        0.05,
+        -0.03,
+        148.81
+      ],
+      "max_delta_deg": 0.1,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair029",
+      "before_deg": [
+        -19.93,
+        -0.0,
+        165.88
+      ],
+      "after_deg": [
+        19.3,
+        -5.06,
+        165.02
+      ],
+      "max_delta_deg": 39.24,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair030",
+      "before_deg": [
+        -44.74,
+        0.0,
+        -175.39
+      ],
+      "after_deg": [
+        44.55,
+        4.55,
+        -173.52
+      ],
+      "max_delta_deg": 89.29,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair031",
+      "before_deg": [
+        -62.59,
+        -0.0,
+        -147.12
+      ],
+      "after_deg": [
+        48.2,
+        46.32,
+        -125.45
+      ],
+      "max_delta_deg": 110.8,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair033",
+      "before_deg": [
+        24.0,
+        0.0,
+        154.62
+      ],
+      "after_deg": [
+        -21.56,
+        10.81,
+        152.55
+      ],
+      "max_delta_deg": 45.56,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair034",
+      "before_deg": [
+        35.85,
+        0.0,
+        163.85
+      ],
+      "after_deg": [
+        -34.23,
+        11.36,
+        160.34
+      ],
+      "max_delta_deg": 70.08,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair035",
+      "before_deg": [
+        40.67,
+        -0.0,
+        -176.14
+      ],
+      "after_deg": [
+        -40.56,
+        -3.31,
+        -174.92
+      ],
+      "max_delta_deg": 81.23,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bone_hair036",
+      "before_deg": [
+        31.68,
+        0.0,
+        -144.87
+      ],
+      "after_deg": [
+        -25.44,
+        -19.55,
+        -140.41
+      ],
+      "max_delta_deg": 57.11,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_bone_ribbon00",
+      "before_deg": [
+        24.62,
+        -0.0,
+        -180.0
+      ],
+      "after_deg": [
+        -24.62,
+        -0.0,
+        -179.99
+      ],
+      "max_delta_deg": 49.25,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_bone_ribbon01",
+      "before_deg": [
+        29.48,
+        -0.0,
+        -179.99
+      ],
+      "after_deg": [
+        -29.48,
+        -0.0,
+        -179.99
+      ],
+      "max_delta_deg": 58.96,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_bone_ribbon02",
+      "before_deg": [
+        19.03,
+        -0.0,
+        -180.0
+      ],
+      "after_deg": [
+        -19.03,
+        -0.0,
+        -180.0
+      ],
+      "max_delta_deg": 38.06,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_bone_ribbon03",
+      "before_deg": [
+        6.15,
+        -0.0,
+        -180.0
+      ],
+      "after_deg": [
+        -6.15,
+        -0.0,
+        -180.0
+      ],
+      "max_delta_deg": 12.3,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_bone_ribbon04",
+      "before_deg": [
+        -2.92,
+        -0.0,
+        180.0
+      ],
+      "after_deg": [
+        2.92,
+        -0.0,
+        180.0
+      ],
+      "max_delta_deg": 5.83,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_weiba001",
+      "before_deg": [
+        89.9,
+        -0.0,
+        0.03
+      ],
+      "after_deg": [
+        -89.9,
+        180.0,
+        -0.0
+      ],
+      "max_delta_deg": 180.0,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_weiba002",
+      "before_deg": [
+        89.9,
+        -0.0,
+        0.02
+      ],
+      "after_deg": [
+        -89.9,
+        180.0,
+        0.0
+      ],
+      "max_delta_deg": 180.0,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_weiba003",
+      "before_deg": [
+        89.9,
+        0.0,
+        -0.02
+      ],
+      "after_deg": [
+        -89.9,
+        -180.0,
+        -0.0
+      ],
+      "max_delta_deg": 180.0,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_weiba004",
+      "before_deg": [
+        89.9,
+        -0.0,
+        0.04
+      ],
+      "after_deg": [
+        -89.9,
+        180.0,
+        0.0
+      ],
+      "max_delta_deg": 180.0,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_weiba005",
+      "before_deg": [
+        89.9,
+        0.0,
+        -0.02
+      ],
+      "after_deg": [
+        -89.9,
+        -180.0,
+        -0.0
+      ],
+      "max_delta_deg": 180.0,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_weiba006",
+      "before_deg": [
+        89.9,
+        -0.0,
+        0.04
+      ],
+      "after_deg": [
+        -89.9,
+        180.0,
+        0.0
+      ],
+      "max_delta_deg": 180.0,
+      "joint_updated": true
+    },
+    {
+      "body": "物理_Bn_weiba007",
+      "before_deg": [
+        89.9,
+        -0.0,
+        0.01
+      ],
+      "after_deg": [
+        -89.9,
+        180.0,
+        0.0
+      ],
+      "max_delta_deg": 180.0,
+      "joint_updated": true
+    }
+  ],
+  "skipped_detail": [
+    {
+      "body": "体_骨盤",
+      "why": "not a bone-bound capsule"
+    },
+    {
+      "body": "体_頭",
+      "why": "not a bone-bound capsule"
+    },
+    {
+      "body": "体_左肩",
+      "why": "not a bone-bound capsule"
+    },
+    {
+      "body": "体_右肩",
+      "why": "not a bone-bound capsule"
+    },
+    {
+      "body": "物理_Bone_bow01",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bone_bow03",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bone_bow11",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bn_l_xiong_001",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bn_r_xiong_001",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bn_l_liuhai04",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bn_m_liuhai03",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bn_r_liuhai04",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bn_hair_daimao04",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bone_hair009",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bone_hair013",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bone_hair021",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bone_hair032",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bone_hair037",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_bone_ribbon05",
+      "why": "bone has no child to aim at"
+    },
+    {
+      "body": "物理_Bn_weiba008",
+      "why": "bone has no child to aim at"
+    }
+  ]
+}

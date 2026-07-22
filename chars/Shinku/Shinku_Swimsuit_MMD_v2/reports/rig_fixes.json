@@ -1,0 +1,263 @@
+{
+ "_meta": {
+  "scope": "Weight-safe fixes only, identical policy to the verified Fashion 1 rig_fixes. IK numerics already conventional in the base (leg loop 40 limit 2.0 rad, knee -180..-0.5 deg, toe 4 deg) - untouched.",
+  "deliberately_excluded": [
+   "Inserting weightless twist-master bones (renumbers every index table).",
+   "足D/足先EX (requires weight moves).",
+   "jiao horn chains stay rigid: the reference model has the identical Bn_L/R_jiao01-04 bones (byte-exact) and gives them NO rigid bodies."
+  ]
+ },
+ "bone_renames": [
+  {
+   "from": "上半身1",
+   "to": "上半身2",
+   "name_e": "Upper Body 2",
+   "why": "P14 torso off-by-one, verified for this port: swimsuit 上半身1 (y=14.5436) == Fashion 1 exemplar 上半身2 at d=0.000000."
+  },
+  {
+   "from": "上半身2",
+   "to": "上半身3",
+   "name_e": "Upper Body 3",
+   "why": "Second half of the off-by-one: swimsuit 上半身2 (y=15.3904) == exemplar 上半身3 at d=0.000000. Applier resolves both sources before writing so the chain cannot shadow."
+  }
+ ],
+ "bone_edits": [
+  {
+   "bone": "両目",
+   "set": {
+    "flags": 26,
+    "position": [
+     0.0028,
+     22.2007,
+     -0.8503
+    ],
+    "tail_offset": [
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "tail_index": -1
+   },
+   "why": "P15: rotation-only control (0x1A), handle lifted above the head to the reference position; weight-free so the move is safe."
+  },
+  {
+   "bone": "左目",
+   "set": {
+    "parent": "頭",
+    "flags": 282,
+    "inherit": "両目",
+    "inherit_weight": 1.0
+   },
+   "why": "P15: eyes must take 回転付与 from 両目, not be its children - parenting makes a 両目 key orbit the eyeball into the skull. 0x011A = rotatable|visible|enabled|inherit-rotation."
+  },
+  {
+   "bone": "右目",
+   "set": {
+    "parent": "頭",
+    "flags": 282,
+    "inherit": "両目",
+    "inherit_weight": 1.0
+   },
+   "why": "Mirror of 左目."
+  },
+  {
+   "bone": "左肩C",
+   "set": {
+    "flags": 274
+   },
+   "why": "0x0116 -> 0x0112 hidden cancel bone, translation dropped (both sides are 0x0116 in this base; Fashion 1 verification demanded symmetry)."
+  },
+  {
+   "bone": "右肩C",
+   "set": {
+    "flags": 274
+   },
+   "why": "Mirror of 左肩C."
+  },
+  {
+   "bone": "左肩P",
+   "set": {
+    "flags": 26
+   },
+   "why": "0x001E -> 0x001A rotation-only shoulder-raise control."
+  },
+  {
+   "bone": "右肩P",
+   "set": {
+    "flags": 26
+   },
+   "why": "Mirror of 左肩P."
+  }
+ ],
+ "display_frames": [
+  {
+   "name": "Root",
+   "name_e": "Root",
+   "special": 1,
+   "bones": [
+    "全ての親"
+   ]
+  },
+  {
+   "name": "表情",
+   "name_e": "Exp",
+   "special": 1,
+   "morphs_from_spec": true
+  },
+  {
+   "name": "センター",
+   "name_e": "Center",
+   "special": 0,
+   "bones": [
+    "センター",
+    "グルーブ"
+   ]
+  },
+  {
+   "name": "ＩＫ",
+   "name_e": "IK",
+   "special": 0,
+   "bones": [
+    "左足IK親",
+    "左足ＩＫ",
+    "左つま先ＩＫ",
+    "右足IK親",
+    "右足ＩＫ",
+    "右つま先ＩＫ"
+   ]
+  },
+  {
+   "name": "体",
+   "name_e": "Body",
+   "special": 0,
+   "bones": [
+    "下半身",
+    "腰",
+    "上半身",
+    "上半身2",
+    "上半身3",
+    "首",
+    "頭",
+    "両目",
+    "左目",
+    "右目"
+   ]
+  },
+  {
+   "name": "左腕",
+   "name_e": "Arm_L",
+   "special": 0,
+   "bones": [
+    "左肩P",
+    "左肩",
+    "左腕",
+    "左腕捩",
+    "左ひじ",
+    "左手捩",
+    "左手首"
+   ]
+  },
+  {
+   "name": "右腕",
+   "name_e": "Arm_R",
+   "special": 0,
+   "bones": [
+    "右肩P",
+    "右肩",
+    "右腕",
+    "右腕捩",
+    "右ひじ",
+    "右手捩",
+    "右手首"
+   ]
+  },
+  {
+   "name": "左指",
+   "name_e": "Fingers_L",
+   "special": 0,
+   "bones": [
+    "左親指０",
+    "左親指１",
+    "左親指２",
+    "左人指１",
+    "左人指２",
+    "左人指３",
+    "左人指４",
+    "左中指１",
+    "左中指２",
+    "左中指３",
+    "左中指４",
+    "左薬指１",
+    "左薬指２",
+    "左薬指３",
+    "左薬指４",
+    "左小指１",
+    "左小指２",
+    "左小指３",
+    "左小指４"
+   ]
+  },
+  {
+   "name": "右指",
+   "name_e": "Fingers_R",
+   "special": 0,
+   "bones": [
+    "右親指０",
+    "右親指１",
+    "右親指２",
+    "右人指１",
+    "右人指２",
+    "右人指３",
+    "右人指４",
+    "右中指１",
+    "右中指２",
+    "右中指３",
+    "右中指４",
+    "右薬指１",
+    "右薬指２",
+    "右薬指３",
+    "右薬指４",
+    "右小指１",
+    "右小指２",
+    "右小指３",
+    "右小指４"
+   ]
+  },
+  {
+   "name": "足",
+   "name_e": "Legs",
+   "special": 0,
+   "bones": [
+    "左足",
+    "左ひざ",
+    "左足首",
+    "左つま先",
+    "右足",
+    "右ひざ",
+    "右足首",
+    "右つま先"
+   ]
+  },
+  {
+   "name": "物理操作",
+   "name_e": "Physics Controls",
+   "special": 0,
+   "bones": [
+    "Bone_bow00",
+    "Bone_bow02",
+    "Bone_bow04",
+    "Bn_l_xiong_001",
+    "Bn_r_xiong_001",
+    "Bn_hair_daimao01",
+    "Bn_m_liuhai01",
+    "Bn_l_liuhai01",
+    "Bn_r_liuhai01",
+    "Bone_hair003",
+    "Bone_hair014",
+    "Bone_hair023",
+    "bone_ribbon00",
+    "Bn_weiba001"
+   ]
+  }
+ ]
+}

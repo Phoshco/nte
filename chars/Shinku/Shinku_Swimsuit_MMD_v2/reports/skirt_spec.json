@@ -1,0 +1,9 @@
+{
+ "_meta": {
+  "verdict": "NO SKIRT ON THIS OUTFIT - intentionally empty spec.",
+  "evidence": "The bone dump contains zero qunbai-substring bones (the skirt family on this character); the costume is a two-piece swimsuit whose 下半身-weighted geometry is a hip frill measured at perpendicular radius <= 2.9 with no dedicated chain bones. Nothing to simulate; adding invented skirt bodies would violate the no-fabrication rule."
+ },
+ "rigid_bodies": [],
+ "vertical_joints": [],
+ "ring_joints": []
+}

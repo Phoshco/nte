@@ -1,0 +1,29 @@
+{
+  "model": "H:\\raw_nte_skill\\output\\Shinku_Fashion_2_MMD_v2\\Shinku_Fashion_2.pmx",
+  "weight_signature": {
+    "before": "4fbfe6490cf40760",
+    "after": "4fbfe6490cf40760",
+    "identical": true
+  },
+  "textures": [
+    "T_player_076_shinku_eyes_d.png",
+    "T_player_076_shinku_face_d.png",
+    "T_player_076_shinku_fashion2_01_d.png",
+    "T_player_076_shinku_fashion2_02_d.png",
+    "T_player_076_shinku_fashion2_03_d.png",
+    "T_player_076_shinku_fashion2_04_d.png",
+    "T_player_076_shinku_fashion2_05_FX_mmd.png",
+    "T_player_076_shinku_hair_01_d.png",
+    "T_player_076_shinku_hair_02_d.png"
+  ],
+  "counts": {
+    "vertices": 73952,
+    "faces": 102790,
+    "materials": 12,
+    "bones": 261,
+    "morphs": 99,
+    "rigid_bodies": 172,
+    "joints": 183,
+    "display_frames": 11
+  }
+}

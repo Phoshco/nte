@@ -1,0 +1,10 @@
+{
+  "method": "positions + zero-pruned duplicate-merged (bone_name, weight) pairs; the documented torso rename map is applied to the BASE names so the comparison is rename-aware (renaming a bone is not a skinning change).",
+  "rename_map": {
+    "\u4e0a\u534a\u8eab1": "\u4e0a\u534a\u8eab2",
+    "\u4e0a\u534a\u8eab2": "\u4e0a\u534a\u8eab3"
+  },
+  "base_name_keyed_renamed": "f3dc6f37154a48d1",
+  "final_name_keyed": "f3dc6f37154a48d1",
+  "identical": true
+}

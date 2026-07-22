@@ -1,0 +1,692 @@
+{
+  "input": "H:\\raw_nte_skill\\work\\fashion2\\build\\02_framed.pmx",
+  "output": "H:\\raw_nte_skill\\work\\fashion2\\build\\03_refined.pmx",
+  "materials": {
+    "count": 12,
+    "changes": [
+      {
+        "index": 0,
+        "name": "目影",
+        "before": {
+          "name": "目影",
+          "diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular_strength": 11.899084091186523,
+          "ambient": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "edge_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "edge_size": 1.0,
+          "flags": 15
+        }
+      },
+      {
+        "index": 1,
+        "name": "顔",
+        "before": {
+          "name": "顔",
+          "diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular_strength": 11.899084091186523,
+          "ambient": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "edge_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "edge_size": 1.0,
+          "flags": 31
+        }
+      },
+      {
+        "index": 2,
+        "name": "睫毛",
+        "before": {
+          "name": "睫毛",
+          "diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular_strength": 11.899084091186523,
+          "ambient": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "edge_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "edge_size": 1.0,
+          "flags": 15
+        }
+      },
+      {
+        "index": 3,
+        "name": "瞳",
+        "before": {
+          "name": "瞳",
+          "diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular_strength": 11.899084091186523,
+          "ambient": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "edge_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "edge_size": 1.0,
+          "flags": 15
+        }
+      },
+      {
+        "index": 4,
+        "name": "目ハイライト",
+        "before": {
+          "name": "目HL",
+          "diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular_strength": 11.899084091186523,
+          "ambient": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "edge_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "edge_size": 1.0,
+          "flags": 15
+        }
+      },
+      {
+        "index": 5,
+        "name": "衣装_01",
+        "before": {
+          "name": "衣装_076_shinku_fashion2_01",
+          "diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular_strength": 11.899084091186523,
+          "ambient": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "edge_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "edge_size": 1.0,
+          "flags": 31
+        }
+      },
+      {
+        "index": 6,
+        "name": "衣装_04",
+        "before": {
+          "name": "衣装_076_shinku_fashion2_04",
+          "diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular_strength": 11.899084091186523,
+          "ambient": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "edge_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "edge_size": 1.0,
+          "flags": 31
+        }
+      },
+      {
+        "index": 7,
+        "name": "衣装_02",
+        "before": {
+          "name": "衣装_076_shinku_fashion2_02",
+          "diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular_strength": 11.899084091186523,
+          "ambient": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "edge_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "edge_size": 1.0,
+          "flags": 31
+        }
+      },
+      {
+        "index": 8,
+        "name": "衣装_03",
+        "before": {
+          "name": "衣装_076_shinku_fashion2_03",
+          "diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular_strength": 11.899084091186523,
+          "ambient": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "edge_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "edge_size": 1.0,
+          "flags": 31
+        }
+      },
+      {
+        "index": 9,
+        "name": "髪_02",
+        "before": {
+          "name": "髪_02",
+          "diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular_strength": 11.899084091186523,
+          "ambient": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "edge_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "edge_size": 1.0,
+          "flags": 31
+        }
+      },
+      {
+        "index": 10,
+        "name": "胸元FX",
+        "before": {
+          "name": "衣装_shinku_01",
+          "diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular_strength": 11.899084091186523,
+          "ambient": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "edge_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "edge_size": 1.0,
+          "flags": 31
+        }
+      },
+      {
+        "index": 11,
+        "name": "髪_01",
+        "before": {
+          "name": "髪_01",
+          "diffuse": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular_strength": 11.899084091186523,
+          "ambient": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "edge_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "edge_size": 1.0,
+          "flags": 31
+        }
+      }
+    ],
+    "textures_dropped": [
+      "textures/eye_bantou_d.png"
+    ],
+    "textures_kept": [
+      "textures/T_player_076_shinku_face_d.png",
+      "textures/T_player_076_shinku_eyes_d.png",
+      "textures/T_player_076_shinku_fashion2_01_d.png",
+      "textures/T_player_076_shinku_fashion2_04_d.png",
+      "textures/T_player_076_shinku_fashion2_02_d.png",
+      "textures/T_player_076_shinku_fashion2_03_d.png",
+      "textures/T_player_076_shinku_hair_02_d.png",
+      "textures/T_player_076_shinku_fashion2_05_FX_mmd.png",
+      "textures/T_player_076_shinku_hair_01_d.png"
+    ]
+  },
+  "morphs": {
+    "final_count": 99,
+    "actions": {
+      "keep": 70,
+      "rename": 16,
+      "group": 10,
+      "baked": 3
+    },
+    "dropped": [
+      "まばたき２",
+      "強まばたき"
+    ],
+    "exposed_in_expression_frame": 75,
+    "problems": []
+  },
+  "skirt": {
+    "applied": {
+      "panels_updated": 42,
+      "guards_added": 5,
+      "vertical": 42,
+      "ring": 35,
+      "removed_joints": 42
+    },
+    "problems": []
+  },
+  "colliders": {
+    "applied": {
+      "updated": 16,
+      "added": 3
+    },
+    "changes": [
+      {
+        "name": "体_下半身",
+        "bone": "下半身",
+        "action": "updated",
+        "before": {
+          "name": "体_骨盤",
+          "shape": 1,
+          "size": [
+            1.25,
+            0.8199999928474426,
+            0.7200000286102295
+          ]
+        }
+      },
+      {
+        "name": "体_上半身",
+        "bone": "上半身",
+        "action": "updated",
+        "before": {
+          "name": "体_腹",
+          "shape": 2,
+          "size": [
+            0.949999988079071,
+            0.05000000074505806,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_上半身1",
+        "bone": "上半身1",
+        "action": "updated",
+        "before": {
+          "name": "体_胸",
+          "shape": 2,
+          "size": [
+            1.149999976158142,
+            0.05000000074505806,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_上半身2",
+        "bone": "上半身2",
+        "action": "updated",
+        "before": {
+          "name": "体_上胸",
+          "shape": 2,
+          "size": [
+            1.0,
+            0.6219387054443359,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_胸",
+        "bone": "上半身2",
+        "action": "added",
+        "before": null
+      },
+      {
+        "name": "体_首",
+        "bone": "首",
+        "action": "updated",
+        "before": {
+          "name": "体_首",
+          "shape": 2,
+          "size": [
+            0.3799999952316284,
+            0.21907654404640198,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_頭",
+        "bone": "頭",
+        "action": "updated",
+        "before": {
+          "name": "体_頭",
+          "shape": 0,
+          "size": [
+            1.1200000047683716,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_左肩",
+        "bone": "左肩",
+        "action": "updated",
+        "before": {
+          "name": "体_左肩",
+          "shape": 0,
+          "size": [
+            0.5199999809265137,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_左上腕",
+        "bone": "左腕",
+        "action": "updated",
+        "before": {
+          "name": "体_左上腕",
+          "shape": 2,
+          "size": [
+            0.3799999952316284,
+            1.6896350383758545,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_左前腕",
+        "bone": "左ひじ",
+        "action": "updated",
+        "before": {
+          "name": "体_左前腕",
+          "shape": 2,
+          "size": [
+            0.3100000023841858,
+            2.0809404850006104,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_左手首",
+        "bone": "左手首",
+        "action": "added",
+        "before": null
+      },
+      {
+        "name": "体_左太腿",
+        "bone": "左足",
+        "action": "updated",
+        "before": {
+          "name": "体_左太腿",
+          "shape": 2,
+          "size": [
+            0.5600000023841858,
+            4.123569488525391,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_左脛",
+        "bone": "左ひざ",
+        "action": "updated",
+        "before": {
+          "name": "体_左脛",
+          "shape": 2,
+          "size": [
+            0.46000000834465027,
+            4.311474323272705,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_右肩",
+        "bone": "右肩",
+        "action": "updated",
+        "before": {
+          "name": "体_右肩",
+          "shape": 0,
+          "size": [
+            0.5199999809265137,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_右上腕",
+        "bone": "右腕",
+        "action": "updated",
+        "before": {
+          "name": "体_右上腕",
+          "shape": 2,
+          "size": [
+            0.3799999952316284,
+            1.6896413564682007,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_右前腕",
+        "bone": "右ひじ",
+        "action": "updated",
+        "before": {
+          "name": "体_右前腕",
+          "shape": 2,
+          "size": [
+            0.3100000023841858,
+            2.080948829650879,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_右手首",
+        "bone": "右手首",
+        "action": "added",
+        "before": null
+      },
+      {
+        "name": "体_右太腿",
+        "bone": "右足",
+        "action": "updated",
+        "before": {
+          "name": "体_右太腿",
+          "shape": 2,
+          "size": [
+            0.5600000023841858,
+            4.123569488525391,
+            0.0
+          ]
+        }
+      },
+      {
+        "name": "体_右脛",
+        "bone": "右ひざ",
+        "action": "updated",
+        "before": {
+          "name": "体_右脛",
+          "shape": 2,
+          "size": [
+            0.46000000834465027,
+            4.31147575378418,
+            0.0
+          ]
+        }
+      }
+    ],
+    "problems": []
+  },
+  "rig": {
+    "applied": {
+      "renames": 2,
+      "edits": 7,
+      "frames": 11
+    },
+    "problems": []
+  },
+  "status": "PASS"
+}

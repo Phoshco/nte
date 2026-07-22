@@ -1,0 +1,580 @@
+{
+ "_meta": {
+  "basis": "Fashion 1's 19-collider spec transfers: every bound bone sits at d=0.0 from the swimsuit's (torso chain compared post-rename). Radii re-fitted where the swimsuit's bare skin measurably differs.",
+  "note": "collider pass matches generator bodies by bone in place (16) and appends 体_胸/体_左手首/体_右手首 (3)."
+ },
+ "colliders": [
+  {
+   "name": "体_下半身",
+   "name_e": "Body_LowerBody",
+   "bone": "下半身",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    1.26,
+    0.96,
+    0.0
+   ],
+   "position": [
+    0.0,
+    12.48,
+    -0.2
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    1.570796
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "Hips/glutes. Horizontal (X-axis) capsule fitted to the 下半身/腰-weighted body vertices below y=13.55 (n=2332, bbox x+-1.815 y 11.68..13.49 z -1.488..1.138). A YZ circle r=1.26 at (y=12.48, z=-0.20) contains 97.7% of them, max overshoot 0.249; |x| p96 = 1.738 so the cylinder half-length is 0.48. Replaces the box (1.25,0.82,0.72)@(0,13.2255,-0.5415) which reached only z=+0.18 and left the whole buttock (mesh to z=+1.14) and the hip sides (mesh to |x|=1.82) uncovered."
+  },
+  {
+   "name": "体_上半身",
+   "name_e": "Body_Abdomen",
+   "bone": "上半身",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    1.36,
+    0.646,
+    0.0
+   ],
+   "position": [
+    0.0002,
+    14.2206,
+    -0.6977
+   ],
+   "rotation": [
+    0.00161,
+    -0.0,
+    -0.000563
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "radius refit for swimsuit: p90 fit 1.3633 on bare waist vs Fashion 1's clothed 1.40. Geometry (position/rotation/height) unchanged from the verified Fashion 1 fit - the bound bones are byte-identical (d=0)."
+  },
+  {
+   "name": "体_上半身1",
+   "name_e": "Body_Chest",
+   "bone": "上半身1",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    1.2,
+    0.8468,
+    0.0
+   ],
+   "position": [
+    0.0006,
+    14.967,
+    -0.696
+   ],
+   "rotation": [
+    0.002732,
+    -0.0,
+    -0.000563
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "radius refit for swimsuit: p90 fit 1.1661 bare midriff vs clothed 1.40. Geometry (position/rotation/height) unchanged from the verified Fashion 1 fit - the bound bones are byte-identical (d=0).",
+   "mask_rationale": "Fashion 1 cleared bit4 for ITS chest bow; swimsuit group 4 is the front hair which never reaches the midriff"
+  },
+  {
+   "name": "体_上半身2",
+   "name_e": "Body_UpperChest",
+   "bone": "上半身2",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    1.05,
+    2.6219,
+    0.0
+   ],
+   "position": [
+    0.0016,
+    16.6663,
+    -0.3937
+   ],
+   "rotation": [
+    0.231776,
+    -0.0,
+    -0.000563
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "Ribcage/upper torso. height = the FULL 上半身2->首 distance 2.6219 (was 2.6219-2*1.00 = 0.6219). r held at 1.05 (reference 1.00): Bone_bow sits 1.401 from this axis, so anything fatter swallows the chest-ribbon root. The chest front is covered by 体_胸 instead."
+  },
+  {
+   "name": "体_胸",
+   "name_e": "Body_Bust",
+   "bone": "上半身2",
+   "group": 0,
+   "no_collision_mask": 49150,
+   "shape": 2,
+   "size": [
+    0.58,
+    2.12,
+    0.0
+   ],
+   "position": [
+    0.0,
+    16.5,
+    -1.48
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    1.570796
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "NEW. Bust/chest front. Horizontal capsule, direct analogue of the reference model's 胸 rigid (r=1.00, h=0.8582, rot z=1.5705 @ (0,16.2761,-1.0742), mask BFFE). Without it the union of torso capsules only reaches z=-1.51 at breast height while the mesh front is at z=-2.05, so front/side hair sinks ~0.5 into the chest. Mask clears bit 4 (bow) and bit 14 (breast) because Bone_bow* (z -1.85..-2.01) and Bn_*_xiong_001 both start inside this volume.",
+   "mask_rationale": "clear bit0 (body) and bit14 (breast: the two xiong bodies spawn inside this capsule by construction, reference 胸 collider also clears bit14)"
+  },
+  {
+   "name": "体_首",
+   "name_e": "Body_Neck",
+   "bone": "首",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.36,
+    0.9791,
+    0.0
+   ],
+   "position": [
+    0.0026,
+    18.4313,
+    -0.1135
+   ],
+   "rotation": [
+    -0.042705,
+    -0.0,
+    -0.000563
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "Neck. height = the FULL 首->頭 distance 0.9791 (was 0.2191). r=0.36 from the mesh fit (r50 0.327, r90 0.370); the reference has both a 0.1958 (too thin) and a 0.3842 neck rigid."
+  },
+  {
+   "name": "体_頭",
+   "name_e": "Body_Head",
+   "bone": "頭",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    1.0,
+    0.9,
+    0.0
+   ],
+   "position": [
+    0.0028,
+    19.9,
+    -0.32
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "Skull. Vertical capsule replaces the r=1.12 sphere pinned to the head bone. Skin+outfit head vertices occupy x+-1.101, y 18.736..21.049, z -1.336..0.544; the best-fit sphere is r90=0.95 at (0,19.63,-0.55). This 1.00/0.90 capsule at (0,19.90,-0.32) spans y 18.45..21.35 and z -1.32..0.68, so it covers the crown that the old sphere (top y=20.67) missed, and its z centre is chosen so that Bn_m/l/r_liuhai02-03 (front bangs) stay OUTSIDE it at rest."
+  },
+  {
+   "name": "体_左肩",
+   "name_e": "Body_Shoulder_L",
+   "bone": "左肩",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.62,
+    1.0412,
+    0.0
+   ],
+   "position": [
+    1.0704,
+    17.6424,
+    0.0297
+   ],
+   "rotation": [
+    -0.00032,
+    -0.0,
+    -1.805006
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "Deltoid/trapezius. Capsule replaces the r=0.52 sphere placed exactly on the 肩 bone, which left the whole 肩->腕 span (1.0412) open. r=0.62 = mesh r50 (reference uses 0.60), h = bone distance."
+  },
+  {
+   "name": "体_左上腕",
+   "name_e": "Body_UpperArm_L",
+   "bone": "左腕",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.55,
+    2.4496,
+    0.0
+   ],
+   "position": [
+    2.4827,
+    16.6972,
+    0.0207
+   ],
+   "rotation": [
+    -0.007206,
+    -0.0,
+    -2.309148
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "radius refit for swimsuit: p90 fit 0.5253 bare arm vs sleeved 0.65. Geometry (position/rotation/height) unchanged from the verified Fashion 1 fit - the bound bones are byte-identical (d=0)."
+  },
+  {
+   "name": "体_左前腕",
+   "name_e": "Body_Forearm_L",
+   "bone": "左ひじ",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.45,
+    2.7009,
+    0.0
+   ],
+   "position": [
+    4.382,
+    14.9674,
+    -0.118
+   ],
+   "rotation": [
+    -0.096309,
+    -0.0,
+    -2.309836
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "radius refit for swimsuit: p90 fit 0.3738, elbow-pad max 0.506 -> 0.45 covers the elbow bulge; Fashion 1's sleeved 0.55 would float hair 1.4cm off the skin. Geometry (position/rotation/height) unchanged from the verified Fashion 1 fit - the bound bones are byte-identical (d=0)."
+  },
+  {
+   "name": "体_左手首",
+   "name_e": "Body_Hand_L",
+   "bone": "左手首",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.32,
+    0.9454,
+    0.0
+   ],
+   "position": [
+    5.7318,
+    13.7595,
+    -0.3192
+   ],
+   "rotation": [
+    -0.151517,
+    -0.0,
+    -2.274799
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "radius refit for swimsuit: p90 fit 0.3095 bare hand vs 0.38. Geometry (position/rotation/height) unchanged from the verified Fashion 1 fit - the bound bones are byte-identical (d=0)."
+  },
+  {
+   "name": "体_左太腿",
+   "name_e": "Body_Thigh_L",
+   "bone": "左足",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.95,
+    5.2436,
+    0.0
+   ],
+   "position": [
+    1.0063,
+    9.9318,
+    -0.3952
+   ],
+   "rotation": [
+    -0.003988,
+    -0.0,
+    -3.127295
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "Thigh. height 5.2436 = full bone distance (was 4.1236). r=0.95: the mesh r50 profile is 0.96..1.04 over the top half where the skirt rests (reference uses 1.08) and tapers to 0.56 at the knee. 0.95 rather than 1.00 so that 物理_Bn_l/r_qunbai02 (skirt ring 1) stays outside at rest."
+  },
+  {
+   "name": "体_左脛",
+   "name_e": "Body_Calf_L",
+   "bone": "左ひざ",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.62,
+    5.2315,
+    0.0
+   ],
+   "position": [
+    1.0813,
+    4.7151,
+    -0.0812
+   ],
+   "rotation": [
+    0.124357,
+    -0.0,
+    -3.127131
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "Calf/shin. height 5.2315 = full bone distance (was 4.3115). r=0.62 from the mesh (r50 0.49, r75 0.60, r90 0.71); the reference 1.0463 is mmd_tools' automatic 0.2*length and is ~2x the real limb."
+  },
+  {
+   "name": "体_右肩",
+   "name_e": "Body_Shoulder_R",
+   "bone": "右肩",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.62,
+    1.0412,
+    0.0
+   ],
+   "position": [
+    -1.0662,
+    17.6436,
+    0.0297
+   ],
+   "rotation": [
+    -0.000324,
+    -0.0,
+    1.803877
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "Deltoid/trapezius. Capsule replaces the r=0.52 sphere placed exactly on the 肩 bone, which left the whole 肩->腕 span (1.0412) open. r=0.62 = mesh r50 (reference uses 0.60), h = bone distance."
+  },
+  {
+   "name": "体_右上腕",
+   "name_e": "Body_UpperArm_R",
+   "bone": "右腕",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.55,
+    2.4496,
+    0.0
+   ],
+   "position": [
+    -2.4786,
+    16.699,
+    0.0207
+   ],
+   "rotation": [
+    -0.007202,
+    -0.0,
+    2.309145
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "radius refit for swimsuit: p90 fit 0.5661 bare arm vs sleeved 0.65. Geometry (position/rotation/height) unchanged from the verified Fashion 1 fit - the bound bones are byte-identical (d=0)."
+  },
+  {
+   "name": "体_右前腕",
+   "name_e": "Body_Forearm_R",
+   "bone": "右ひじ",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.45,
+    2.701,
+    0.0
+   ],
+   "position": [
+    -4.378,
+    14.9692,
+    -0.118
+   ],
+   "rotation": [
+    -0.096317,
+    -0.0,
+    2.309837
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "radius refit for swimsuit: p90 fit 0.3642, elbow max ~0.50. Geometry (position/rotation/height) unchanged from the verified Fashion 1 fit - the bound bones are byte-identical (d=0)."
+  },
+  {
+   "name": "体_右手首",
+   "name_e": "Body_Hand_R",
+   "bone": "右手首",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.32,
+    0.9454,
+    0.0
+   ],
+   "position": [
+    -5.7277,
+    13.7613,
+    -0.3193
+   ],
+   "rotation": [
+    -0.151526,
+    -0.0,
+    2.2748
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "radius refit for swimsuit: p90 fit 0.3095 bare hand vs 0.38. Geometry (position/rotation/height) unchanged from the verified Fashion 1 fit - the bound bones are byte-identical (d=0)."
+  },
+  {
+   "name": "体_右太腿",
+   "name_e": "Body_Thigh_R",
+   "bone": "右足",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.95,
+    5.2436,
+    0.0
+   ],
+   "position": [
+    -1.0069,
+    9.9319,
+    -0.3952
+   ],
+   "rotation": [
+    -0.003985,
+    -0.0,
+    3.127058
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "Thigh. height 5.2436 = full bone distance (was 4.1236). r=0.95: the mesh r50 profile is 0.96..1.04 over the top half where the skirt rests (reference uses 1.08) and tapers to 0.56 at the knee. 0.95 rather than 1.00 so that 物理_Bn_l/r_qunbai02 (skirt ring 1) stays outside at rest."
+  },
+  {
+   "name": "体_右脛",
+   "name_e": "Body_Calf_R",
+   "bone": "右ひざ",
+   "group": 0,
+   "no_collision_mask": 65534,
+   "shape": 2,
+   "size": [
+    0.62,
+    5.2315,
+    0.0
+   ],
+   "position": [
+    -1.0832,
+    4.7151,
+    -0.0812
+   ],
+   "rotation": [
+    0.124366,
+    -0.0,
+    3.126899
+   ],
+   "mass": 1.0,
+   "linear_damping": 0.5,
+   "angular_damping": 0.5,
+   "restitution": 0.0,
+   "friction": 0.5,
+   "mode": 0,
+   "rationale": "Calf/shin. height 5.2315 = full bone distance (was 4.3115). r=0.62 from the mesh (r50 0.49, r75 0.60, r90 0.71); the reference 1.0463 is mmd_tools' automatic 0.2*length and is ~2x the real limb."
+  }
+ ]
+}
