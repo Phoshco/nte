@@ -1,0 +1,112 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/Characters/Player/004_lacrimosa_fashion3/ter/hair/T_player_004_lacrimosa_fashion3_hair_01_d.T_player_004_lacrimosa_fashion3_hair_01_d",
+    "BaseColor": "/Game/Characters/Player/004_lacrimosa_fashion3/ter/hair/T_player_004_lacrimosa_fashion3_hair_01_d.T_player_004_lacrimosa_fashion3_hair_01_d",
+    "LightMap": "/Game/Characters/Player/004_lacrimosa_fashion3/ter/hair/T_player_004_lacrimosa_fashion3_hair_01_m.T_player_004_lacrimosa_fashion3_hair_01_m",
+    "T_player_004_lacrimosa_fashion3_hair_01_m": "/Game/Characters/Player/004_lacrimosa_fashion3/ter/hair/T_player_004_lacrimosa_fashion3_hair_01_m.T_player_004_lacrimosa_fashion3_hair_01_m",
+    "RampAltas": "/Game/Characters/Player/004_lacrimosa/ter_new/Curve_new/T_004_night_dusk.T_004_night_dusk",
+    "T_004_night_dusk": "/Game/Characters/Player/004_lacrimosa/ter_new/Curve_new/T_004_night_dusk.T_004_night_dusk"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "SpecColor1": {
+        "R": 0.12,
+        "G": 0.12,
+        "B": 0.12,
+        "A": 1.0,
+        "Hex": "616161"
+      },
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Scale": {
+        "R": 0.876,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "F1FFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.04,
+        "G": -0.304827,
+        "B": -0.592,
+        "A": 1.0,
+        "Hex": "380000"
+      },
+      "HairShadowLightOffset": {
+        "R": -0.5,
+        "G": -0.2,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      }
+    },
+    "Scalars": {
+      "AnisotropicCenterOffset": 0.38,
+      "AnisotropicDMax": 1.8,
+      "AnisotropicDMin": 0.7,
+      "AnisotropicLengthMul": 0.8319,
+      "AnisotropicOffset1": 0.0,
+      "AnisotropicSlideSpeed1": 0.1,
+      "BlinnPhongPow": 2.0,
+      "SpecMinimum": 1.0,
+      "Global Effect": 0.1,
+      "Rain Patter Speed": 0.5,
+      "Droplets Amount": 1.0,
+      "Use2URain": 1.0,
+      "RainBaseColorDark": 0.22,
+      "RainSpecPow": 0.711807,
+      "HairOpacity": 0.9,
+      "OffsetStrength": 0.3,
+      "RampID": 0.0,
+      "RimLight": 1.0,
+      "RimlightBase": 0.4,
+      "ShadowOffsetRange": 0.9,
+      "LightdirZMul": 0.8,
+      "SpecIntensity": 0.0,
+      "SpecMetalPow": 4.0,
+      "SpecMetalRange": 0.158326,
+      "SpecPow": 10.0,
+      "SpecSmooth": 0.02,
+      "ShadowID": 4.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "AnisotropicSpecularUseLightMapRChannel": true,
+      "EnableAnisotropicSpecular": true,
+      "Droplets/Leaks": true,
+      "UseRain": true,
+      "UseNightRamp": true,
+      "UseDuskRamp": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_004_hair'",
+        "ObjectPath": "/Game/Characters/Player/004_lacrimosa/ter_new/outline/hair/MI_004_hair.0"
+      },
+      "BasePropertyOverrides": {
+        "bOverride_OpacityMaskClipValue": true,
+        "bOverride_EmbroideryStencilOp": true,
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333,
+        "EmbroideryStencilOp": "EMaterialEmbroideryStencilOp::MESO_Test"
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

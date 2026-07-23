@@ -1,0 +1,178 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/T_player_004_lacrimosa_nighty_cloth_id.T_player_004_lacrimosa_nighty_cloth_id",
+    "BaseColor": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/T_player_004_lacrimosa_nighty_cloth_d.T_player_004_lacrimosa_nighty_cloth_d",
+    "ID_Tex": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/T_player_004_lacrimosa_nighty_cloth_id.T_player_004_lacrimosa_nighty_cloth_id",
+    "LightMap": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/T_player_004_lacrimosa_nighty_cloth_m.T_player_004_lacrimosa_nighty_cloth_m",
+    "T_player_004_lacrimosa_nighty_cloth_m": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/T_player_004_lacrimosa_nighty_cloth_m.T_player_004_lacrimosa_nighty_cloth_m",
+    "RampAltas": "/Game/Characters/Player/004_lacrimosa_nighty/ter/ramp/T_004_night_dusk.T_004_night_dusk",
+    "T_004_night_dusk": "/Game/Characters/Player/004_lacrimosa_nighty/ter/ramp/T_004_night_dusk.T_004_night_dusk",
+    "Matcap2": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/223748y0gzz6qqs0upd52p.223748y0gzz6qqs0upd52p",
+    "223748y0gzz6qqs0upd52p": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/223748y0gzz6qqs0upd52p.223748y0gzz6qqs0upd52p",
+    "Matcap5": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/T_Matcap_Color.T_Matcap_Color",
+    "T_Matcap_Color": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/T_Matcap_Color.T_Matcap_Color",
+    "Matcap6": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/m.m",
+    "m": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/m.m",
+    "PM_SpecularMasks": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/T_player_004_lacrimosa_nighty_cloth_n.T_player_004_lacrimosa_nighty_cloth_n",
+    "NomralMap": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/T_player_004_lacrimosa_nighty_cloth_n.T_player_004_lacrimosa_nighty_cloth_n"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Scale": {
+        "R": 1.5,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "MaskScale": {
+        "R": 4.0,
+        "G": 0.89535,
+        "B": 0.646408,
+        "A": 1.0,
+        "Hex": "FFF3D3"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "SkinBlendColor": {
+        "R": 0.973445,
+        "G": 0.790924,
+        "B": 0.82736,
+        "A": 1.0,
+        "Hex": "FCE6EB"
+      },
+      "ID0_BaseColor": {
+        "R": 1.0,
+        "G": 0.979167,
+        "B": 0.982452,
+        "A": 1.0,
+        "Hex": "FFFDFE"
+      },
+      "SkilColor1": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "SkilColor2": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "SpecColor2": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "SSSColor": {
+        "R": 1.2,
+        "G": 1.064,
+        "B": 0.996,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      }
+    },
+    "Scalars": {
+      "RainBaseColorDark": 0.104,
+      "RainBaseColorDark_Mask": 0.128,
+      "RainSpecPow_Mask": 2.197526,
+      "RampID": 0.0,
+      "RimLight": 0.4,
+      "ShadowOffsetRange": 0.5,
+      "Matcap1Min": 4.996199,
+      "Matcap1Max": 15.0,
+      "Matcap1Int": 0.1,
+      "RampID1": 3.0,
+      "RampID1_Silk": 0.0,
+      "SkinBlendBase": -2.576,
+      "SkinBlendExp": 0.18,
+      "SilkColorMin": 0.5,
+      "SilkColoeMax": 1.0,
+      "SilkColorPower": 1.0,
+      "Matcap2Min": 0.6,
+      "Matcap2Max": 0.9,
+      "Matcap2Int": 1.0,
+      "RampID2": 7.0,
+      "Matcap3Min": 1.0,
+      "Matcap3Max": 4.432177,
+      "Matcap3Int": 0.0,
+      "RampID3": 7.0,
+      "Matcap4Min": 1.2,
+      "Matcap4Max": 0.979868,
+      "Matcap4Int": 9.899207,
+      "RampID4": 15.0,
+      "Matcap5Min": 2.167132,
+      "Matcap5Max": 10.128026,
+      "Matcap5Int": 2.0,
+      "RampID5": 12.0,
+      "Matcap6Min": 1.0,
+      "Matcap6Max": 2.981623,
+      "Matcap6Int": 1.972993,
+      "RampID6": 5.0,
+      "LightdirZMul": 1.0,
+      "SpecIntensity": 0.808,
+      "SpecMetalPow": 2.0,
+      "SpecMetalRange": 0.544249,
+      "SpecPow": 30.0,
+      "SpecSmooth": 0.5,
+      "LightNormalStrength": 1.0,
+      "MatcapNomralStrength": 1.0,
+      "ShadowID": 0.0,
+      "SkinShadowID": 2.0,
+      "ShadeOffset": 0.5,
+      "ShadeSmooth": 0.1,
+      "SkinScatterCamEnd": 1.0,
+      "SkinScatterCamSpeed": 0.5,
+      "SkinScatterCamStart": -1.0,
+      "SkinScatterRangeOffset": 0.1,
+      "SkinScatterRangeScale": 0.5,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseNightRamp": true,
+      "UseDuskRamp": true,
+      "UseMatcap1": false,
+      "UseSilkHighLight": true,
+      "UseMatcap2": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_004_lacrimosa_nighty_cloth'",
+        "ObjectPath": "/Game/Characters/Player/004_lacrimosa_nighty/ter/outline/MI_004_lacrimosa_nighty_cloth.0"
+      },
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

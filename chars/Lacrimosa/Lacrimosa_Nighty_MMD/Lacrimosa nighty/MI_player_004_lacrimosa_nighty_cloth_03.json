@@ -1,0 +1,112 @@
+{
+  "Textures": {
+    "HeightMap": "/Game/Characters/Player/010_nanally_fashion1/ter/cloth_ter/fur2.fur2",
+    "fur2": "/Game/Characters/Player/010_nanally_fashion1/ter/cloth_ter/fur2.fur2",
+    "PM_Diffuse": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/player_004_lacrimosa_nighty_b_fur_d.player_004_lacrimosa_nighty_b_fur_d",
+    "BaseColor": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/player_004_lacrimosa_nighty_b_fur_d.player_004_lacrimosa_nighty_b_fur_d",
+    "LightMap": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/T_player_004_lacrimosa_nighty_cloth_02_m.T_player_004_lacrimosa_nighty_cloth_02_m",
+    "T_player_004_lacrimosa_nighty_cloth_02_m": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/T_player_004_lacrimosa_nighty_cloth_02_m.T_player_004_lacrimosa_nighty_cloth_02_m",
+    "RampAltas": "/Game/Characters/Player/004_lacrimosa_nighty/ter/ramp/T_004_night_dusk.T_004_night_dusk",
+    "T_004_night_dusk": "/Game/Characters/Player/004_lacrimosa_nighty/ter/ramp/T_004_night_dusk.T_004_night_dusk",
+    "PM_SpecularMasks": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/T_player_004_lacrimosa_nighty_cloth_n.T_player_004_lacrimosa_nighty_cloth_n",
+    "NomralMap": "/Game/Characters/Player/004_lacrimosa_nighty/ter/cloth/T_player_004_lacrimosa_nighty_cloth_n.T_player_004_lacrimosa_nighty_cloth_n"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "AOColor": {
+        "R": 0.260417,
+        "G": 0.260417,
+        "B": 0.260417,
+        "A": 1.0,
+        "Hex": "8C8C8C"
+      },
+      "HeightMapChannel": {
+        "R": 0.34375,
+        "G": 1.0,
+        "B": 0.34375,
+        "A": 0.0,
+        "Hex": "9FFF9F"
+      },
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Scale": {
+        "R": 2.0,
+        "G": 0.876,
+        "B": 0.488,
+        "A": 1.0,
+        "Hex": "FFF1BA"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      }
+    },
+    "Scalars": {
+      "CoreDarkness": 0.0,
+      "EdgeBrighness": 0.0,
+      "Flatten": 1.0,
+      "FuzzPower": 1.0,
+      "HeightMapUV": 4.84,
+      "HeightRatio": 0.01,
+      "Global Effect": 0.7,
+      "Use2URain": 1.0,
+      "RainBaseColorDark": 0.12,
+      "RainBaseColorDark_Mask": 0.1,
+      "RainSpecRange_Mask": 2.19,
+      "OffsetStrength": 1.0,
+      "Opacity": 1.0,
+      "PixelDepthScale": 0.0,
+      "RampID": 0.0,
+      "RimLight": 0.0,
+      "ShadowOffsetRange": 0.4,
+      "RampID6": 18.0,
+      "SpecIntensity": 1.0,
+      "SpecMetalPow": 3.0,
+      "SpecMetalRange": 0.0,
+      "SpecPow": 2.0,
+      "SpecSmooth": 0.02,
+      "LightNormalStrength": 1.0,
+      "MatcapNomralStrength": 1.0,
+      "ShadowID": 0.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseParallaxFur": true,
+      "UseParallax": true,
+      "World-Aligned Mapping": false,
+      "UseRain": true,
+      "UseNightRamp": true,
+      "UseDuskRamp": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_004_lacrimosa_nighty_cloth'",
+        "ObjectPath": "/Game/Characters/Player/004_lacrimosa_nighty/ter/outline/MI_004_lacrimosa_nighty_cloth.0"
+      },
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

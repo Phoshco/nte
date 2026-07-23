@@ -121,6 +121,39 @@
         "pmx": "Lacrimosa.pmx"
     },
 	{
+        "id": 60000811,
+        "name": "Lacrimosa",
+        "weaponType": "Liquid",
+        "element": "Chaos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Lacrimosa/Lacrimosa_Nighty_MMD",
+        "image": "nte/NTE/Lacrimosa.png",
+        "pmx": "Lacrimosa_Nighty_MMD.pmx"
+    },
+	{
+        "id": 60000711,
+        "name": "Lacrimosa",
+        "weaponType": "Liquid",
+        "element": "Chaos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Lacrimosa/Lacrimosa_Fashion_3_MMD",
+        "image": "nte/NTE/Lacrimosa.png",
+        "pmx": "Lacrimosa_Fashion_3_MMD.pmx"
+    },
+	{
+        "id": 60000611,
+        "name": "Lacrimosa",
+        "weaponType": "Liquid",
+        "element": "Chaos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Lacrimosa/Lacrimosa_Fashion_4_MMD",
+        "image": "nte/NTE/Lacrimosa.png",
+        "pmx": "Lacrimosa_Fashion_4_MMD.pmx"
+    },
+	{
         "id": 60000020,
         "name": "Shinku",
         "weaponType": "Condensate",

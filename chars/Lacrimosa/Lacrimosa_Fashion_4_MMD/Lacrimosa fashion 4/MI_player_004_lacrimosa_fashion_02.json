@@ -1,0 +1,231 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/Characters/Player/004_lacrimosa_fashion4/ter/cloth/T_player_004_lacrimosa_fashion1_2_id.T_player_004_lacrimosa_fashion1_2_id",
+    "BaseColor": "/Game/Characters/Player/004_lacrimosa_fashion4/ter/cloth/T_player_004_lacrimosa_fashion1_2_d.T_player_004_lacrimosa_fashion1_2_d",
+    "ID_Tex": "/Game/Characters/Player/004_lacrimosa_fashion4/ter/cloth/T_player_004_lacrimosa_fashion1_2_id.T_player_004_lacrimosa_fashion1_2_id",
+    "LightMap": "/Game/Characters/Player/004_lacrimosa_fashion4/ter/cloth/T_player_004_lacrimosa_fashion1_2_m.T_player_004_lacrimosa_fashion1_2_m",
+    "T_player_004_lacrimosa_fashion1_2_m": "/Game/Characters/Player/004_lacrimosa_fashion4/ter/cloth/T_player_004_lacrimosa_fashion1_2_m.T_player_004_lacrimosa_fashion1_2_m",
+    "RampAltas": "/Game/Characters/Player/004_lacrimosa_fashion4/ter/Curve_new/T_004_night_dusk.T_004_night_dusk",
+    "T_004_night_dusk": "/Game/Characters/Player/004_lacrimosa_fashion4/ter/Curve_new/T_004_night_dusk.T_004_night_dusk",
+    "Matcap2": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/meta3.meta3",
+    "meta3": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/meta3.meta3",
+    "Matcap4": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/112746m5qh1i3iq8sq3qad.112746m5qh1i3iq8sq3qad",
+    "112746m5qh1i3iq8sq3qad": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/112746m5qh1i3iq8sq3qad.112746m5qh1i3iq8sq3qad",
+    "Matcap5": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/Matcap02.Matcap02",
+    "Matcap02": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/Matcap02.Matcap02",
+    "Matcap6": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/Matcap05.Matcap05",
+    "Matcap05": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/Matcap05.Matcap05",
+    "PM_SpecularMasks": "/Game/Characters/Player/004_lacrimosa_fashion4/ter/cloth/T_player_004_lacrimosa_fashion1_2_n.T_player_004_lacrimosa_fashion1_2_n",
+    "NomralMap": "/Game/Characters/Player/004_lacrimosa_fashion4/ter/cloth/T_player_004_lacrimosa_fashion1_2_n.T_player_004_lacrimosa_fashion1_2_n",
+    "Pan_PanarNoiseTex": "/Game/FX/Tex/zt_tex/FX_T_Noise_40.FX_T_Noise_40",
+    "FX_T_Noise_40": "/Game/FX/Tex/zt_tex/FX_T_Noise_40.FX_T_Noise_40"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Scale": {
+        "R": 1.5,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "MaskScale": {
+        "R": 3.0,
+        "G": 0.9,
+        "B": 0.6,
+        "A": 1.0,
+        "Hex": "FFF4CC"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "SkinBlendColor": {
+        "R": 0.973445,
+        "G": 0.790924,
+        "B": 0.82736,
+        "A": 1.0,
+        "Hex": "FCE6EB"
+      },
+      "ID0_BaseColor": {
+        "R": 1.0,
+        "G": 0.979167,
+        "B": 0.982452,
+        "A": 1.0,
+        "Hex": "FFFDFE"
+      },
+      "SkilColor1": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "SkilColor2": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "SpecColor2": {
+        "R": 0.859375,
+        "G": 0.859375,
+        "B": 0.859375,
+        "A": 0.0,
+        "Hex": "EFEFEF"
+      },
+      "SpecColor3": {
+        "R": 0.932292,
+        "G": 0.944715,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "F8F9FF"
+      },
+      "SpecColor4": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "SSSColor": {
+        "R": 1.3,
+        "G": 1.012517,
+        "B": 0.867302,
+        "A": 1.0,
+        "Hex": "FFFFF0"
+      },
+      "Pan_PananerUV1": {
+        "R": 4.5,
+        "G": 10.0,
+        "B": 0.0,
+        "A": -0.6,
+        "Hex": "FFFF00"
+      },
+      "Pan_PananerUV2": {
+        "R": 3.0,
+        "G": 5.0,
+        "B": 0.0,
+        "A": -0.6,
+        "Hex": "FFFF00"
+      },
+      "Pan_PanarColor1": {
+        "R": 1.145833,
+        "G": 7.921273,
+        "B": 10.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Pan_PanarColor2": {
+        "R": 15.0,
+        "G": 7.109375,
+        "B": 7.109375,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      }
+    },
+    "Scalars": {
+      "AwakenEffect": 0.0,
+      "RainBaseColorDark": 0.11,
+      "RainBaseColorDark_Mask": 0.128,
+      "RainSpecPow_Mask": 2.197526,
+      "RampID": 0.0,
+      "RimLight": 0.4,
+      "ShadowOffsetRange": 0.45,
+      "Matcap1Min": 4.996199,
+      "Matcap1Max": 15.0,
+      "Matcap1Int": 0.1,
+      "RampID1": 3.0,
+      "RampID1_Silk": 3.0,
+      "SkinBlendBase": -2.576,
+      "SkinBlendExp": 0.18,
+      "SilkColorMin": 0.5,
+      "SilkColoeMax": 1.0,
+      "SilkColorPower": 1.0,
+      "Matcap2Min": 0.8,
+      "Matcap2Max": 2.0,
+      "Matcap2Int": 2.0,
+      "RampID2": 9.0,
+      "Matcap3Min": 0.633024,
+      "Matcap3Max": 1.5,
+      "Matcap3Int": 10.0,
+      "RampID3": 12.0,
+      "Matcap4Min": 1.0,
+      "Matcap4Max": 2.234392,
+      "Matcap4Int": 3.484116,
+      "RampID4": 15.0,
+      "Matcap5Min": 1.0,
+      "Matcap5Max": 3.0,
+      "Matcap5Int": 1.0,
+      "RampID5": 18.0,
+      "Matcap6Min": 1.0,
+      "Matcap6Max": 2.5,
+      "Matcap6Int": 3.0,
+      "RampID6": 21.0,
+      "LightdirZMul": 0.8,
+      "SpecIntensity": 1.0,
+      "SpecMetalPow": 50.0,
+      "SpecMetalRange": 0.02,
+      "SpecPow": 2.0,
+      "SpecSmooth": 0.008898,
+      "SpecSpeedX": 0.5,
+      "LightNormalStrength": 1.0,
+      "MatcapNomralStrength": 1.0,
+      "ShadowID": 0.0,
+      "SkinShadowID": 2.0,
+      "ShadeOffset": 0.5,
+      "ShadeSmooth": 0.35,
+      "SkinScatterCamEnd": 1.0,
+      "SkinScatterCamSpeed": 0.5,
+      "SkinScatterCamStart": -1.0,
+      "SkinScatterRangeOffset": 0.1,
+      "SkinScatterRangeScale": 0.5,
+      "AwakenBaseColorScale": 0.8,
+      "AwakenEmissiveScale": 0.8,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseNightRamp": true,
+      "UseDuskRamp": true,
+      "UseMatcap1": false,
+      "UseSilkHighLight": true,
+      "UseMatcap2": true,
+      "UseMatcap4": true,
+      "UseMatcap5": true,
+      "UseMatcap6": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_004_cloth_2'",
+        "ObjectPath": "/Game/Characters/Player/004_lacrimosa_fashion4/ter/outline/MI_004_cloth_2.0"
+      },
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

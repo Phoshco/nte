@@ -1,0 +1,59 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/Characters/Player/004_lacrimosa/ter_new/face_ter/T_player_004_lacrimosa_face_d.T_player_004_lacrimosa_face_d",
+    "BaseColor": "/Game/Characters/Player/004_lacrimosa/ter_new/face_ter/T_player_004_lacrimosa_face_d.T_player_004_lacrimosa_face_d",
+    "LightMap": "/Game/CoreMaterials/Character/DefaultTextures/T_Linear_White.T_Linear_White",
+    "T_Linear_White": "/Game/CoreMaterials/Character/DefaultTextures/T_Linear_White.T_Linear_White",
+    "RampAltas": "/Game/Characters/Player/004_lacrimosa/ter_new/Curve_new/T_004_night_dusk.T_004_night_dusk",
+    "T_004_night_dusk": "/Game/Characters/Player/004_lacrimosa/ter_new/Curve_new/T_004_night_dusk.T_004_night_dusk"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      }
+    },
+    "Scalars": {
+      "OffsetStrength": 1.0,
+      "Opacity": 1.0,
+      "RampID": 30.0,
+      "SpecIntensity": 0.84,
+      "ShadowID": 2.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseNightRamp": true,
+      "UseDuskRamp": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333,
+        "EmbroideryStencilOp": "EMaterialEmbroideryStencilOp::MESO_Set"
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

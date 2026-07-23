@@ -1,0 +1,96 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/Characters/Player/004_lacrimosa_nighty/ter/hair/T_player_004_lacrimosa_nighty_hair_02_d.T_player_004_lacrimosa_nighty_hair_02_d",
+    "BaseColor": "/Game/Characters/Player/004_lacrimosa_nighty/ter/hair/T_player_004_lacrimosa_nighty_hair_02_d.T_player_004_lacrimosa_nighty_hair_02_d",
+    "LightMap": "/Game/Characters/Player/004_lacrimosa_nighty/ter/hair/T_player_004_lacrimosa_nighty_hair_02_m.T_player_004_lacrimosa_nighty_hair_02_m",
+    "T_player_004_lacrimosa_nighty_hair_02_m": "/Game/Characters/Player/004_lacrimosa_nighty/ter/hair/T_player_004_lacrimosa_nighty_hair_02_m.T_player_004_lacrimosa_nighty_hair_02_m",
+    "RampAltas": "/Game/Characters/Player/004_lacrimosa_nighty/ter/ramp/T_004_night_dusk.T_004_night_dusk",
+    "T_004_night_dusk": "/Game/Characters/Player/004_lacrimosa_nighty/ter/ramp/T_004_night_dusk.T_004_night_dusk"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "SpecColor1": {
+        "R": 0.072917,
+        "G": 0.072917,
+        "B": 0.072917,
+        "A": 1.0,
+        "Hex": "4C4C4C"
+      },
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Scale": {
+        "R": 0.745786,
+        "G": 1.257705,
+        "B": 1.109308,
+        "A": 1.0,
+        "Hex": "E0FFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.04,
+        "G": -0.304827,
+        "B": -0.592,
+        "A": 1.0,
+        "Hex": "380000"
+      }
+    },
+    "Scalars": {
+      "AnisotropicOffset1": 0.0,
+      "AnisotropicSlideSpeed1": 0.1,
+      "BlinnPhongPow": 1.0,
+      "SpecMinimum": 3.0,
+      "Global Effect": 2.0,
+      "Rain Patter Speed": 0.5,
+      "Droplets Amount": 1.0,
+      "Droplets Normal Intensity": 2.5,
+      "RainBaseColorDark": 0.28,
+      "RainNormalIntensity": 1.019248,
+      "RainSpecRange": -1.916471,
+      "OffsetStrength": 0.3,
+      "RampID": 0.0,
+      "ShadowOffsetRange": 1.0,
+      "LightdirZMul": 0.5,
+      "SpecMetalPow": 6.0,
+      "SpecPow": 1.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "AnisotropicSpecularUseLightMapRChannel": true,
+      "EnableAnisotropicSpecular": true,
+      "EnableAnisotropicStretch": false,
+      "Droplets/Leaks": true,
+      "World-Aligned Mapping": false,
+      "Rain Patter Effect": true,
+      "UseRain": true,
+      "UseNightRamp": true,
+      "UseDuskRamp": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_004_lacrimosa_nighty_hair_02'",
+        "ObjectPath": "/Game/Characters/Player/004_lacrimosa_nighty/ter/outline/MI_004_lacrimosa_nighty_hair_02.0"
+      },
+      "BasePropertyOverrides": {
+        "bOverride_OpacityMaskClipValue": true,
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}
