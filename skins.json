@@ -207,5 +207,49 @@
         "directory": "nte/chars/Shinku/Shinku_Swimsuit_MMD_v2",
         "image": "nte/NTE/Shinku.png",
         "pmx": "Shinku_Swimsuit.pmx"
+    },
+	{
+        "id": 60000921,
+        "name": "Iroi",
+        "weaponType": "Liquid",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Iroi/Iroi_RPG0_MMD",
+        "image": "nte/NTE/Iroi.png",
+        "pmx": "Iroi_RPG0_MMD.pmx"
+    },
+	{
+        "id": 60000821,
+        "name": "Iroi",
+        "weaponType": "Liquid",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Iroi/Iroi_RPG1_MMD",
+        "image": "nte/NTE/Iroi.png",
+        "pmx": "Iroi_RPG1_MMD.pmx"
+    },
+	{
+        "id": 60000721,
+        "name": "Iroi",
+        "weaponType": "Liquid",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Iroi/Iroi_RPG2_MMD",
+        "image": "nte/NTE/Iroi.png",
+        "pmx": "Iroi_RPG2_MMD.pmx"
+    },
+	{
+        "id": 60000621,
+        "name": "Iroi",
+        "weaponType": "Liquid",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Iroi/Iroi_RPG3_MMD",
+        "image": "nte/NTE/Iroi.png",
+        "pmx": "Iroi_RPG3_MMD.pmx"
     }
 ]

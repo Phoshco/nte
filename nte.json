@@ -226,7 +226,7 @@
         "element": "Anima",
         "gender": "Female",
         "rarity": 5,
-        "directory": "nte/chars/Iroi",
+        "directory": "nte/chars/Iroi/Iroi",
         "image": "nte/NTE/Iroi.png",
         "pmx": "Iroi.pmx"
     },
