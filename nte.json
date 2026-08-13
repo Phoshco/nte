@@ -230,8 +230,30 @@
         "image": "nte/NTE/Iroi.png",
         "pmx": "Iroi.pmx"
     },
-	{
+    {
         "id": 60000022,
+        "name": "Linko",
+        "weaponType": "Plasma",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Linko",
+        "image": "nte/NTE/Linko.png",
+        "pmx": "Linko.pmx"
+    },
+    {
+        "id": 60000023,
+        "name": "Zankou",
+        "weaponType": "Gas",
+        "element": "Incantation",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Zankou/Zankou",
+        "image": "nte/NTE/Zankou.png",
+        "pmx": "Zankou.pmx"
+    },
+	{
+        "id": 60000033,
         "name": "Akane Rin",
         "weaponType": "Universal",
         "element": "Universal",
@@ -242,7 +264,7 @@
         "pmx": "Akane Rin.pmx"
     },
 	{
-        "id": 60000023,
+        "id": 60000034,
         "name": "Alphard",
         "weaponType": "Universal",
         "element": "Universal",
@@ -251,16 +273,5 @@
         "directory": "nte/chars/Alphard",
         "image": "nte/NTE/Alphard.png",
         "pmx": "Alphard.pmx"
-    },
-    {
-        "id": 6000001,
-        "name": "Zankou",
-        "weaponType": "Universal",
-        "element": "Universal",
-        "gender": "Female",
-        "rarity": 6,
-        "directory": "nte/chars/Zankou",
-        "image": "nte/NTE/Zankou.png",
-        "pmx": "Zankou.pmx"
     }
 ]
