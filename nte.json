@@ -6,7 +6,7 @@
         "element": "Cosmos",
         "gender": "Male",
         "rarity": 5,
-        "directory": "nte/chars/Zero (Male)",
+        "directory": "nte/chars/Zero (Male)/Zero",
         "image": "nte/NTE/Zero (Male).png",
         "pmx": "Zero.pmx"
     },
@@ -251,6 +251,17 @@
         "directory": "nte/chars/Zankou/Zankou",
         "image": "nte/NTE/Zankou.png",
         "pmx": "Zankou.pmx"
+    },
+	{
+        "id": 60000024,
+        "name": "Nitsa",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 6,
+        "directory": "nte/chars/Nitsa",
+        "image": "nte/NTE/Nitsa.png",
+        "pmx": "Nitsa.pmx"
     },
 	{
         "id": 60000033,

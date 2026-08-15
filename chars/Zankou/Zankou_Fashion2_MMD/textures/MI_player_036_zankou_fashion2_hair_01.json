@@ -1,0 +1,104 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/Characters/Player/036_zankou_fashion2/ter/hair_ter/T_player_036_zankou_fashion2_hair1_d.T_player_036_zankou_fashion2_hair1_d",
+    "BaseColor": "/Game/Characters/Player/036_zankou_fashion2/ter/hair_ter/T_player_036_zankou_fashion2_hair1_d.T_player_036_zankou_fashion2_hair1_d",
+    "LightMap": "/Game/Characters/Player/036_zankou_fashion2/ter/hair_ter/T_player_036_zankou_fashion2_hair1_m.T_player_036_zankou_fashion2_hair1_m",
+    "T_player_036_zankou_fashion2_hair1_m": "/Game/Characters/Player/036_zankou_fashion2/ter/hair_ter/T_player_036_zankou_fashion2_hair1_m.T_player_036_zankou_fashion2_hair1_m",
+    "RampAltas": "/Game/Characters/Player/036_zankou/curve/T_036_zankou.T_036_zankou",
+    "T_036_zankou": "/Game/Characters/Player/036_zankou/curve/T_036_zankou.T_036_zankou"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "SpecColor1": {
+        "R": 0.222169,
+        "G": 0.224515,
+        "B": 0.234375,
+        "A": 1.0,
+        "Hex": "828285"
+      },
+      "BaseColor": {
+        "R": 1.0695,
+        "G": 1.121825,
+        "B": 1.15,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Scale": {
+        "R": 1.2,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.04,
+        "G": -0.304827,
+        "B": -0.592,
+        "A": 1.0,
+        "Hex": "380000"
+      }
+    },
+    "Scalars": {
+      "AnisotropicCenterOffset": 0.47,
+      "AnisotropicLengthMul": 0.85,
+      "AnisotropicOffset1": -0.072,
+      "AnisotropicSlideSpeed1": 0.02,
+      "AnisotropicStretchContrast": 0.3,
+      "BlinnPhongPow": 1.0,
+      "SpecMinimum": 0.5,
+      "Global Effect": 1.0,
+      "Rain Patter Speed": 0.5,
+      "Droplets Amount": 1.0,
+      "Droplets Normal Intensity": 2.0,
+      "RainBaseColorDark": 0.24,
+      "RainNormalIntensity": 0.771398,
+      "RainSpecPow": 7.728449,
+      "RainSpecRange": -2.185738,
+      "HairOpacity": 1.0,
+      "OffsetStrength": 0.15,
+      "RampID": 0.0,
+      "RimLight": 0.35,
+      "RimlightBase": 0.2,
+      "ShadowOffsetRange": 0.6,
+      "SpecIntensity": 0.0,
+      "SpecMetalPow": 6.0,
+      "ShadowID": 0.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "AnisotropicSpecularUseLightMapRChannel": true,
+      "EnableAnisotropicSpecular": true,
+      "Droplets/Leaks": true,
+      "World-Aligned Mapping": false,
+      "Rain Patter Effect": true,
+      "UseRain": true,
+      "UseNightRamp": true,
+      "UseDuskRamp": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_036_zankou_fashion02_hair01'",
+        "ObjectPath": "/Game/Characters/Player/036_zankou_fashion2/ter/outline/MI_036_zankou_fashion02_hair01.0"
+      },
+      "BasePropertyOverrides": {
+        "bOverride_OpacityMaskClipValue": true,
+        "bOverride_EmbroideryStencilOp": true,
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333,
+        "EmbroideryStencilOp": "EMaterialEmbroideryStencilOp::MESO_Test"
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

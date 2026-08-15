@@ -251,5 +251,60 @@
         "directory": "nte/chars/Iroi/Iroi_RPG3_MMD",
         "image": "nte/NTE/Iroi.png",
         "pmx": "Iroi_RPG3_MMD.pmx"
+    },
+	{
+        "id": 60000923,
+        "name": "Zankou",
+        "weaponType": "Gas",
+        "element": "Incantation",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Zankou/Zankou_Fashion_MMD",
+        "image": "nte/NTE/Zankou.png",
+        "pmx": "Zankou.pmx"
+    },
+	{
+        "id": 60000823,
+        "name": "Zankou",
+        "weaponType": "Gas",
+        "element": "Incantation",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Zankou/Zankou_Fashion2_MMD",
+        "image": "nte/NTE/Zankou.png",
+        "pmx": "Zankou.pmx"
+    },
+	{
+        "id": 60000723,
+        "name": "Zankou",
+        "weaponType": "Gas",
+        "element": "Incantation",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Zankou/Zankou_Nighty_MMD",
+        "image": "nte/NTE/Zankou.png",
+        "pmx": "Zankou.pmx"
+    },
+	{
+        "id": 60000623,
+        "name": "Zankou",
+        "weaponType": "Gas",
+        "element": "Incantation",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Zankou/Zankou_Swimsuit_MMD",
+        "image": "nte/NTE/Zankou.png",
+        "pmx": "Zankou.pmx"
+    },
+	{
+        "id": 60000001,
+        "name": "Zero (Male)",
+        "weaponType": "Solid",
+        "element": "Cosmos",
+        "gender": "Male",
+        "rarity": 5,
+        "directory": "nte/chars/Zero (Male)/Zero_夏日澄空",
+        "image": "nte/NTE/Zero (Male).png",
+        "pmx": "Zero.pmx"
     }
 ]

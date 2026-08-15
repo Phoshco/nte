@@ -1,0 +1,42 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/Characters/Player/Common_ter/eye_bantou_d.eye_bantou_d",
+    "BaseColor": "/Game/Characters/Player/Common_ter/eye_bantou_d.eye_bantou_d"
+  },
+  "Parameters": {
+    "BlendMode": 2,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      }
+    },
+    "Scalars": {
+      "Translucent": 1.2,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {},
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "BasePropertyOverrides": {
+        "bOverride_bSkipOnVelocityPass": true,
+        "BlendMode": "EBlendMode::BLEND_TranslucentGreyTransmittance",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333,
+        "bSkipOnVelocityPass": true
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": true,
+    "IsNull": false
+  }
+}

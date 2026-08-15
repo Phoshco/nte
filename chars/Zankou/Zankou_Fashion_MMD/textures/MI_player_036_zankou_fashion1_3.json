@@ -1,0 +1,88 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/Characters/Player/036_zankou_fashion1/ter/cloth_ter/T_fur1.T_fur1",
+    "BaseColor": "/Game/Characters/Player/036_zankou_fashion1/ter/cloth_ter/T_fur1.T_fur1"
+  },
+  "Parameters": {
+    "BlendMode": 2,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "DissolveDir": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": -1.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "DissolvePos": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      }
+    },
+    "Scalars": {
+      "CameraPushScale": 1.2,
+      "Translucent": -0.5,
+      "MColorOffset": 0.0,
+      "TranslucentCenter": 1.0,
+      "TranslucentFresnelPow": 0.5,
+      "DissolveHardNess": 0.01,
+      "NoiseScale": 0.5,
+      "UseDirDissolveDir": 0.0,
+      "FixExposure": 0.5,
+      "OffsetStrength": 1.0,
+      "Opacity": 1.0,
+      "RampID": 0.0,
+      "ShadowOffsetRange": 0.5,
+      "Matcap1Min": 1.291124,
+      "Matcap1Max": 1.102586,
+      "Matcap1Int": -11.993677,
+      "SpecIntensity": 0.0,
+      "SpecPow": 450.0,
+      "SpecSpeedX": 0.720424,
+      "SpecSpeedY": 0.01,
+      "MatcapNomralStrength": 1.0,
+      "InvisableSkillOpacity": 1.0,
+      "OpacityMaskVal": 1.0,
+      "PlayerInvisable": 1.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseCameraPush": true,
+      "UseFresnelTranslucent": true,
+      "useCustomDpethClip": true,
+      "UseMatcap0": false
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "BasePropertyOverrides": {
+        "bOverride_OpacityMaskClipValue": true,
+        "bOverride_CastDynamicShadowAsMasked": true,
+        "bOverride_TwoSided": true,
+        "TwoSided": true,
+        "bCastDynamicShadowAsMasked": true,
+        "bOutputTranslucentVelocity": true,
+        "BlendMode": "EBlendMode::BLEND_TranslucentGreyTransmittance",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.01
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": true,
+    "IsNull": false
+  }
+}

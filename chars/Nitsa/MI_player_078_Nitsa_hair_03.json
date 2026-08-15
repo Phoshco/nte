@@ -1,0 +1,480 @@
+{
+  "Textures": {
+    "CharaterToneLut": "/Game/CoreMaterials/Character/ToonMaterial/Functions/Character_TonemapAtlas.Character_TonemapAtlas",
+    "RampAltas": "/Game/Characters/Player/078_Nitsa/ter/curve/T_078_Nitsa.T_078_Nitsa",
+    "PM_Diffuse": "/Game/Characters/Player/078_Nitsa/ter/hair_ter/T_player_078_Nitsa_hair_02_d.T_player_078_Nitsa_hair_02_d",
+    "BaseColor": "/Game/Characters/Player/078_Nitsa/ter/hair_ter/T_player_078_Nitsa_hair_02_d.T_player_078_Nitsa_hair_02_d",
+    "LightMap": "/Game/Characters/Player/078_Nitsa/ter/hair_ter/T_player_078_Nitsa_hair_02_m.T_player_078_Nitsa_hair_02_m",
+    "PM_SpecularMasks": "/Game/CoreMaterials/Character/DefaultTextures/DefaultNormal1x1_XL.DefaultNormal1x1_XL",
+    "NomralMap": "/Game/CoreMaterials/Character/DefaultTextures/DefaultNormal1x1_XL.DefaultNormal1x1_XL",
+    "BaseColorRain": "/Game/CoreMaterials/Character/DefaultTextures/T_sRGB_White.T_sRGB_White",
+    "DissolveMaskNoise": "/Game/CoreMaterials/Character/DefaultTextures/T_Tiles006_2.T_Tiles006_2",
+    "BurnDissolveBaseNoise": "/Game/UltraDynamicSky/Textures/Space/Planets_Moons/Deform_Noise.Deform_Noise",
+    "AnisotropicSpecMap": "/Game/CoreMaterials/Character/DefaultTextures/T_sRGB_White.T_sRGB_White",
+    "TEX2": "/Game/FX/Tex/Smoke/T_Smoke_010.T_Smoke_010",
+    "AddTexture": "/Game/FX/Tex/Star/T_Start_00990.T_Start_00990",
+    "NoiseTexture": "/Game/FX/Tex/zt_tex/Tex_Tile_55.Tex_Tile_55",
+    "Tex1": "/Game/FX/Tex/Player/Player072/T_Player072_Color_01.T_Player072_Color_01",
+    "T_player_078_Nitsa_hair_02_m": "/Game/Characters/Player/078_Nitsa/ter/hair_ter/T_player_078_Nitsa_hair_02_m.T_player_078_Nitsa_hair_02_m",
+    "T_078_Nitsa": "/Game/Characters/Player/078_Nitsa/ter/curve/T_078_Nitsa.T_078_Nitsa"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "Smear": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "LocalSunColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "LocalShadowColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "SunLightDir": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF0000"
+      },
+      "RampBackLitHSVAlpha": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "MColorLight": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "MColorDark": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "CamAddtionalLight": {
+        "R": 0.2,
+        "G": 0.2,
+        "B": 0.2,
+        "A": 1.0,
+        "Hex": "7C7C7C"
+      },
+      "Scale": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "MaskScale": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairShadowLightOffset": {
+        "R": -0.5,
+        "G": -0.2,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.04,
+        "G": -0.304827,
+        "B": -0.592,
+        "A": 1.0,
+        "Hex": "380000"
+      },
+      "SpecColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairColor1": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairColor2": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "FresnelAddColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "HeadOffset": {
+        "R": 0.0,
+        "G": 2.0,
+        "B": 10.0,
+        "A": 1.0,
+        "Hex": "00FFFF"
+      },
+      "Dissolve_FresnelColor": {
+        "R": 0.729168,
+        "G": 2.32085,
+        "B": 10.0,
+        "A": 1.0,
+        "Hex": "DEFFFF"
+      },
+      "DissolveDir": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": -1.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "DissolvePos": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "FPSCamDir": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "HeadCenterLocalSpace": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 127.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "HairSkillEmissiveColor2": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "HairSkillEmissiveColor1": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "SpecColor1": {
+        "R": 0.031879,
+        "G": 0.0,
+        "B": 0.458333,
+        "A": 1.0,
+        "Hex": "3200B5"
+      },
+      "SpecColor2": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairLocalDir": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF0000"
+      },
+      "HairRightDir": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "00FF00"
+      },
+      "HairSkillTargetColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "HairSkillSelectColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Speed_1.2": {
+        "R": 0.02,
+        "G": -0.05,
+        "B": 0.0,
+        "A": -0.1,
+        "Hex": "260000"
+      },
+      "Tile_1.2": {
+        "R": 2.0,
+        "G": 6.0,
+        "B": 2.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Color_1": {
+        "R": 0.61967,
+        "G": 2.603395,
+        "B": 10.0,
+        "A": 1.0,
+        "Hex": "CFFFFF"
+      },
+      "Fresnel_Color": {
+        "R": 1.04957,
+        "G": 3.461786,
+        "B": 30.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Color3": {
+        "R": 0.0,
+        "G": 0.531321,
+        "B": 4.0,
+        "A": 1.0,
+        "Hex": "00C1FF"
+      },
+      "Color2": {
+        "R": 0.020228,
+        "G": 0.680465,
+        "B": 5.0,
+        "A": 1.0,
+        "Hex": "27D7FF"
+      },
+      "Color1": {
+        "R": 0.4389,
+        "G": 0.1567,
+        "B": 2.0,
+        "A": 1.0,
+        "Hex": "B16EFF"
+      },
+      "AddTileSpeed": {
+        "R": 1.0,
+        "G": 7.0,
+        "B": 0.03,
+        "A": -0.1,
+        "Hex": "FFFF30"
+      },
+      "NoiseTileSpeed": {
+        "R": 0.752,
+        "G": 1.863686,
+        "B": 0.05,
+        "A": -0.02,
+        "Hex": "E1FF3F"
+      }
+    },
+    "Scalars": {
+      "Smear Noise Scale": 20.0,
+      "Smear Normal Angle Bias": 0.1,
+      "Edge": 0.1,
+      "SmearUV2Mask": 0.0,
+      "UV2_G_Min": 0.2,
+      "UV2_G_Hardness": 0.2,
+      "sssssssssssss": 0.1,
+      "UseLocalLight": 0.0,
+      "EnablePointLights": 0.0,
+      "SpecPow": 2.0,
+      "SpecMetalPow": 2.0,
+      "SpecSmooth": 0.5,
+      "SpecMetalRange": 0.0001,
+      "LightdirZMul": 0.6,
+      "LocalLightHard": 50.0,
+      "SpecSpeedX": 0.5,
+      "SpecSpeedY": 0.5,
+      "ShadeOffset": 0.5,
+      "ShadeSmooth": 0.05,
+      "MBlendHardness": 10.0,
+      "MColorOffset": 0.0,
+      "UseFullEmissive": 0.0,
+      "OverrideTime": -1.0,
+      "RainSpecPow": 2.0,
+      "RainSpecRange": 0.8,
+      "RainSpecSmooth": 1.0,
+      "RainSpecScale": 1.0,
+      "RainSpecAlpha": 1.0,
+      "RainFresnelbase": 0.01,
+      "RainFresnelpow": 2.0,
+      "RainFresnelScale": 1.0,
+      "RainSpecPow_Mask": 2.0,
+      "RainSpecRange_Mask": 0.8,
+      "RainSpecSmooth_Mask": 1.0,
+      "RainSpecScale_Mask": 1.0,
+      "RainFresnelbase_Mask": 0.01,
+      "RainFresnelpow_Mask": 2.0,
+      "RainFresnelScale_Pow": 1.0,
+      "isface": 0.0,
+      "Rain Patter Speed": 0.5,
+      "Wet Albedo Darkening": 0.2,
+      "LeaksSpeed": 1.5,
+      "Leaks Normal Intensity": 0.7,
+      "Droplets Amount": 1.0,
+      "Droplets Normal Intensity": 1.0,
+      "General Wetness": 1.0,
+      "Global Effect": 0.7,
+      "TopBottomMaskWeight": 0.0,
+      "CloseSlopeMask": 0.0,
+      "Use2URain": 0.0,
+      "Mask Droplets Normal Intensity": 1.0,
+      "LocalRainEnabled": 0.0,
+      "SpecIntensity": 0.0,
+      "RampID": 0.0,
+      "MatcapNomralStrength": 1.0,
+      "LightNormalStrength": 1.0,
+      "Opacity": 1.0,
+      "OffsetStrength": 0.578801,
+      "ShadowOffsetRange": 0.6,
+      "CharaterMipBias": -2.0,
+      "BaseColorInverseColor": 0.0,
+      "Desaturation": 0.0,
+      "NormalTilling": 1.0,
+      "ShadowID": 0.0,
+      "EdgeFalloff": 0.01,
+      "RainBaseColorDark": 0.0,
+      "RainNormalIntensity": 2.0,
+      "RainBaseColorDark_Mask": 0.0,
+      "RainNormalIntensity_Mask": 2.0,
+      "RimLight": 1.0,
+      "BlendCenter": 0.5,
+      "BlendDistance": 0.5,
+      "RangeRange": 0.5,
+      "HairBlendPow": 0.5,
+      "SoftWidth": 0.5,
+      "Dissolve": 0.0,
+      "DissolveSkill": 0.0,
+      "burnemissivewidth": 0.03,
+      "ColorOffset": -0.05,
+      "MaksOffset": -0.04,
+      "NoiseScaleBurnDissolove": 0.15,
+      "ColorWidth": 0.1,
+      "EmissiveOffset": -0.04,
+      "Dissolve_UVs2": 4.0,
+      "Dissolve_UVs": 2.0,
+      "EmissiveWidth": 0.1,
+      "UseDirDissolveDir": 0.0,
+      "NoiseScale": 0.5,
+      "DissolveHardNess": 0.01,
+      "NoiseBurnDissoloveOffset": 0.5,
+      "OpacityMaskVal": 1.0,
+      "InvisableSkillOpacity": 1.0,
+      "PlayerInvisable": 1.0,
+      "WeaponOpacityMaskVal": 1.0,
+      "MaskOpacity": 1.0,
+      "PlayerDitherRandom": 0.0,
+      "FPSCameraCutHeight": 120.0,
+      "FPSCameFade": 1.0,
+      "FPSCameraCutHeightOverride": 9999.0,
+      "OpacityMaskWeapon": 1.0,
+      "HairOpacity": 1.152014,
+      "CemraScale": -100.0,
+      "SunScale": 50.0,
+      "RimlightBase": 0.144198,
+      "HairEmissiveRange": -0.2,
+      "HairSkillEmissiveEnable": 0.0,
+      "SkillDesaturate": 0.0,
+      "BlinnPhongPow": 1.0,
+      "SpecMinimum": 1.0,
+      "AnisotropicSlide2": 0.1,
+      "AnisotropicOffset2": 0.0,
+      "AnisotropicPower": 1.0,
+      "AnisotropicOffset1": -0.01,
+      "AnisotropicCenterOffset": 0.0,
+      "AnisotropicLengthMul": 0.523532,
+      "AnisotropicStretchContrast": 0.728,
+      "AnisotropicDMin": 1.009032,
+      "AnisotropicDMax": 14.360021,
+      "AnisotropicSlideSpeed1": 0.02,
+      "AnisotropicLowRange": 0.0,
+      "SpecCurve": 0.0,
+      "HairSkillColorSelectThreshold": 0.5,
+      "AwakenEffect": 0.0,
+      "DialogueAlpha": 1.0,
+      "CustomEffect01": 0.0,
+      "CustomEffect02": 0.0,
+      "AddTex2Power": 4.0,
+      "AddTex2Intensity": 3.0,
+      "AddTex1Power": 1.451025,
+      "AddTex1Intensity": 1.094434,
+      "ColoFresnelMaskPower": 0.4,
+      "ColoFresnelMaskIntensity": 1.0,
+      "ColoFresnelMaskIN_Intensity": 0.3,
+      "Fresnel_Power": 0.8,
+      "Mask Power": 3.0,
+      "AddMaskColor": 10.0,
+      "Fresnel_Intensity": 0.5,
+      "Add_GradualTexPower": 3.0,
+      "Add_GradualTexIntensity": 110.0,
+      "NoisePower": 1.0,
+      "NoiseIntensity": 0.05,
+      "AlphaInput": 1.75,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "AnisotropicSpecularUseLightMapRChannel": true,
+      "EnableAnisotropicSpecular": true,
+      "UseNightRamp": true,
+      "UseDuskRamp": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'player_078_hair2'",
+        "ObjectPath": "/Game/Characters/Player/078_Nitsa/ter/outline/hair/player_078_hair2.0"
+      },
+      "BasePropertyOverrides": {
+        "bOverride_OpacityMaskClipValue": true,
+        "bOverride_EmbroideryStencilOp": true,
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

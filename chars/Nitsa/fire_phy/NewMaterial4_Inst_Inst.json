@@ -1,0 +1,54 @@
+{
+  "Textures": {},
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "ColorTex1": {
+        "R": 1.330661,
+        "G": 1.322917,
+        "B": 2.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "ColorTex2": {
+        "R": 4.583322,
+        "G": 4.375,
+        "B": 8.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      }
+    },
+    "Scalars": {
+      "B_1": 0.748,
+      "B_2": 0.583325,
+      "B_3": 1.2,
+      "B_4": 1.057229,
+      "B_6": 0.5,
+      "B_6——1": 0.5,
+      "B_7": 1.133012,
+      "Dissolve (S)": 0.2,
+      "Exp_2": 3.983236,
+      "Offset Amount (S)": 16.0,
+      "Param": 1.272884,
+      "Param_1": 0.29202,
+      "Power": 3.256311,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {},
+    "Properties": {
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": true
+  }
+}

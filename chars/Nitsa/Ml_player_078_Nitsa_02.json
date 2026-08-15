@@ -1,0 +1,217 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/Characters/Player/078_Nitsa/ter/cloth_ter/T_player_078_Nitsa_id_02.T_player_078_Nitsa_id_02",
+    "BaseColor": "/Game/Characters/Player/078_Nitsa/ter/cloth_ter/T_player_078_Nitsa_d_02.T_player_078_Nitsa_d_02",
+    "ID_Tex": "/Game/Characters/Player/078_Nitsa/ter/cloth_ter/T_player_078_Nitsa_id_02.T_player_078_Nitsa_id_02",
+    "LightMap": "/Game/Characters/Player/078_Nitsa/ter/cloth_ter/T_player_078_Nitsa_m_02.T_player_078_Nitsa_m_02",
+    "T_player_078_Nitsa_m_02": "/Game/Characters/Player/078_Nitsa/ter/cloth_ter/T_player_078_Nitsa_m_02.T_player_078_Nitsa_m_02",
+    "RampAltas": "/Game/Characters/Player/078_Nitsa/ter/curve/T_078_Nitsa.T_078_Nitsa",
+    "T_078_Nitsa": "/Game/Characters/Player/078_Nitsa/ter/curve/T_078_Nitsa.T_078_Nitsa",
+    "Matcap1": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/MatCap065_2.MatCap065_2",
+    "MatCap065_2": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/MatCap065_2.MatCap065_2",
+    "HighLightNoiseTex": "/Game/CoreMaterials/Character/DefaultTextures/T_Noise_004_XL.T_Noise_004_XL",
+    "T_Noise_004_XL": "/Game/CoreMaterials/Character/DefaultTextures/T_Noise_004_XL.T_Noise_004_XL",
+    "Matcap2": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/Matcap07.Matcap07",
+    "Matcap07": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/Matcap07.Matcap07",
+    "Matcap3": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/223750lla5glm7ln3l58xl.223750lla5glm7ln3l58xl",
+    "223750lla5glm7ln3l58xl": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/223750lla5glm7ln3l58xl.223750lla5glm7ln3l58xl",
+    "Matcap4": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/223750lla5glm7ln3l58xl.223750lla5glm7ln3l58xl",
+    "Matcap5": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/MatCap065_2.MatCap065_2",
+    "Matcap6": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/MatCap065_2.MatCap065_2",
+    "PM_SpecularMasks": "/Game/Characters/Player/078_Nitsa/ter/cloth_ter/T_player_078_Nitsa_n_02.T_player_078_Nitsa_n_02",
+    "NomralMap": "/Game/Characters/Player/078_Nitsa/ter/cloth_ter/T_player_078_Nitsa_n_02.T_player_078_Nitsa_n_02"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.884414,
+        "G": -1.684026,
+        "B": 0.495544,
+        "A": 0.0,
+        "Hex": "F200BB"
+      },
+      "SpecColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "SkinBlendColor": {
+        "R": 0.984375,
+        "G": 0.897217,
+        "B": 0.897217,
+        "A": 1.0,
+        "Hex": "FEF4F4"
+      },
+      "SkilColor1": {
+        "R": 0.947917,
+        "G": 0.977416,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FAFDFF"
+      },
+      "SkilColor2": {
+        "R": 0.072917,
+        "G": 0.072917,
+        "B": 0.072917,
+        "A": 1.0,
+        "Hex": "4C4C4C"
+      },
+      "SkilHighLightColor": {
+        "R": 1.0,
+        "G": 0.811907,
+        "B": 0.67843,
+        "A": 1.0,
+        "Hex": "FFE9D7"
+      },
+      "SpecColor2": {
+        "R": 2.0,
+        "G": 1.961698,
+        "B": 1.677083,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "SpecColor3": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "SpecColor4": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "ID5FresnelBaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "SpecColor5": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "SpecColor6": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "SSSColor": {
+        "R": 1.3,
+        "G": 1.012517,
+        "B": 0.867303,
+        "A": 1.0,
+        "Hex": "FFFFF0"
+      }
+    },
+    "Scalars": {
+      "OffsetStrength": 1.0,
+      "RampID": 0.0,
+      "ShadowOffsetRange": 0.5,
+      "Matcap1Min": 1.42234,
+      "Matcap1Max": 1.0,
+      "Matcap1Int": -0.561722,
+      "RampID1": 3.0,
+      "RampID1_Silk": 0.0,
+      "SkinBlendBase": 0.0,
+      "SkinBlendExp": 2.0,
+      "SilkColorMin": 0.5,
+      "SilkColoeMax": -0.448,
+      "SilkColorPower": 2.683652,
+      "SkilHighLightMin": 0.056,
+      "SkilHighLightMax": 1.5,
+      "SkilHighLightInt": 0.706941,
+      "HighLightNoiseScale": 30.0,
+      "Matcap2Min": 0.315547,
+      "Matcap2Max": 2.134734,
+      "Matcap2Int": 2.497996,
+      "RampID2": 9.0,
+      "Matcap3Min": 1.113355,
+      "Matcap3Max": 2.414233,
+      "Matcap3Int": 0.492993,
+      "RampID3": 12.0,
+      "Matcap4Min": 1.2,
+      "Matcap4Max": 0.5,
+      "Matcap4Int": 0.3,
+      "ID4FresnelPow": 2.0,
+      "RampID4": 15.0,
+      "Matcap5Min": 1.0,
+      "Matcap5Max": 10.128026,
+      "Matcap5Int": 2.0,
+      "ID5FresnelBase": 0.04,
+      "ID5FresnelPow": 2.0,
+      "RampID5": 18.0,
+      "Matcap6Min": 2.264323,
+      "Matcap6Max": 7.0,
+      "Matcap6Int": 0.5,
+      "RampID6": 21.0,
+      "LightdirZMul": 0.5,
+      "SpecIntensity": 0.8,
+      "SpecMetalPow": 16.0,
+      "SpecMetalRange": 0.5,
+      "SpecPow": 40.0,
+      "SpecSmooth": 0.8,
+      "LightNormalStrength": 1.0,
+      "MatcapNomralStrength": 1.0,
+      "ShadowID": 0.0,
+      "SkinShadowID": 2.0,
+      "ShadeSmooth": 0.2,
+      "SkinScatterCamEnd": 1.0,
+      "SkinScatterCamSpeed": 0.5,
+      "SkinScatterCamStart": -1.0,
+      "SkinScatterRangeOffset": 0.1,
+      "SkinScatterRangeScale": 0.5,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseForLod": false,
+      "UseNightRamp": true,
+      "UseDuskRamp": true,
+      "UseSilkHighLight": true,
+      "UseLocalReflection": true,
+      "UseMatcap2": true,
+      "UseMatcap3": true,
+      "UseMatcap4": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_078_Nitsa_cloth2'",
+        "ObjectPath": "/Game/Characters/Player/078_Nitsa/ter/outline/cloth/MI_078_Nitsa_cloth2.0"
+      },
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

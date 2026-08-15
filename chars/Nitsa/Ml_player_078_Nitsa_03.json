@@ -1,0 +1,142 @@
+{
+  "Textures": {
+    "PM_Emissive": "/Game/FX/Tex/zt_tex/T_Noise008c.T_Noise008c",
+    "EmissiveTex": "/Game/Characters/Player/078_Nitsa/ter/cloth_ter/T_player_078_body02_mask.T_player_078_body02_mask",
+    "EmissiveMask": "/Game/FX/Tex/zt_tex/T_Noise008c.T_Noise008c",
+    "PM_Diffuse": "/Game/Characters/Player/078_Nitsa/ter/cloth_ter/T_player_078_body02_d.T_player_078_body02_d",
+    "BaseColor": "/Game/Characters/Player/078_Nitsa/ter/cloth_ter/T_player_078_body02_d.T_player_078_body02_d",
+    "LightMap": "/Game/Characters/Player/078_Nitsa/ter/cloth_ter/T_player_078_body02_m.T_player_078_body02_m",
+    "T_player_078_body02_m": "/Game/Characters/Player/078_Nitsa/ter/cloth_ter/T_player_078_body02_m.T_player_078_body02_m",
+    "RampAltas": "/Game/Characters/Player/078_Nitsa/ter/curve/T_078_Nitsa.T_078_Nitsa",
+    "T_078_Nitsa": "/Game/Characters/Player/078_Nitsa/ter/curve/T_078_Nitsa.T_078_Nitsa",
+    "Matcap1": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/T_Matcap_Color_blend_1.T_Matcap_Color_blend_1",
+    "T_Matcap_Color_blend_1": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/T_Matcap_Color_blend_1.T_Matcap_Color_blend_1"
+  },
+  "Parameters": {
+    "BlendMode": 2,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 1.423233,
+        "G": 1.421875,
+        "B": 1.5,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "EmissiveColor": {
+        "R": 30.0,
+        "G": 30.0,
+        "B": 30.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "EmissiveMaskSpeed1": {
+        "R": 0.05,
+        "G": 0.0,
+        "B": 2.0,
+        "A": 2.0,
+        "Hex": "3F00FF"
+      },
+      "EmissiveMaskSpeed2": {
+        "R": -0.05,
+        "G": 0.0,
+        "B": 2.0,
+        "A": 2.0,
+        "Hex": "0000FF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.884414,
+        "G": -1.684026,
+        "B": 0.495544,
+        "A": 0.0,
+        "Hex": "F200BB"
+      },
+      "SpecColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "LocalShadowColor": {
+        "R": 1.0,
+        "G": 0.810506,
+        "B": 0.744776,
+        "A": 1.0,
+        "Hex": "FFE9E0"
+      },
+      "RampBackLitHSVAlpha": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      }
+    },
+    "Scalars": {
+      "Translucent": 0.8,
+      "FixExposure": 1.0,
+      "EmissiveMaskBase": -0.05,
+      "EmissiveMaskSoft": 0.25,
+      "CharaterMipBias": -2.0,
+      "isface": 0.0,
+      "LocalLightHard": 50.0,
+      "OffsetStrength": 1.0,
+      "Opacity": 1.0,
+      "RampID": 0.0,
+      "ShadowOffsetRange": 0.5,
+      "Matcap1Min": 0.6,
+      "Matcap1Max": 1.2,
+      "Matcap1Int": 1.0,
+      "UseLocalLight": 0.208,
+      "LightdirZMul": 0.5,
+      "SpecIntensity": 1.0,
+      "SpecMetalPow": 6.0,
+      "SpecMetalRange": 0.02,
+      "SpecPow": 10.0,
+      "SpecSmooth": 0.02,
+      "LightNormalStrength": 0.5,
+      "MatcapNomralStrength": 0.5,
+      "FPSCameFade": 1.0,
+      "InvisableSkillOpacity": 1.0,
+      "MaskOpacity": 1.0,
+      "OpacityMaskVal": 1.0,
+      "PlayerDitherRandom": 0.0,
+      "PlayerInvisable": 1.0,
+      "WeaponOpacityMaskVal": 1.0,
+      "ShadowID": 0.0,
+      "ShadeSmooth": 0.2,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseEmissiveColor": true,
+      "UseEmissiveMask": true,
+      "UseForLod": false,
+      "UseNightRamp": true,
+      "UseDuskRamp": true,
+      "UseMatcap0": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "bOverride_ShadingModel": true,
+        "bOverride_TwoSided": true,
+        "bOverride_OutputTranslucentVelocity": true,
+        "TwoSided": true,
+        "bOutputTranslucentVelocity": true,
+        "BlendMode": "EBlendMode::BLEND_TranslucentGreyTransmittance",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": true,
+    "IsTranslucent": true,
+    "IsNull": false
+  }
+}
