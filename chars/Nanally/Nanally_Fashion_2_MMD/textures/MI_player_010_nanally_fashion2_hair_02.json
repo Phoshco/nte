@@ -1,0 +1,81 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/Characters/Player/010_nanally_fashion2/hair/T_player_010_nanally_fashion2_hair_d_02.T_player_010_nanally_fashion2_hair_d_02",
+    "BaseColor": "/Game/Characters/Player/010_nanally_fashion2/hair/T_player_010_nanally_fashion2_hair_d_02.T_player_010_nanally_fashion2_hair_d_02",
+    "LightMap": "/Game/Characters/Player/010_nanally_fashion2/hair/T_player_010_nanally_fashion2_hair_m_02.T_player_010_nanally_fashion2_hair_m_02",
+    "T_player_010_nanally_fashion2_hair_m_02": "/Game/Characters/Player/010_nanally_fashion2/hair/T_player_010_nanally_fashion2_hair_m_02.T_player_010_nanally_fashion2_hair_m_02",
+    "RampAltas": "/Game/Characters/Player/010_nanally_fashion2/curve/T_nanali_curve.T_nanali_curve",
+    "T_nanali_curve": "/Game/Characters/Player/010_nanally_fashion2/curve/T_nanali_curve.T_nanali_curve"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.04,
+        "G": -0.304827,
+        "B": -0.592,
+        "A": 1.0,
+        "Hex": "380000"
+      },
+      "HairColor1": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairColor2": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      }
+    },
+    "Scalars": {
+      "OffsetStrength": 0.696,
+      "RampID": 0.0,
+      "ShadowOffsetRange": 0.551999,
+      "HairEmissiveRange": 0.2,
+      "SpecIntensity": 0.0,
+      "BlendCenter": 0.0,
+      "BlendDistance": 0.5,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseForLod": false,
+      "UseNightRamp": true,
+      "UseDuskRamp": true,
+      "SkillEmissive": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'hair02'",
+        "ObjectPath": "/Game/Characters/Player/010_nanally_fashion2/outline/hair02.0"
+      },
+      "BasePropertyOverrides": {
+        "bOverride_OpacityMaskClipValue": true,
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

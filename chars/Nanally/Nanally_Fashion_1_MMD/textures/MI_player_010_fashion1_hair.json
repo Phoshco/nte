@@ -1,0 +1,131 @@
+{
+  "Textures": {
+    "AnisotropicSpecMap": "/Game/CoreMaterials/Character/DefaultTextures/T_sRGB_White.T_sRGB_White",
+    "T_sRGB_White": "/Game/CoreMaterials/Character/DefaultTextures/T_sRGB_White.T_sRGB_White",
+    "PM_Diffuse": "/Game/Characters/Player/010_nanally_fashion1/ter/hair_ter/T_player_010_nanally_fashion1_hair_d.T_player_010_nanally_fashion1_hair_d",
+    "BaseColor": "/Game/Characters/Player/010_nanally_fashion1/ter/hair_ter/T_player_010_nanally_fashion1_hair_d.T_player_010_nanally_fashion1_hair_d",
+    "LightMap": "/Game/Characters/Player/010_nanally_fashion1/ter/hair_ter/T_player_010_nanally_fashion1_hair_m.T_player_010_nanally_fashion1_hair_m",
+    "T_player_010_nanally_fashion1_hair_m": "/Game/Characters/Player/010_nanally_fashion1/ter/hair_ter/T_player_010_nanally_fashion1_hair_m.T_player_010_nanally_fashion1_hair_m",
+    "RampAltas": "/Game/Characters/Player/010_nanally_fashion1/curve/T_nanali_curve.T_nanali_curve",
+    "T_nanali_curve": "/Game/Characters/Player/010_nanally_fashion1/curve/T_nanali_curve.T_nanali_curve"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "SpecColor1": {
+        "R": 0.083333,
+        "G": 0.071742,
+        "B": 0.062933,
+        "A": 1.0,
+        "Hex": "514C47"
+      },
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "MColorLight": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "MColorDark": {
+        "R": 0.95,
+        "G": 0.95,
+        "B": 0.95,
+        "A": 1.0,
+        "Hex": "FAFAFA"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.04,
+        "G": -0.304827,
+        "B": -0.592,
+        "A": 1.0,
+        "Hex": "380000"
+      },
+      "HairColor1": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairColor2": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      }
+    },
+    "Scalars": {
+      "AnisotropicCenterOffset": 0.15,
+      "AnisotropicLengthMul": 0.9,
+      "AnisotropicOffset1": 0.979266,
+      "AnisotropicSlideSpeed1": -0.065197,
+      "AnisotropicStretchContrast": 0.7,
+      "BlinnPhongPow": 2.0,
+      "SpecMinimum": 6.099561,
+      "MBlendHardness": 10.0,
+      "MColorOffset": 0.0,
+      "HairOpacity": 1.0,
+      "OffsetStrength": 0.15,
+      "RampID": 0.0,
+      "RimLight": 0.3,
+      "RimlightBase": 0.3,
+      "ShadowOffsetRange": 0.6,
+      "HairEmissiveRange": 0.0,
+      "LightdirZMul": 1.952003,
+      "SpecIntensity": 0.0,
+      "SpecMetalPow": 10.0,
+      "SpecMetalRange": 0.2,
+      "SpecPow": 10.0,
+      "SpecSmooth": 0.022,
+      "SpecSpeedX": 0.5,
+      "BlendCenter": 0.5,
+      "BlendDistance": 0.5,
+      "InvisableSkillOpacity": 1.0,
+      "OpacityMaskVal": 1.0,
+      "PlayerInvisable": 1.0,
+      "WeaponOpacityMaskVal": 1.0,
+      "ShadowID": 1.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "AnisotropicSpecularUseLightMapRChannel": true,
+      "EnableAnisotropicSpecular": true,
+      "UseNightRamp": true,
+      "UseDuskRamp": true,
+      "SkillEmissive": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'player_010_fashion1_hair'",
+        "ObjectPath": "/Game/Characters/Player/010_nanally_fashion1/outline/outline_cloth/player_010_fashion1_hair.0"
+      },
+      "bOverrideHairShadowOverlayMaterial": true,
+      "BasePropertyOverrides": {
+        "bOverride_OpacityMaskClipValue": true,
+        "bOverride_EmbroideryStencilOp": true,
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333,
+        "EmbroideryStencilOp": "EMaterialEmbroideryStencilOp::MESO_Test"
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

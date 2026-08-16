@@ -1,0 +1,207 @@
+{
+  "Textures": {
+    "PM_Emissive": "/Game/FX/Tex/zt_tex/T_Noise008c.T_Noise008c",
+    "EmissiveTex": "/Game/Characters/Player/010_nanally_swimsuit/ter/cloth_ter/T_player_010_fashion_swimsuit_mask2.T_player_010_fashion_swimsuit_mask2",
+    "EmissiveMask": "/Game/FX/Tex/zt_tex/T_Noise008c.T_Noise008c",
+    "PM_Diffuse": "/Game/Characters/Player/010_nanally_swimsuit/ter/cloth_ter/T_player_010_fashion_swimsuit_02_d.T_player_010_fashion_swimsuit_02_d",
+    "BaseColor": "/Game/Characters/Player/010_nanally_swimsuit/ter/cloth_ter/T_player_010_fashion_swimsuit_02_d.T_player_010_fashion_swimsuit_02_d",
+    "LightMap": "/Game/Characters/Player/010_nanally_swimsuit/ter/cloth_ter/T_player_010_fashion_swimsuit_02_m.T_player_010_fashion_swimsuit_02_m",
+    "T_player_010_fashion_swimsuit_02_m": "/Game/Characters/Player/010_nanally_swimsuit/ter/cloth_ter/T_player_010_fashion_swimsuit_02_m.T_player_010_fashion_swimsuit_02_m",
+    "RampAltas": "/Game/Characters/Player/010_nanally_swimsuit/curve/T_player_010_fashion_swimsuit.T_player_010_fashion_swimsuit",
+    "T_player_010_fashion_swimsuit": "/Game/Characters/Player/010_nanally_swimsuit/curve/T_player_010_fashion_swimsuit.T_player_010_fashion_swimsuit",
+    "SkilHighLightMatCap": "/Game/CoreMaterials/Character/DefaultTextures/MatCap06_XL.MatCap06_XL",
+    "MatCap06_XL": "/Game/CoreMaterials/Character/DefaultTextures/MatCap06_XL.MatCap06_XL",
+    "HighLightNoiseTex": "/Game/CoreMaterials/Character/DefaultTextures/T_Noise_004_XL.T_Noise_004_XL",
+    "T_Noise_004_XL": "/Game/CoreMaterials/Character/DefaultTextures/T_Noise_004_XL.T_Noise_004_XL",
+    "SkilMask": "/Game/Characters/Player/010_nanally_swimsuit/ter/cloth_ter/T_player_010_fashion_swimsuit_mask.T_player_010_fashion_swimsuit_mask",
+    "T_player_010_fashion_swimsuit_mask": "/Game/Characters/Player/010_nanally_swimsuit/ter/cloth_ter/T_player_010_fashion_swimsuit_mask.T_player_010_fashion_swimsuit_mask",
+    "PM_SpecularMasks": "/Game/Characters/Player/010_nanally_swimsuit/ter/cloth_ter/T_player_010_fashion_swimsuit_02_n.T_player_010_fashion_swimsuit_02_n",
+    "NomralMap": "/Game/Characters/Player/010_nanally_swimsuit/ter/cloth_ter/T_player_010_fashion_swimsuit_02_n.T_player_010_fashion_swimsuit_02_n"
+  },
+  "Parameters": {
+    "BlendMode": 2,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 0.8125,
+        "G": 1.048689,
+        "B": 1.2,
+        "A": 1.0,
+        "Hex": "E9FFFF"
+      },
+      "DissolveDir": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": -1.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "DissolvePos": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Scale": {
+        "R": 1.8,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "EmissiveColor": {
+        "R": 30.0,
+        "G": 30.0,
+        "B": 30.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "EmissiveMaskSpeed1": {
+        "R": 0.05,
+        "G": 0.0,
+        "B": 2.0,
+        "A": 2.0,
+        "Hex": "3F00FF"
+      },
+      "EmissiveMaskSpeed2": {
+        "R": -0.05,
+        "G": 0.0,
+        "B": 2.0,
+        "A": 2.0,
+        "Hex": "0000FF"
+      },
+      "SkinBlendColor": {
+        "R": 0.5,
+        "G": 0.830439,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "BCEBFF"
+      },
+      "SkilColor1": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "SkilColor2": {
+        "R": 0.5,
+        "G": 0.55,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "BCC4FF"
+      },
+      "SkilHighLightColor": {
+        "R": 0.880208,
+        "G": 0.946876,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "F2F9FF"
+      },
+      "RampBackLitHSVAlpha": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      }
+    },
+    "Scalars": {
+      "Translucent": 0.8,
+      "TranslucentCenter": 0.88,
+      "TranslucentFresnelPow": -0.598079,
+      "CustomDepthOffset": -1.0,
+      "DissolveHardNess": 0.01,
+      "NoiseScale": 0.5,
+      "UseDirDissolveDir": 0.0,
+      "Global Effect": 1.0,
+      "Rain Patter Speed": 0.5,
+      "Droplets Amount": 1.0,
+      "Use2URain": 1.0,
+      "Droplets Normal Intensity": 0.5,
+      "RainBaseColorDark": 0.186,
+      "RainBaseColorDark_Mask": 0.0,
+      "RainNormalIntensity": 2.0,
+      "RainNormalIntensity_Mask": 7.708452,
+      "RainSpecPow": 2.0,
+      "RainSpecPow_Mask": 3.311343,
+      "RainSpecRange": 0.8,
+      "RainSpecRange_Mask": 0.094853,
+      "RainSpecSmooth": 1.0,
+      "RainSpecSmooth_Mask": 1.495548,
+      "RainSpecScale": 1.0,
+      "RainSpecScale_Mask": 0.504692,
+      "RainSpecAlpha": 1.0,
+      "RainFresnelbase": 0.01,
+      "RainFresnelbase_Mask": 0.038,
+      "RainFresnelpow": 2.0,
+      "RainFresnelpow_Mask": 2.0,
+      "RainFresnelScale": 0.6,
+      "RainFresnelScale_Pow": 1.0,
+      "FixExposure": 1.0,
+      "EmissiveMaskBase": 0.0,
+      "EmissiveMaskSoft": 0.25,
+      "OffsetStrength": 1.0,
+      "Opacity": 1.0,
+      "RampID": 18.0,
+      "ShadowOffsetRange": 0.5,
+      "Matcap1Min": 0.99,
+      "Matcap1Max": 1.0,
+      "Matcap1Int": 5.0,
+      "SkinBlendBase": 0.124798,
+      "SkinBlendExp": 2.0,
+      "SilkColorMin": 0.737,
+      "SilkColoeMax": 0.034751,
+      "SilkColorPower": 1.0,
+      "SkilHighLightMin": 0.25,
+      "SkilHighLightMax": 0.45,
+      "SkilHighLightInt": 3.6,
+      "HighLightNoiseScale": 30.0,
+      "EnablePointLights": 0.0,
+      "LightdirZMul": 0.5,
+      "SpecIntensity": 1.0,
+      "SpecMetalPow": 6.0,
+      "SpecMetalRange": 0.02,
+      "SpecPow": 10.0,
+      "SpecSmooth": 0.02,
+      "LightNormalStrength": 1.0,
+      "MatcapNomralStrength": 1.0,
+      "InvisableSkillOpacity": 1.0,
+      "OpacityMaskVal": 1.0,
+      "PlayerInvisable": 1.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "Droplets/Leaks": true,
+      "World-Aligned Mapping": false,
+      "UseRain": true,
+      "UseEmissiveMask": false,
+      "BlendSkinFresnel": true,
+      "BlendSilk": true,
+      "UseSilkHighLight": true,
+      "UseLocalReflection": true,
+      "UseSilkMask": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "bOverride_OpacityMaskClipValue": true,
+        "bOverride_TwoSided": true,
+        "bOverride_EmbroideryStencilOp": true,
+        "TwoSided": true,
+        "bOutputTranslucentVelocity": true,
+        "BlendMode": "EBlendMode::BLEND_TranslucentGreyTransmittance",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": true,
+    "IsTranslucent": true,
+    "IsNull": false
+  }
+}

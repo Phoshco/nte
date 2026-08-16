@@ -1,0 +1,202 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_id.T_player_010_nanally_nighty_02_id",
+    "BaseColor": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_d.T_player_010_nanally_nighty_02_d",
+    "ID_Tex": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_id.T_player_010_nanally_nighty_02_id",
+    "LightMap": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_m.T_player_010_nanally_nighty_02_m",
+    "T_player_010_nanally_nighty_02_m": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_m.T_player_010_nanally_nighty_02_m",
+    "RampAltas": "/Game/Characters/Player/010_nanally_nighty/curve/T_nanali_curve.T_nanali_curve",
+    "T_nanali_curve": "/Game/Characters/Player/010_nanally_nighty/curve/T_nanali_curve.T_nanali_curve",
+    "Matcap1": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/MatCap065_2.MatCap065_2",
+    "MatCap065_2": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/MatCap065_2.MatCap065_2",
+    "Matcap2": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/112757xjgddztto5jd3ted.112757xjgddztto5jd3ted",
+    "112757xjgddztto5jd3ted": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/112757xjgddztto5jd3ted.112757xjgddztto5jd3ted",
+    "Matcap3": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/112950rhyunnnnxn0h7s7e.112950rhyunnnnxn0h7s7e",
+    "112950rhyunnnnxn0h7s7e": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/xiaz/112950rhyunnnnxn0h7s7e.112950rhyunnnnxn0h7s7e",
+    "Matcap5": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/MatCap065_2.MatCap065_2",
+    "Matcap6": "/Game/CoreMaterials/Character/ToonMaterial/Instances/MATCAP/MatCap065_2.MatCap065_2",
+    "PM_SpecularMasks": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_n.T_player_010_nanally_nighty_02_n",
+    "NomralMap": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_n.T_player_010_nanally_nighty_02_n"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Scale": {
+        "R": 2.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "MaskScale": {
+        "R": 2.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.884414,
+        "G": -1.684026,
+        "B": 0.495544,
+        "A": 0.0,
+        "Hex": "F200BB"
+      },
+      "SkinBlendColor": {
+        "R": 0.973445,
+        "G": 0.790924,
+        "B": 0.82736,
+        "A": 1.0,
+        "Hex": "FCE6EB"
+      },
+      "ID0_BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "SpecColor2": {
+        "R": 2.0,
+        "G": 1.961698,
+        "B": 1.677083,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "SpecColor3": {
+        "R": 5.0,
+        "G": 5.0,
+        "B": 5.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "ID4FresnelBaseColor": {
+        "R": 2.0,
+        "G": 2.0,
+        "B": 2.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "SpecColor4": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "SpecColor5": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "SSSColor": {
+        "R": 1.25,
+        "G": 1.108333,
+        "B": 1.0375,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      }
+    },
+    "Scalars": {
+      "Global Effect": 0.7,
+      "Rain Patter Speed": 0.5,
+      "Droplets Amount": 1.0,
+      "Use2URain": 1.0,
+      "Droplets Normal Intensity": 2.0,
+      "OffsetStrength": 1.0,
+      "RampID": 0.0,
+      "RimLight": 0.4,
+      "ShadowOffsetRange": 0.4,
+      "Matcap1Min": 1.42234,
+      "Matcap1Max": 1.0,
+      "Matcap1Int": -0.561722,
+      "RampID1": 3.0,
+      "SkinBlendBase": -1.644801,
+      "SkinBlendExp": 0.972,
+      "Matcap2Min": 1.133612,
+      "Matcap2Max": 2.700997,
+      "Matcap2Int": 0.5,
+      "RampID2": 9.0,
+      "Matcap3Min": 0.752,
+      "Matcap3Max": 1.225786,
+      "Matcap3Int": 4.0,
+      "RampID3": 12.0,
+      "Matcap4Min": 0.0,
+      "Matcap4Max": 1.0,
+      "Matcap4Int": 1.2,
+      "ID4FresnelBase": 0.151273,
+      "ID4FresnelPow": 1.734969,
+      "RampID4": 15.0,
+      "Matcap5Min": 1.0,
+      "Matcap5Max": 10.128026,
+      "Matcap5Int": 2.0,
+      "RampID5": 18.0,
+      "Matcap6Min": 2.264323,
+      "Matcap6Max": 7.0,
+      "Matcap6Int": 0.5,
+      "RampID6": 21.0,
+      "LightdirZMul": 0.5,
+      "SpecIntensity": 1.0,
+      "SpecMetalPow": 2.0,
+      "SpecMetalRange": 0.5,
+      "SpecPow": 23.168,
+      "SpecSmooth": 10.0,
+      "LightNormalStrength": 1.0,
+      "MatcapNomralStrength": 1.0,
+      "ShadowID": 0.0,
+      "SkinShadowID": 2.0,
+      "ShadeOffset": 0.5,
+      "ShadeSmooth": 0.1,
+      "SkinScatterCamEnd": 1.0,
+      "SkinScatterCamSpeed": 0.5,
+      "SkinScatterCamStart": -1.0,
+      "SkinScatterRangeOffset": 0.1,
+      "SkinScatterRangeScale": 0.5,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "Droplets/Leaks": true,
+      "World-Aligned Mapping": false,
+      "Rain Patter Effect": true,
+      "UseRain": true,
+      "UseForLod": false,
+      "UseNightRamp": true,
+      "UseDuskRamp": true,
+      "UseMatcap1": false,
+      "ID0_UseModifyColor": true,
+      "UseMatcap2": true,
+      "UseMatcap3": false,
+      "UseMatcap4": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'010_nighty02'",
+        "ObjectPath": "/Game/Characters/Player/010_nanally_nighty/outline/010_nighty02.0"
+      },
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

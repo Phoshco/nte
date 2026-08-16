@@ -1,0 +1,75 @@
+{
+  "Textures": {
+    "FaceLightMask": "/Game/Characters/Player/010_nanally/NEW_ter/ter/face_ter/T_player_010_nanally_face_r.T_player_010_nanally_face_r",
+    "T_player_010_nanally_face_r": "/Game/Characters/Player/010_nanally/NEW_ter/ter/face_ter/T_player_010_nanally_face_r.T_player_010_nanally_face_r",
+    "PM_Diffuse": "/Game/Characters/Player/010_nanally/NEW_ter/ter/face_ter/T_player_010_nanally_eyes_d.T_player_010_nanally_eyes_d",
+    "BaseColor": "/Game/Characters/Player/010_nanally/NEW_ter/ter/face_ter/T_player_010_nanally_eyes_d.T_player_010_nanally_eyes_d",
+    "LightMap": "/Game/CoreMaterials/Character/DefaultTextures/T_Linear_White.T_Linear_White",
+    "T_Linear_White": "/Game/CoreMaterials/Character/DefaultTextures/T_Linear_White.T_Linear_White",
+    "RampAltas": "/Game/Characters/Player/010_nanally/NEW_ter/curve/T_nanali_curve.T_nanali_curve",
+    "T_nanali_curve": "/Game/Characters/Player/010_nanally/NEW_ter/curve/T_nanali_curve.T_nanali_curve"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.088,
+        "G": -1.108668,
+        "B": -0.699199,
+        "A": 1.0,
+        "Hex": "540000"
+      }
+    },
+    "Scalars": {
+      "ParallaxMaskCenterOffsetX": 0.0,
+      "ParallaxMaskCenterOffsetY": 0.0,
+      "ParallaxMaskEdge": 0.789157,
+      "ParallaxMaskEdgeOffset": 0.64985,
+      "ParallaxScale": -0.17,
+      "clipValue": -0.6,
+      "ClipWidth": 1.085091,
+      "SmoothStepMax": 1.0,
+      "SmoothStepMin": 0.0,
+      "OffsetStrength": 1.0,
+      "RampID": 27.0,
+      "ShadowOffsetRange": 0.564,
+      "SpecIntensity": 0.0,
+      "LightNormalStrength": 1.0,
+      "MatcapNomralStrength": 1.0,
+      "ShadowID": 1.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseEyeParallax": true,
+      "UseFaceTexBaseLight": true,
+      "UseUV1ForFaceLightMapSample": true,
+      "UseNightRamp": true,
+      "UseDuskRamp": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333,
+        "EmbroideryStencilOp": "EMaterialEmbroideryStencilOp::MESO_Set"
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

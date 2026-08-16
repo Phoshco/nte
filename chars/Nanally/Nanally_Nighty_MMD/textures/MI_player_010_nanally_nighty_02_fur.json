@@ -1,0 +1,111 @@
+{
+  "Textures": {
+    "HeightMap": "/Game/Characters/Player/010_nanally_fashion1/ter/cloth_ter/fur2.fur2",
+    "fur2": "/Game/Characters/Player/010_nanally_fashion1/ter/cloth_ter/fur2.fur2",
+    "PM_Diffuse": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_fur_d.T_player_010_nanally_nighty_02_fur_d",
+    "BaseColor": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_fur_d.T_player_010_nanally_nighty_02_fur_d",
+    "LightMap": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_m.T_player_010_nanally_nighty_02_m",
+    "T_player_010_nanally_nighty_02_m": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_m.T_player_010_nanally_nighty_02_m",
+    "RampAltas": "/Game/Characters/Player/010_nanally_nighty/curve/T_nanali_curve.T_nanali_curve",
+    "T_nanali_curve": "/Game/Characters/Player/010_nanally_nighty/curve/T_nanali_curve.T_nanali_curve",
+    "PM_SpecularMasks": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_n.T_player_010_nanally_nighty_02_n",
+    "NomralMap": "/Game/Characters/Player/010_nanally_nighty/cloth/T_player_010_nanally_nighty_02_n.T_player_010_nanally_nighty_02_n"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "AOColor": {
+        "R": 0.411458,
+        "G": 0.312041,
+        "B": 0.293593,
+        "A": 1.0,
+        "Hex": "AC9893"
+      },
+      "HeightMapChannel": {
+        "R": 0.473958,
+        "G": 0.473958,
+        "B": 0.473958,
+        "A": 0.0,
+        "Hex": "B7B7B7"
+      },
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Scale": {
+        "R": 4.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.884414,
+        "G": -1.684026,
+        "B": 0.495544,
+        "A": 0.0,
+        "Hex": "F200BB"
+      }
+    },
+    "Scalars": {
+      "CoreDarkness": 0.0,
+      "EdgeBrighness": 0.0,
+      "Flatten": 1.0,
+      "FuzzPower": 1.0,
+      "HeightMapUV": 7.0,
+      "HeightRatio": 0.015,
+      "Global Effect": 0.7,
+      "Rain Patter Speed": 0.5,
+      "Droplets Amount": 1.0,
+      "Use2URain": 1.0,
+      "Droplets Normal Intensity": 2.0,
+      "OffsetStrength": 1.0,
+      "Opacity": 1.0,
+      "PixelDepthScale": 0.0,
+      "RampID": 0.0,
+      "RimLight": 0.0,
+      "ShadowOffsetRange": 0.4,
+      "RampID6": 17.0,
+      "SpecIntensity": 1.0,
+      "SpecMetalPow": 3.0,
+      "SpecMetalRange": 5.0,
+      "SpecPow": 2.0,
+      "SpecSmooth": 0.02,
+      "LightNormalStrength": 1.0,
+      "MatcapNomralStrength": 1.0,
+      "NormalTilling": 1.0,
+      "ShadowID": 0.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseParallaxFur": true,
+      "UseParallax": true,
+      "Droplets/Leaks": true,
+      "World-Aligned Mapping": false,
+      "Rain Patter Effect": true,
+      "UseForLod": false,
+      "UseNightRamp": true,
+      "UseDuskRamp": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

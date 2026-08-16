@@ -1,0 +1,99 @@
+{
+  "Textures": {
+    "HeightMap": "/Game/Characters/Player/010_nanally_fashion1/ter/cloth_ter/T_Apartment_carpet01_AHR.T_Apartment_carpet01_AHR",
+    "T_Apartment_carpet01_AHR": "/Game/Characters/Player/010_nanally_fashion1/ter/cloth_ter/T_Apartment_carpet01_AHR.T_Apartment_carpet01_AHR",
+    "PM_Diffuse": "/Game/Characters/Player/010_nanally_fashion1/ter/cloth_ter/T_player_010_nanally_fashion1_c_fur_d.T_player_010_nanally_fashion1_c_fur_d",
+    "BaseColor": "/Game/Characters/Player/010_nanally_fashion1/ter/cloth_ter/T_player_010_nanally_fashion1_c_fur_d.T_player_010_nanally_fashion1_c_fur_d",
+    "LightMap": "/Game/Characters/Player/010_nanally_fashion1/ter/cloth_ter/T_player_010_nanally_fashion1_01_m.T_player_010_nanally_fashion1_01_m",
+    "T_player_010_nanally_fashion1_01_m": "/Game/Characters/Player/010_nanally_fashion1/ter/cloth_ter/T_player_010_nanally_fashion1_01_m.T_player_010_nanally_fashion1_01_m",
+    "RampAltas": "/Game/Characters/Player/010_nanally_fashion1/curve/T_nanali_curve.T_nanali_curve",
+    "T_nanali_curve": "/Game/Characters/Player/010_nanally_fashion1/curve/T_nanali_curve.T_nanali_curve",
+    "PM_SpecularMasks": "/Game/Characters/Player/010_nanally_fashion1/ter/cloth_ter/T_player_010_nanally_fashion1_01_n.T_player_010_nanally_fashion1_01_n",
+    "NomralMap": "/Game/Characters/Player/010_nanally_fashion1/ter/cloth_ter/T_player_010_nanally_fashion1_01_n.T_player_010_nanally_fashion1_01_n"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "AOColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "HeightMapChannel": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "00FF00"
+      },
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.884414,
+        "G": -1.684026,
+        "B": 0.495544,
+        "A": 0.0,
+        "Hex": "F200BB"
+      }
+    },
+    "Scalars": {
+      "CoreDarkness": 0.6,
+      "EdgeBrighness": 2.269753,
+      "Flatten": 0.909312,
+      "FuzzPower": 1.0,
+      "HeightMapUV": 2.0,
+      "HeightRatio": 0.02,
+      "OffsetStrength": 1.0,
+      "Opacity": 1.0,
+      "PixelDepthScale": 0.0,
+      "RampID": 0.0,
+      "RimLight": 0.0,
+      "ShadowOffsetRange": 1.2,
+      "RampID4": 15.0,
+      "SpecIntensity": 1.0,
+      "SpecMetalPow": 3.0,
+      "SpecMetalRange": 5.0,
+      "SpecPow": 2.0,
+      "SpecSmooth": 0.02,
+      "LightNormalStrength": 1.0,
+      "MatcapNomralStrength": 1.0,
+      "NormalTilling": 1.0,
+      "ShadowID": 0.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseParallaxFur": true,
+      "UseParallax": true,
+      "UseForLod": false,
+      "UseNightRamp": true,
+      "UseDuskRamp": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_OutLine_XL'",
+        "ObjectPath": "/Game/CoreMaterials/Character/ToonMaterial/Outline/MI_OutLine_XL.0"
+      },
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

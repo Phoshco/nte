@@ -1,0 +1,47 @@
+{
+  "Textures": {
+    "PM_Diffuse": "/Game/CoreMaterials/Character/DefaultTextures/T_Linear_White.T_Linear_White",
+    "BaseColor": "/Game/Characters/Player/Common_ter/common_face_mask/common_face_d.common_face_d",
+    "ID_Tex": "/Game/CoreMaterials/Character/DefaultTextures/T_Linear_White.T_Linear_White",
+    "LightMap": "/Game/CoreMaterials/Character/DefaultTextures/T_Linear_White.T_Linear_White",
+    "T_Linear_White": "/Game/CoreMaterials/Character/DefaultTextures/T_Linear_White.T_Linear_White",
+    "RampAltas": "/Game/Characters/Player/Common_ter/common_face_mask/T_common_ramp.T_common_ramp",
+    "T_common_ramp": "/Game/Characters/Player/Common_ter/common_face_mask/T_common_ramp.T_common_ramp"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      }
+    },
+    "Scalars": {
+      "SpecIntensity": 0.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "BaseColorAlphaForMask": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

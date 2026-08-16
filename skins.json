@@ -22,7 +22,7 @@
         "pmx": "Zero.pmx"
     },
 	{
-        "id": 60000003,
+        "id": 60000903,
         "name": "Mint",
         "weaponType": "Solid",
         "element": "Anima",
@@ -33,13 +33,68 @@
         "pmx": "Mint.pmx"
     },
 	{
-        "id": 60000009,
+        "id": 60000003,
+        "name": "Mint",
+        "weaponType": "Solid",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 4,
+        "directory": "nte/chars/Mint/Mint_swimsuit",
+        "image": "nte/NTE/Mint.png",
+        "pmx": "Mint.pmx"
+    },
+	{
+        "id": 60000909,
         "name": "Nanally",
         "weaponType": "Plasma",
         "element": "Anima",
         "gender": "Female",
         "rarity": 5,
         "directory": "nte/chars/Nanally/Nanally_uniform",
+        "image": "nte/NTE/Nanally.png",
+        "pmx": "Nanally.pmx"
+    },
+	{
+        "id": 60000809,
+        "name": "Nanally",
+        "weaponType": "Plasma",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Nanally/Nanally_Fashion_1_MMD",
+        "image": "nte/NTE/Nanally.png",
+        "pmx": "Nanally.pmx"
+    },
+	{
+        "id": 60000709,
+        "name": "Nanally",
+        "weaponType": "Plasma",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Nanally/Nanally_Fashion_2_MMD",
+        "image": "nte/NTE/Nanally.png",
+        "pmx": "Nanally.pmx"
+    },
+	{
+        "id": 60000609,
+        "name": "Nanally",
+        "weaponType": "Plasma",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Nanally/Nanally_Nighty_MMD",
+        "image": "nte/NTE/Nanally.png",
+        "pmx": "Nanally.pmx"
+    },
+	{
+        "id": 60000509,
+        "name": "Nanally",
+        "weaponType": "Plasma",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Nanally/Nanally_Swimsuit_MMD",
         "image": "nte/NTE/Nanally.png",
         "pmx": "Nanally.pmx"
     },

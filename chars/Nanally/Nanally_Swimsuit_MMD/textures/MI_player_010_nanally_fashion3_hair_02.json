@@ -1,0 +1,101 @@
+{
+  "Textures": {
+    "AnisotropicSpecMap": "/Game/CoreMaterials/Character/DefaultTextures/T_sRGB_White.T_sRGB_White",
+    "T_sRGB_White": "/Game/CoreMaterials/Character/DefaultTextures/T_sRGB_White.T_sRGB_White",
+    "PM_Diffuse": "/Game/Characters/Player/010_nanally_fashion3/hair_ter/T_player_010_nanally_fashion3_hair_02_d.T_player_010_nanally_fashion3_hair_02_d",
+    "BaseColor": "/Game/Characters/Player/010_nanally_fashion3/hair_ter/T_player_010_nanally_fashion3_hair_02_d.T_player_010_nanally_fashion3_hair_02_d",
+    "LightMap": "/Game/Characters/Player/010_nanally_fashion3/hair_ter/T_player_010_nanally_fashion3_hair_02_m.T_player_010_nanally_fashion3_hair_02_m",
+    "T_player_010_nanally_fashion3_hair_02_m": "/Game/Characters/Player/010_nanally_fashion3/hair_ter/T_player_010_nanally_fashion3_hair_02_m.T_player_010_nanally_fashion3_hair_02_m",
+    "RampAltas": "/Game/Characters/Player/010_nanally_fashion3/curve/T_nanally_fashion3.T_nanally_fashion3",
+    "T_nanally_fashion3": "/Game/Characters/Player/010_nanally_fashion3/curve/T_nanally_fashion3.T_nanally_fashion3"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "SpecColor1": {
+        "R": 0.07,
+        "G": 0.060263,
+        "B": 0.052864,
+        "A": 1.0,
+        "Hex": "4B4541"
+      },
+      "BaseColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Scale": {
+        "R": 0.804421,
+        "G": 1.534263,
+        "B": 1.114726,
+        "A": 1.0,
+        "Hex": "E8FFFF"
+      },
+      "HairShadow_WorldOffset": {
+        "R": 0.04,
+        "G": -0.304827,
+        "B": -0.592,
+        "A": 1.0,
+        "Hex": "380000"
+      }
+    },
+    "Scalars": {
+      "AnisotropicCenterOffset": 0.35,
+      "AnisotropicLengthMul": 0.8,
+      "AnisotropicOffset1": 0.0,
+      "AnisotropicSlideSpeed1": 0.1,
+      "AnisotropicStretchContrast": 0.3,
+      "BlinnPhongPow": 1.5,
+      "SpecMinimum": 1.0,
+      "Global Effect": 1.0,
+      "Rain Patter Speed": 0.5,
+      "Droplets Amount": 1.0,
+      "Droplets Normal Intensity": 2.0,
+      "RainBaseColorDark": 0.201974,
+      "RainNormalIntensity": 2.29774,
+      "RainFresnelScale": 0.112,
+      "OffsetStrength": 0.2,
+      "RampID": 0.0,
+      "ShadowOffsetRange": 1.0,
+      "HairEmissiveRange": 0.0,
+      "SpecIntensity": 0.3,
+      "SpecMetalPow": 6.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "AnisotropicSpecularUseLightMapRChannel": true,
+      "EnableAnisotropicSpecular": true,
+      "Droplets/Leaks": true,
+      "World-Aligned Mapping": false,
+      "Rain Patter Effect": true,
+      "UseRain": true,
+      "UseNightRamp": true,
+      "UseDuskRamp": true,
+      "SkillEmissive": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "bOverrideOutlineOverlayMaterial": true,
+      "OutlineOverlayMaterial": {
+        "ObjectName": "MaterialInstanceConstant'010_nanally_fashion3_hair02'",
+        "ObjectPath": "/Game/Characters/Player/010_nanally_fashion3/outline/010_nanally_fashion3_hair02.0"
+      },
+      "BasePropertyOverrides": {
+        "bOverride_OpacityMaskClipValue": true,
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_Toon",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}
