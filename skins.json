@@ -308,6 +308,17 @@
         "pmx": "Iroi_RPG3_MMD.pmx"
     },
 	{
+        "id": 60000521,
+        "name": "Iroi",
+        "weaponType": "Liquid",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Iroi/Iroi_夏日梦",
+        "image": "nte/NTE/Iroi.png",
+        "pmx": "Iroi.pmx"
+    },
+	{
         "id": 60000923,
         "name": "Zankou",
         "weaponType": "Gas",
