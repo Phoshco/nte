@@ -254,6 +254,17 @@
     },
 	{
         "id": 60000024,
+        "name": "Akane Rin",
+        "weaponType": "Universal",
+        "element": "Lakshana",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Akane Rin/Akane Rin",
+        "image": "nte/NTE/Akane Rin.png",
+        "pmx": "Akane Rin.pmx"
+    },
+	{
+        "id": 60000034,
         "name": "Nitsa",
         "weaponType": "Universal",
         "element": "Universal",
@@ -264,18 +275,7 @@
         "pmx": "Nitsa.pmx"
     },
 	{
-        "id": 60000033,
-        "name": "Akane Rin",
-        "weaponType": "Universal",
-        "element": "Universal",
-        "gender": "Female",
-        "rarity": 6,
-        "directory": "nte/chars/Akane Rin",
-        "image": "nte/NTE/Akane Rin.png",
-        "pmx": "Akane Rin.pmx"
-    },
-	{
-        "id": 60000034,
+        "id": 60000035,
         "name": "Alphard",
         "weaponType": "Universal",
         "element": "Universal",

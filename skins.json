@@ -11,13 +11,24 @@
         "pmx": "Zero.pmx"
     },
 	{
-        "id": 60000002,
+        "id": 60000802,
         "name": "Zero (Female)",
         "weaponType": "Solid",
         "element": "Cosmos",
         "gender": "Female",
         "rarity": 5,
         "directory": "nte/chars/Zero (Female)/Zero_porsche",
+        "image": "nte/NTE/Zero (Female).png",
+        "pmx": "Zero.pmx"
+    },
+	{
+        "id": 60000002,
+        "name": "Zero (Female)",
+        "weaponType": "Solid",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Zero (Female)/Zero-夏日澄空",
         "image": "nte/NTE/Zero (Female).png",
         "pmx": "Zero.pmx"
     },
@@ -361,6 +372,17 @@
         "directory": "nte/chars/Zankou/Zankou_Swimsuit_MMD",
         "image": "nte/NTE/Zankou.png",
         "pmx": "Zankou.pmx"
+    },
+	{
+        "id": 60000024,
+        "name": "Akane Rin",
+        "weaponType": "Universal",
+        "element": "Lakshana",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Akane Rin/Akane Rin_old",
+        "image": "nte/NTE/Akane Rin.png",
+        "pmx": "Akane Rin.pmx"
     },
 	{
         "id": 60000001,
