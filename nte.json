@@ -264,6 +264,17 @@
         "pmx": "Akane Rin.pmx"
     },
 	{
+        "id": 60000025,
+        "name": "Blackbird",
+        "weaponType": "Universal",
+        "element": "Psyche",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Blackbird",
+        "image": "nte/NTE/Blackbird.png",
+        "pmx": "Blackbird.pmx"
+    },
+	{
         "id": 60000034,
         "name": "Nitsa",
         "weaponType": "Universal",
