@@ -374,6 +374,17 @@
         "pmx": "Zankou.pmx"
     },
 	{
+        "id": 60000022,
+        "name": "Linko",
+        "weaponType": "Plasma",
+        "element": "Anima",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Linko/Linko_暮春物语",
+        "image": "nte/NTE/Linko.png",
+        "pmx": "Linko.pmx"
+    },
+	{
         "id": 60000024,
         "name": "Akane Rin",
         "weaponType": "Universal",

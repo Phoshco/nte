@@ -237,7 +237,7 @@
         "element": "Anima",
         "gender": "Female",
         "rarity": 5,
-        "directory": "nte/chars/Linko",
+        "directory": "nte/chars/Linko/Linko",
         "image": "nte/NTE/Linko.png",
         "pmx": "Linko.pmx"
     },
