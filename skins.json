@@ -385,13 +385,24 @@
         "pmx": "Linko.pmx"
     },
 	{
-        "id": 60000024,
+        "id": 60000924,
         "name": "Akane Rin",
         "weaponType": "Universal",
         "element": "Lakshana",
         "gender": "Female",
         "rarity": 5,
         "directory": "nte/chars/Akane Rin/Akane Rin_old",
+        "image": "nte/NTE/Akane Rin.png",
+        "pmx": "Akane Rin.pmx"
+    },
+	{
+        "id": 60000024,
+        "name": "Akane Rin",
+        "weaponType": "Universal",
+        "element": "Lakshana",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Akane Rin/Akane Rin_casual",
         "image": "nte/NTE/Akane Rin.png",
         "pmx": "Akane Rin.pmx"
     },
