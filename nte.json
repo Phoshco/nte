@@ -295,5 +295,16 @@
         "directory": "nte/chars/Alphard",
         "image": "nte/NTE/Alphard.png",
         "pmx": "Alphard.pmx"
+    },
+	{
+        "id": 60000036,
+        "name": "Sinclair Dvorak",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Male",
+        "rarity": 6,
+        "directory": "nte/chars/Sinclair Dvorak",
+        "image": "nte/NTE/Sinclair Dvorak.png",
+        "pmx": "Sinclair Dvorak.pmx"
     }
 ]
