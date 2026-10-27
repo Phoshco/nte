@@ -283,7 +283,8 @@
         "rarity": 6,
         "directory": "nte/chars/Nitsa",
         "image": "nte/NTE/Nitsa.png",
-        "pmx": "Nitsa.mmd.pmx"
+        "pmx": "Nitsa.mmd.pmx",
+		"exception": true
     },
 	{
         "id": 60000035,
