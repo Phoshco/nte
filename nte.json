@@ -255,7 +255,7 @@
 	{
         "id": 60000024,
         "name": "Akane Rin",
-        "weaponType": "Universal",
+        "weaponType": "Liquid",
         "element": "Lakshana",
         "gender": "Female",
         "rarity": 5,
@@ -266,13 +266,35 @@
 	{
         "id": 60000025,
         "name": "Blackbird",
-        "weaponType": "Universal",
+        "weaponType": "Gas",
         "element": "Psyche",
         "gender": "Female",
         "rarity": 5,
         "directory": "nte/chars/Blackbird",
         "image": "nte/NTE/Blackbird.png",
         "pmx": "Blackbird.pmx"
+    },
+	{
+        "id": 60000026,
+        "name": "Elyms",
+        "weaponType": "Universal",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Elyms",
+        "image": "nte/NTE/Elyms.png",
+        "pmx": "Elyms.pmx"
+    },
+	{
+        "id": 60000027,
+        "name": "Exe",
+        "weaponType": "Universal",
+        "element": "Chaos",
+        "gender": "Male",
+        "rarity": 5,
+        "directory": "nte/chars/Exe",
+        "image": "nte/NTE/Exe.png",
+        "pmx": "Exe.pmx"
     },
 	{
         "id": 60000034,
