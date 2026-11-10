@@ -281,7 +281,7 @@
         "element": "Cosmos",
         "gender": "Female",
         "rarity": 5,
-        "directory": "nte/chars/Elyms",
+        "directory": "nte/chars/Elyms/Elyms",
         "image": "nte/NTE/Elyms.png",
         "pmx": "Elyms.pmx"
     },

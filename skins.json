@@ -416,5 +416,27 @@
         "directory": "nte/chars/Zero (Male)/Zero_夏日澄空",
         "image": "nte/NTE/Zero (Male).png",
         "pmx": "Zero.pmx"
+    },
+	{
+        "id": 60000926,
+        "name": "Elyms",
+        "weaponType": "Universal",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Elyms/Elyms_商城皮",
+        "image": "nte/NTE/Elyms.png",
+        "pmx": "Elyms.pmx"
+    },
+	{
+        "id": 60000026,
+        "name": "Elyms",
+        "weaponType": "Universal",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Elyms/Elyms_累抽皮",
+        "image": "nte/NTE/Elyms.png",
+        "pmx": "Elyms.pmx"
     }
 ]
