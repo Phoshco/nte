@@ -429,6 +429,17 @@
         "pmx": "Elyms.pmx"
     },
 	{
+        "id": 60000826,
+        "name": "Elyms",
+        "weaponType": "Universal",
+        "element": "Cosmos",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "nte/chars/Elyms/Elyms_家居皮",
+        "image": "nte/NTE/Elyms.png",
+        "pmx": "Elyms.pmx"
+    },
+	{
         "id": 60000026,
         "name": "Elyms",
         "weaponType": "Universal",
